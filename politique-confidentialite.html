@@ -124,6 +124,36 @@
     footer.foot{padding:36px 24px 24px}
     footer .row1{grid-template-columns:1fr 1fr;gap:24px}
   }
+
+  @media (max-width: 1360px) {
+    .page { padding: 12px 12px 60px; }
+  }
+  @media (max-width: 1024px) {
+    .page { padding: 8px 8px 48px; }
+    .doc-head { padding: 56px 36px 44px; border-radius: 24px; }
+    .doc { padding: 40px 32px; border-radius: 20px; }
+    footer.foot { border-radius: 24px; padding: 40px 32px 24px; }
+    footer .row1 { grid-template-columns: 1fr 1fr; gap: 24px; }
+    nav.bar { border-radius: 16px; }
+  }
+  @media (max-width: 768px) {
+    .page { padding: 6px 6px 36px; }
+    .doc-head { padding: 44px 20px 36px; border-radius: 20px; }
+    .doc { padding: 28px 20px; border-radius: 16px; margin-top: 12px; }
+    footer.foot { border-radius: 20px; padding: 32px 20px 20px; }
+    footer .row1 { grid-template-columns: 1fr 1fr; gap: 20px; }
+    footer .row2 { flex-direction: column; gap: 10px; text-align: center; }
+    .menu { display: none; }
+  }
+  @media (max-width: 480px) {
+    .page { padding: 4px 4px 24px; }
+    .doc-head { padding: 36px 16px 28px; border-radius: 16px; }
+    .doc-head h1 { font-size: clamp(28px, 7vw, 40px); }
+    .doc { padding: 20px 16px; border-radius: 14px; }
+    footer .row1 { grid-template-columns: 1fr; }
+    footer.foot { border-radius: 16px; }
+  }
+
 </style>
 </head>
 <body>

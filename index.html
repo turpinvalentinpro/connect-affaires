@@ -47,6 +47,7 @@
     background:var(--bg);
     -webkit-font-smoothing:antialiased;
     font-feature-settings:"ss01","ss02";
+    min-width:100vw;
   }
   .serif{font-family:'Instrument Serif',serif;font-style:italic;font-weight:400;letter-spacing:-.01em}
   em.s{font-style:italic;font-family:'Instrument Serif',serif;font-weight:400}
@@ -494,6 +495,50 @@
     .faq-art .card.fl,.faq-art .card.fl2{position:static;margin-top:14px}
     .testi-grid{grid-template-columns:1fr !important}
   }
+
+  /* Full-width responsive fixes */
+  @media (max-width: 1360px) {
+    .page { padding: 12px 12px 60px; }
+  }
+  @media (max-width: 1024px) {
+    .page { padding: 8px 8px 48px; }
+    .panel { border-radius: 24px; padding: 16px 16px 28px; }
+    section.block { padding: 56px 36px; }
+    .cta-block { padding: 56px 24px; }
+    .hero { padding: 64px 16px 80px; }
+  }
+  @media (max-width: 768px) {
+    .page { padding: 6px 6px 36px; }
+    .panel { border-radius: 16px; padding: 12px 12px 20px; }
+    section.block { padding: 44px 20px; border-radius: 24px; }
+    .cta-block { padding: 44px 16px; border-radius: 24px; }
+    .foot { border-radius: 24px !important; padding: 36px 20px 20px !important; }
+    .foot .row1 { grid-template-columns: 1fr 1fr !important; gap: 20px !important; }
+    .foot .row2 { flex-direction: column; gap: 10px; text-align: center; }
+    .grid-3, .grid-2 { grid-template-columns: 1fr !important; }
+    .stage { display: none; }
+    .hero h1.display { font-size: clamp(32px, 8vw, 52px); }
+    .hero .lede { font-size: 16px; }
+    .section-head h2 { font-size: clamp(26px, 6vw, 40px); }
+    .form-card .grid { grid-template-columns: 1fr !important; }
+    .field.full { grid-column: 1 !important; }
+    nav.bar { border-radius: 16px; }
+    .menu { display: none; }
+    .faq-wrap { padding: 0; }
+    .testi-grid { grid-template-columns: 1fr !important; }
+  }
+  @media (max-width: 480px) {
+    .page { padding: 4px 4px 24px; }
+    .panel { border-radius: 12px; padding: 8px 8px 16px; }
+    section.block { padding: 36px 16px; border-radius: 20px; }
+    .cta-block { padding: 36px 12px; border-radius: 20px; }
+    .hero { padding: 48px 12px 60px; }
+    .hero-cta { flex-direction: column; align-items: center; }
+    .hero-cta .btn { width: 100%; justify-content: center; }
+    .foot { border-radius: 20px !important; }
+    .foot .row1 { grid-template-columns: 1fr !important; }
+  }
+
 </style>
 </head>
 <body>

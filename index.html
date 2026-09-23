@@ -57,6 +57,99 @@ body{background:#fff}
 @media (max-width:1100px){.hero-grid{gap:44px}.service-card.featured{grid-template-columns:1fr 1fr}.about-grid{grid-template-columns:200px 1fr}.portrait-wrap{width:200px}}
 @media (max-width:920px){.section{padding:78px 0}.hero{padding:66px 0 70px}.hero-grid{gap:36px}.hero-copy{max-width:780px}.service-card.featured{grid-template-columns:1fr}.service-card.featured .service-image{min-height:auto;aspect-ratio:16/9;border-right:0;border-bottom:1px solid rgba(255,255,255,.08)}.service-card.featured .service-body{padding:28px}.about-grid{grid-template-columns:1fr;gap:28px}.portrait-wrap{width:190px}.contact-grid{gap:34px}}
 @media (max-width:640px){.container{width:min(var(--max),calc(100% - 28px))}.section{padding:64px 0}.hero{padding:48px 0 56px}.hero h1{font-size:clamp(38px,11vw,54px)}.hero-copy .lead{font-size:16px}.hero-local{gap:8px 12px}.hero-visual{padding:9px;border-radius:20px}.hero-visual img{border-radius:14px}.hero-visual-caption{grid-template-columns:1fr 1fr 1fr}.hero-visual-caption span{padding:8px 7px;font-size:10px;text-align:center;display:block}.expertise-grid{grid-template-columns:1fr}.expertise-card{min-height:auto}.services-grid{gap:14px}.service-body{padding:20px}.service-card.featured .service-body h3{font-size:24px}.service-card.featured .service-body p{font-size:14.5px}.about-grid{gap:24px}.portrait-wrap{width:168px}.about-badges{grid-template-columns:1fr}.testi-card{padding:22px}.testi-card blockquote{font-size:16px}.contact-card{padding:20px}.footer-grid{gap:24px}}
+
+/* Final alignment patch — 2026-09-24 */
+.hero-grid{
+  display:flex !important;
+  justify-content:center !important;
+  align-items:center !important;
+  width:100% !important;
+}
+.hero-copy{
+  width:min(100%, 980px) !important;
+  max-width:980px !important;
+  margin:0 auto !important;
+  text-align:center !important;
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:center !important;
+}
+.hero h1{
+  width:100% !important;
+  max-width:900px !important;
+  margin:0 auto !important;
+  text-align:center !important;
+}
+.hero-copy .lead{
+  width:100% !important;
+  max-width:720px !important;
+  margin:24px auto 0 !important;
+  text-align:center !important;
+}
+.hero-actions{
+  width:100% !important;
+  justify-content:center !important;
+  margin:30px auto 0 !important;
+}
+.hero-local{
+  width:100% !important;
+  justify-content:center !important;
+  margin:24px auto 0 !important;
+}
+#about .about-grid{
+  display:grid !important;
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr) !important;
+  gap:24px !important;
+  align-items:stretch !important;
+}
+#about .portrait-wrap,
+#about .about-copy{
+  width:100% !important;
+  max-width:none !important;
+  min-height:700px !important;
+  height:100% !important;
+  margin:0 !important;
+}
+#about .portrait-wrap{
+  padding:20px !important;
+}
+#about .portrait{
+  width:100% !important;
+  height:100% !important;
+  min-height:590px !important;
+  flex:1 1 auto !important;
+  aspect-ratio:auto !important;
+  object-fit:cover !important;
+  object-position:center 18% !important;
+  border-radius:22px !important;
+}
+#about .about-copy{
+  padding:48px !important;
+  justify-content:center !important;
+}
+#about .about-copy h2{
+  max-width:100% !important;
+}
+#about .about-copy .lead,
+#about .about-copy p,
+#about .about-badges{
+  max-width:100% !important;
+}
+@media (max-width:920px){
+  #about .about-grid{grid-template-columns:1fr !important;}
+  #about .portrait-wrap,#about .about-copy{min-height:auto !important;}
+  #about .portrait{height:auto !important;min-height:0 !important;aspect-ratio:4/3 !important;}
+  #about .about-copy{padding:32px !important;}
+}
+@media (max-width:640px){
+  .hero-copy{width:100% !important;}
+  .hero h1{max-width:100% !important;}
+  .hero-actions{align-items:stretch !important;}
+  #about .portrait-wrap{padding:14px !important;}
+  #about .portrait{aspect-ratio:4/3 !important;}
+  #about .about-copy{padding:24px !important;}
+}
+
 </style><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-YQL7F6LPR1"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-YQL7F6LPR1');</script></head><body><a class="skip-link" href="#main">Aller au contenu</a><header class="site-header">
 <div class="container nav-wrap">
 <a aria-label="Connect — Accueil" class="brand" href="/">

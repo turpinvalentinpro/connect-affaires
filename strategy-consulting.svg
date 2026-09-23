@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img" aria-labelledby="t d">
+<title id="t">Conseil commercial et stratégie</title><desc id="d">Illustration d'un atelier de stratégie commerciale avec plan d'action, graphiques et priorités.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eaf7ff"/><stop offset="1" stop-color="#ffffff"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#0b1426" flood-opacity=".12"/></filter></defs>
+<rect width="1200" height="820" rx="48" fill="url(#bg)"/>
+<circle cx="1030" cy="130" r="170" fill="#38b6ff" opacity=".10"/><circle cx="150" cy="700" r="220" fill="#38b6ff" opacity=".07"/>
+<g filter="url(#s)"><rect x="115" y="118" width="970" height="584" rx="30" fill="#fff"/><rect x="115" y="118" width="970" height="76" rx="30" fill="#0b1426"/><rect x="115" y="165" width="970" height="29" fill="#0b1426"/>
+<circle cx="160" cy="155" r="8" fill="#38b6ff"/><circle cx="186" cy="155" r="8" fill="#5c6d86"/><circle cx="212" cy="155" r="8" fill="#5c6d86"/>
+<text x="255" y="162" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#fff">Plan de développement</text>
+<rect x="165" y="240" width="310" height="176" rx="20" fill="#f7f9fc" stroke="#e5eaf2"/><text x="192" y="278" font-family="Arial" font-size="18" font-weight="700" fill="#172033">Priorités</text>
+<rect x="192" y="305" width="210" height="14" rx="7" fill="#38b6ff"/><rect x="192" y="338" width="168" height="12" rx="6" fill="#cbd7e6"/><rect x="192" y="369" width="238" height="12" rx="6" fill="#cbd7e6"/>
+<rect x="510" y="240" width="525" height="176" rx="20" fill="#0b1426"/><text x="540" y="278" font-family="Arial" font-size="18" font-weight="700" fill="#fff">Acquisition</text><polyline points="548,372 625,330 706,347 792,294 883,312 980,264" fill="none" stroke="#38b6ff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="625" cy="330" r="8" fill="#fff"/><circle cx="792" cy="294" r="8" fill="#fff"/><circle cx="980" cy="264" r="8" fill="#fff"/>
+<rect x="165" y="456" width="870" height="190" rx="20" fill="#f7f9fc" stroke="#e5eaf2"/><text x="192" y="494" font-family="Arial" font-size="18" font-weight="700" fill="#172033">Plan d'action</text>
+<g font-family="Arial" font-size="15" fill="#34415a"><rect x="192" y="522" width="250" height="82" rx="14" fill="#fff" stroke="#dce5ef"/><circle cx="220" cy="550" r="9" fill="#38b6ff"/><text x="244" y="556">Clarifier l'offre</text><text x="244" y="580" fill="#7a879c">Message & positionnement</text>
+<rect x="470" y="522" width="250" height="82" rx="14" fill="#fff" stroke="#dce5ef"/><circle cx="498" cy="550" r="9" fill="#38b6ff"/><text x="522" y="556">Choisir les canaux</text><text x="522" y="580" fill="#7a879c">SEO, contenu, outbound</text>
+<rect x="748" y="522" width="250" height="82" rx="14" fill="#fff" stroke="#dce5ef"/><circle cx="776" cy="550" r="9" fill="#38b6ff"/><text x="800" y="556">Mesurer & ajuster</text><text x="800" y="580" fill="#7a879c">KPI utiles, pas décoratifs</text></g></g>
+</svg>

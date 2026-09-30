@@ -1,13 +1,19 @@
 {
-  "headers": [
+  "redirects": [
     {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "x-vercel-protection-bypass",
-          "value": "true"
-        }
-      ]
+      "source": "/ressources/structurer-developpement-commercial-pme.html",
+      "destination": "/structurer-developpement-commercial-pme.html",
+      "permanent": true
+    },
+    {
+      "source": "/ressources/marketing-btob-tpe-pme.html",
+      "destination": "/marketing-btob-tpe-pme.html",
+      "permanent": true
+    },
+    {
+      "source": "/cas-clients/fer-de-lance.html",
+      "destination": "/cas-client-fer-de-lance.html",
+      "permanent": true
     }
   ]
 }

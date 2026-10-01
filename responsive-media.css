@@ -1,0 +1,12 @@
+/* Images d’en-tête : conserver le visuel entier sur toutes les largeurs. */
+.seo-hero-grid > * { min-width: 0; }
+.seo-hero-media { min-width: 0; height: auto; aspect-ratio: auto; }
+.seo-hero-media img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: contain;
+  object-position: center;
+}

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap');
+:root{
+ --connect-blue:#38b6ff;
+ --connect-blue-hover:#169fe9;
+ --connect-blue-soft:#eaf6ff;
+ --connect-navy:#0b1426;
+ --connect-ink:#172033;
+ --connect-text:#526178;
+ --connect-muted:#738199;
+ --connect-line:#e3eaf2;
+ --connect-surface:#f6f9fc;
+ --connect-body:'DM Sans',system-ui,-apple-system,sans-serif;
+ --connect-heading:'Manrope',system-ui,sans-serif;
+}

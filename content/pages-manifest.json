@@ -1,0 +1,3313 @@
+[
+  {
+    "id": "accueil",
+    "label": "Accueil",
+    "output": "index.html",
+    "data": "content/accueil.json",
+    "template": "templates/accueil.html",
+    "fields": [
+      {
+        "path": "entete.hero_title",
+        "kind": "text",
+        "default": "Structurer votre développement commercial."
+      },
+      {
+        "path": "entete.hero_accent",
+        "kind": "text",
+        "default": "Donner plus de portée à vos actions."
+      },
+      {
+        "path": "entete.hero_intro",
+        "kind": "text",
+        "default": "Connect accompagne les TPE et PME à Aix-en-Provence sur leur stratégie commerciale, leur marketing BtoB, leur acquisition, leur CRM et leur organisation commerciale."
+      },
+      {
+        "path": "entete.cta",
+        "kind": "text",
+        "default": "Échanger sur vos enjeux"
+      },
+      {
+        "path": "services.services_title",
+        "kind": "text",
+        "default": "Les leviers que Connect peut piloter, à vos côtés."
+      },
+      {
+        "path": "services.services_intro",
+        "kind": "text",
+        "default": "Conseil commercial, marketing BtoB, acquisition et organisation : chaque intervention vise plus de clarté, plus de cohérence et de meilleures décisions."
+      },
+      {
+        "path": "methode.methode_title",
+        "kind": "text",
+        "default": "Une méthode sobre, pensée pour avancer vite."
+      },
+      {
+        "path": "methode.methode_intro",
+        "kind": "text",
+        "default": "Pas de dispositif inutile : un cadre clair, des choix assumés et une mise en œuvre qui reste connectée au terrain."
+      },
+      {
+        "path": "methode.method_title_0",
+        "kind": "text",
+        "default": "Comprendre"
+      },
+      {
+        "path": "methode.method_text_0",
+        "kind": "text",
+        "default": "Faire le point sur vos offres, vos canaux et votre organisation actuelle."
+      },
+      {
+        "path": "methode.method_title_1",
+        "kind": "text",
+        "default": "Prioriser"
+      },
+      {
+        "path": "methode.method_text_1",
+        "kind": "text",
+        "default": "Choisir les actions qui auront le plus d’impact, sans multiplier les chantiers."
+      },
+      {
+        "path": "methode.method_title_2",
+        "kind": "text",
+        "default": "Mettre en place"
+      },
+      {
+        "path": "methode.method_text_2",
+        "kind": "text",
+        "default": "Déployer, mesurer les retours et ajuster avec des décisions concrètes."
+      },
+      {
+        "path": "presentation.about_title",
+        "kind": "text",
+        "default": "Un interlocuteur impliqué, du conseil à l’action."
+      },
+      {
+        "path": "presentation.about_text_0",
+        "kind": "text",
+        "default": "Je suis Valentin Turpin, fondateur de Connect. J’ai créé cette structure avec une idée simple : aider les entreprises à y voir plus clair, choisir les bons leviers et transformer les décisions en actions concrètes."
+      },
+      {
+        "path": "presentation.about_text_1",
+        "kind": "text",
+        "default": "Basé à Aix-en-Provence, j’accompagne des TPE, PME et dirigeants à Aix, Marseille et plus largement en PACA, avec une approche directe, accessible et proche du terrain."
+      },
+      {
+        "path": "presentation.about_note",
+        "kind": "text",
+        "default": "Pas de couche de conseil inutile : on va à l’essentiel, avec un interlocuteur unique qui suit réellement le sujet."
+      },
+      {
+        "path": "presentation.portrait",
+        "kind": "media",
+        "default": "/valentin.jpg"
+      },
+      {
+        "path": "presentation.portrait_alt",
+        "kind": "text",
+        "default": "Valentin Turpin, fondateur de Connect"
+      },
+      {
+        "path": "video.video",
+        "kind": "media",
+        "default": "/connect-motion-16x9.webm"
+      },
+      {
+        "path": "video.video_poster",
+        "kind": "media",
+        "default": "/connect-motion-poster.jpg"
+      },
+      {
+        "path": "references.references_title",
+        "kind": "text",
+        "default": "Des retours clients authentiques."
+      },
+      {
+        "path": "references.references_intro",
+        "kind": "text",
+        "default": "Des avis et témoignages issus de collaborations réelles avec Connect."
+      },
+      {
+        "path": "faq.faq_title",
+        "kind": "text",
+        "default": "Ce qu’il faut savoir avant d’échanger."
+      },
+      {
+        "path": "faq.faq_intro",
+        "kind": "text",
+        "default": "Quelques repères simples sur la manière dont Connect intervient."
+      },
+      {
+        "path": "contact.contact_title",
+        "kind": "text",
+        "default": "Parlons de vos enjeux."
+      },
+      {
+        "path": "contact.contact_intro",
+        "kind": "text",
+        "default": "Conseil commercial, marketing BtoB, acquisition ou organisation : décrivez votre besoin en quelques lignes."
+      },
+      {
+        "path": "contact.email",
+        "kind": "email",
+        "default": "valentin@connect-affaires.fr"
+      },
+      {
+        "path": "contact.zone",
+        "kind": "text",
+        "default": "Aix-en-Provence · Marseille · PACA"
+      },
+      {
+        "path": "contact.google_link",
+        "kind": "url",
+        "default": "https://share.google/8ZrhbUUEqymf9vwSP"
+      },
+      {
+        "path": "pied.footer_text",
+        "kind": "text",
+        "default": "Conseil commercial & marketing BtoB à Aix-en-Provence. Stratégie, acquisition, CRM et outils de vente."
+      }
+    ]
+  },
+  {
+    "id": "conseil-commercial-aix-en-provence",
+    "label": "Conseil commercial",
+    "output": "conseil-commercial-aix-en-provence.html",
+    "data": "content/pages/conseil-commercial-aix-en-provence.json",
+    "template": "templates/pages/conseil-commercial-aix-en-provence.html",
+    "fields": [
+      {
+        "path": "entete.champ_001",
+        "kind": "text",
+        "default": "Conseil commercial · Aix-en-Provence",
+        "original": "Conseil commercial · Aix-en-Provence"
+      },
+      {
+        "path": "entete.champ_002",
+        "kind": "text",
+        "default": "Conseil commercial à Aix-en-Provence : remettre de la clarté dans votre développement.",
+        "original": "Conseil commercial à Aix-en-Provence : remettre de la clarté dans votre développement."
+      },
+      {
+        "path": "entete.champ_003",
+        "kind": "text",
+        "default": "Connect aide les TPE et PME à clarifier leur stratégie commerciale, leurs priorités et leur organisation pour passer plus facilement des idées aux actions.",
+        "original": "Connect aide les TPE et PME à clarifier leur stratégie commerciale, leurs priorités et leur organisation pour passer plus facilement des idées aux actions."
+      },
+      {
+        "path": "entete.champ_004",
+        "kind": "text",
+        "default": "Échanger sur vos enjeux",
+        "original": "Échanger sur vos enjeux"
+      },
+      {
+        "path": "entete.champ_005",
+        "kind": "link",
+        "default": "/#contact",
+        "original": "/#contact"
+      },
+      {
+        "path": "entete.champ_006",
+        "kind": "text",
+        "default": "Voir les ressources",
+        "original": "Voir les ressources"
+      },
+      {
+        "path": "entete.champ_007",
+        "kind": "link",
+        "default": "/ressources.html",
+        "original": "/ressources.html"
+      },
+      {
+        "path": "entete.champ_008",
+        "kind": "media",
+        "default": "/service-strategy.jpg",
+        "original": "/service-strategy.jpg"
+      },
+      {
+        "path": "entete.champ_009",
+        "kind": "text",
+        "default": "Réunion de stratégie et de conseil commercial",
+        "original": "Réunion de stratégie et de conseil commercial"
+      },
+      {
+        "path": "entete.champ_010",
+        "kind": "text",
+        "default": "Approche",
+        "original": "Approche"
+      },
+      {
+        "path": "section_1.champ_011",
+        "kind": "text",
+        "default": "Un regard extérieur pour décider plus vite et mieux structurer l’action commerciale.",
+        "original": "Un regard extérieur pour décider plus vite et mieux structurer l’action commerciale."
+      },
+      {
+        "path": "section_1.champ_012",
+        "kind": "text",
+        "default": "Une entreprise peut avoir une bonne offre, des clients satisfaits et pourtant manquer de régularité commerciale. Le problème vient souvent moins du produit que du manque de priorités : trop de canaux testés, des messages différents selon les interlocuteurs, un suivi irrégulier ou des objectifs qui ne sont pas traduits en actions concrètes.",
+        "original": "Une entreprise peut avoir une bonne offre, des clients satisfaits et pourtant manquer de régularité commerciale. Le problème vient souvent moins du produit que du manque de priorités : trop de canaux testés, des messages différents selon les interlocuteurs, un suivi irrégulier ou des objectifs qui ne sont pas traduits en actions concrètes."
+      },
+      {
+        "path": "section_1.champ_013",
+        "kind": "text",
+        "default": "L’accompagnement de Connect consiste à reprendre ces éléments dans l’ordre : comprendre ce qui existe, identifier ce qui mérite d’être conservé, puis construire un plan commercial utilisable au quotidien.",
+        "original": "L’accompagnement de Connect consiste à reprendre ces éléments dans l’ordre : comprendre ce qui existe, identifier ce qui mérite d’être conservé, puis construire un plan commercial utilisable au quotidien."
+      },
+      {
+        "path": "section_1.champ_014",
+        "kind": "text",
+        "default": "Positionnement & offre",
+        "original": "Positionnement & offre"
+      },
+      {
+        "path": "section_1.champ_015",
+        "kind": "text",
+        "default": "Clarifier ce que vous vendez, à qui, et avec quel argument principal.",
+        "original": "Clarifier ce que vous vendez, à qui, et avec quel argument principal."
+      },
+      {
+        "path": "section_1.champ_016",
+        "kind": "text",
+        "default": "Plan d’action",
+        "original": "Plan d’action"
+      },
+      {
+        "path": "section_1.champ_017",
+        "kind": "text",
+        "default": "Choisir les actions commerciales réellement prioritaires et organiser leur mise en œuvre.",
+        "original": "Choisir les actions commerciales réellement prioritaires et organiser leur mise en œuvre."
+      },
+      {
+        "path": "section_1.champ_018",
+        "kind": "text",
+        "default": "Suivi & pilotage",
+        "original": "Suivi & pilotage"
+      },
+      {
+        "path": "section_1.champ_019",
+        "kind": "text",
+        "default": "Mettre en place quelques indicateurs simples pour savoir ce qui fonctionne et ce qui doit évoluer.",
+        "original": "Mettre en place quelques indicateurs simples pour savoir ce qui fonctionne et ce qui doit évoluer."
+      },
+      {
+        "path": "section_2.champ_020",
+        "kind": "text",
+        "default": "Sur quoi peut porter une mission de conseil commercial ?",
+        "original": "Sur quoi peut porter une mission de conseil commercial ?"
+      },
+      {
+        "path": "section_2.champ_021",
+        "kind": "text",
+        "default": "analyse du fonctionnement commercial actuel ;",
+        "original": "analyse du fonctionnement commercial actuel ;"
+      },
+      {
+        "path": "section_2.champ_022",
+        "kind": "text",
+        "default": "clarification des cibles et des segments prioritaires ;",
+        "original": "clarification des cibles et des segments prioritaires ;"
+      },
+      {
+        "path": "section_2.champ_023",
+        "kind": "text",
+        "default": "travail sur l’offre et les arguments commerciaux ;",
+        "original": "travail sur l’offre et les arguments commerciaux ;"
+      },
+      {
+        "path": "section_2.champ_024",
+        "kind": "text",
+        "default": "organisation des canaux d’acquisition et de prospection ;",
+        "original": "organisation des canaux d’acquisition et de prospection ;"
+      },
+      {
+        "path": "section_2.champ_025",
+        "kind": "text",
+        "default": "mise en place d’un plan d’action commercial ;",
+        "original": "mise en place d’un plan d’action commercial ;"
+      },
+      {
+        "path": "section_2.champ_026",
+        "kind": "text",
+        "default": "organisation du suivi des prospects et opportunités ;",
+        "original": "organisation du suivi des prospects et opportunités ;"
+      },
+      {
+        "path": "section_2.champ_027",
+        "kind": "text",
+        "default": "définition d’indicateurs utiles au pilotage.",
+        "original": "définition d’indicateurs utiles au pilotage."
+      },
+      {
+        "path": "section_3.champ_028",
+        "kind": "text",
+        "default": "Une approche adaptée aux TPE et PME",
+        "original": "Une approche adaptée aux TPE et PME"
+      },
+      {
+        "path": "section_3.champ_029",
+        "kind": "text",
+        "default": "Le conseil doit rester proportionné à la taille de l’entreprise. Pour une TPE ou une PME, l’enjeu n’est pas d’ajouter des tableaux complexes ou des réunions supplémentaires. Il est de rendre les décisions plus simples, les responsabilités plus claires et le suivi plus régulier.",
+        "original": "Le conseil doit rester proportionné à la taille de l’entreprise. Pour une TPE ou une PME, l’enjeu n’est pas d’ajouter des tableaux complexes ou des réunions supplémentaires. Il est de rendre les décisions plus simples, les responsabilités plus claires et le suivi plus régulier."
+      },
+      {
+        "path": "section_4.champ_030",
+        "kind": "text",
+        "default": "Conseil et mise en œuvre",
+        "original": "Conseil et mise en œuvre"
+      },
+      {
+        "path": "section_4.champ_031",
+        "kind": "text",
+        "default": "Connect peut rester sur une mission de cadrage ou aller plus loin dans la mise en place : structuration du CRM, création de supports de vente, optimisation d’une landing page, préparation de campagnes ou organisation du suivi commercial. L’objectif est d’éviter le décalage entre une recommandation théorique et la réalité du terrain.",
+        "original": "Connect peut rester sur une mission de cadrage ou aller plus loin dans la mise en place : structuration du CRM, création de supports de vente, optimisation d’une landing page, préparation de campagnes ou organisation du suivi commercial. L’objectif est d’éviter le décalage entre une recommandation théorique et la réalité du terrain."
+      },
+      {
+        "path": "section_5.champ_032",
+        "kind": "text",
+        "default": "Questions fréquentes",
+        "original": "Questions fréquentes"
+      },
+      {
+        "path": "section_6.champ_033",
+        "kind": "text",
+        "default": "À qui s’adresse le conseil commercial de Connect ?",
+        "original": "À qui s’adresse le conseil commercial de Connect ?"
+      },
+      {
+        "path": "section_6.champ_034",
+        "kind": "text",
+        "default": "Aux TPE, PME, indépendants et dirigeants qui souhaitent clarifier leur développement commercial ou remettre de l’ordre dans leur organisation.",
+        "original": "Aux TPE, PME, indépendants et dirigeants qui souhaitent clarifier leur développement commercial ou remettre de l’ordre dans leur organisation."
+      },
+      {
+        "path": "section_7.champ_035",
+        "kind": "text",
+        "default": "Peut-on commencer par un audit ponctuel ?",
+        "original": "Peut-on commencer par un audit ponctuel ?"
+      },
+      {
+        "path": "section_7.champ_036",
+        "kind": "text",
+        "default": "Oui. Une mission peut débuter par un diagnostic court pour identifier les priorités avant de décider des actions à mettre en place.",
+        "original": "Oui. Une mission peut débuter par un diagnostic court pour identifier les priorités avant de décider des actions à mettre en place."
+      },
+      {
+        "path": "section_8.champ_037",
+        "kind": "text",
+        "default": "Intervenez-vous uniquement à Aix-en-Provence ?",
+        "original": "Intervenez-vous uniquement à Aix-en-Provence ?"
+      },
+      {
+        "path": "section_8.champ_038",
+        "kind": "text",
+        "default": "Connect est basé à Aix-en-Provence et intervient également à Marseille, dans les Bouches-du-Rhône et plus largement en PACA.",
+        "original": "Connect est basé à Aix-en-Provence et intervient également à Marseille, dans les Bouches-du-Rhône et plus largement en PACA."
+      },
+      {
+        "path": "section_8.champ_039",
+        "kind": "text",
+        "default": "Connect",
+        "original": "Connect"
+      },
+      {
+        "path": "section_9.champ_040",
+        "kind": "text",
+        "default": "Un besoin à cadrer ?",
+        "original": "Un besoin à cadrer ?"
+      },
+      {
+        "path": "section_9.champ_041",
+        "kind": "text",
+        "default": "Expliquez votre contexte, vos objectifs et ce qui bloque aujourd’hui. Connect peut intervenir sur un sujet précis ou sur l’ensemble du parcours commercial.",
+        "original": "Expliquez votre contexte, vos objectifs et ce qui bloque aujourd’hui. Connect peut intervenir sur un sujet précis ou sur l’ensemble du parcours commercial."
+      },
+      {
+        "path": "section_9.champ_042",
+        "kind": "text",
+        "default": "Parler de votre projet",
+        "original": "Parler de votre projet"
+      },
+      {
+        "path": "section_9.champ_043",
+        "kind": "link",
+        "default": "/#contact",
+        "original": "/#contact"
+      },
+      {
+        "path": "section_9.champ_044",
+        "kind": "text",
+        "default": "À explorer",
+        "original": "À explorer"
+      },
+      {
+        "path": "section_10.champ_045",
+        "kind": "text",
+        "default": "Services complémentaires.",
+        "original": "Services complémentaires."
+      },
+      {
+        "path": "section_10.champ_046",
+        "kind": "text",
+        "default": "Les sujets commerciaux et marketing fonctionnent mieux lorsqu’ils sont reliés entre eux.",
+        "original": "Les sujets commerciaux et marketing fonctionnent mieux lorsqu’ils sont reliés entre eux."
+      },
+      {
+        "path": "section_10.champ_047",
+        "kind": "text",
+        "default": "Marketing BtoB",
+        "original": "Marketing BtoB"
+      },
+      {
+        "path": "section_10.champ_048",
+        "kind": "text",
+        "default": "Relier visibilité, acquisition et conversion.",
+        "original": "Relier visibilité, acquisition et conversion."
+      },
+      {
+        "path": "section_10.champ_049",
+        "kind": "text",
+        "default": "Acquisition BtoB",
+        "original": "Acquisition BtoB"
+      },
+      {
+        "path": "section_10.champ_050",
+        "kind": "text",
+        "default": "Créer et mieux traiter les opportunités.",
+        "original": "Créer et mieux traiter les opportunités."
+      },
+      {
+        "path": "section_10.champ_051",
+        "kind": "text",
+        "default": "CRM & organisation",
+        "original": "CRM & organisation"
+      },
+      {
+        "path": "section_10.champ_052",
+        "kind": "text",
+        "default": "Structurer le suivi commercial.",
+        "original": "Structurer le suivi commercial."
+      }
+    ],
+    "structured": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://www.connect-affaires.fr/#website",
+            "url": "https://www.connect-affaires.fr/",
+            "name": "Connect",
+            "inLanguage": "fr-FR"
+          },
+          {
+            "@type": "ProfessionalService",
+            "@id": "https://www.connect-affaires.fr/#business",
+            "name": "Connect",
+            "url": "https://www.connect-affaires.fr/",
+            "logo": "https://www.connect-affaires.fr/logo.png",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Aix-en-Provence",
+              "addressRegion": "Provence-Alpes-Côte d'Azur",
+              "addressCountry": "FR"
+            }
+          },
+          {
+            "@type": "Service",
+            "@id": "https://www.connect-affaires.fr/conseil-commercial-aix-en-provence.html#service",
+            "name": "Conseil commercial",
+            "description": "Conseil commercial à Aix-en-Provence : stratégie, offre, ciblage, organisation, plan d’action et pilotage pour TPE, PME et dirigeants.",
+            "provider": {
+              "@id": "https://www.connect-affaires.fr/#business"
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "Aix-en-Provence"
+            },
+            "url": "https://www.connect-affaires.fr/conseil-commercial-aix-en-provence.html"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "À qui s’adresse le conseil commercial de Connect ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Aux TPE, PME, indépendants et dirigeants qui souhaitent clarifier leur développement commercial ou remettre de l’ordre dans leur organisation."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Peut-on commencer par un audit ponctuel ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Oui. Une mission peut débuter par un diagnostic court pour identifier les priorités avant de décider des actions à mettre en place."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Intervenez-vous uniquement à Aix-en-Provence ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Connect est basé à Aix-en-Provence et intervient également à Marseille, dans les Bouches-du-Rhône et plus largement en PACA."
+                }
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.connect-affaires.fr/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Conseil commercial",
+                "item": "https://www.connect-affaires.fr/conseil-commercial-aix-en-provence.html"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "marketing-btob-aix-en-provence",
+    "label": "Marketing BtoB",
+    "output": "marketing-btob-aix-en-provence.html",
+    "data": "content/pages/marketing-btob-aix-en-provence.json",
+    "template": "templates/pages/marketing-btob-aix-en-provence.html",
+    "fields": [
+      {
+        "path": "entete.champ_001",
+        "kind": "text",
+        "default": "Marketing BtoB · Aix-en-Provence",
+        "original": "Marketing BtoB · Aix-en-Provence"
+      },
+      {
+        "path": "entete.champ_002",
+        "kind": "text",
+        "default": "Marketing BtoB à Aix-en-Provence : attirer les bons prospects, pas simplement plus de trafic.",
+        "original": "Marketing BtoB à Aix-en-Provence : attirer les bons prospects, pas simplement plus de trafic."
+      },
+      {
+        "path": "entete.champ_003",
+        "kind": "text",
+        "default": "Connect relie marketing et commerce pour construire des actions qui servent un objectif concret : générer des opportunités et faciliter la conversion.",
+        "original": "Connect relie marketing et commerce pour construire des actions qui servent un objectif concret : générer des opportunités et faciliter la conversion."
+      },
+      {
+        "path": "entete.champ_004",
+        "kind": "text",
+        "default": "Échanger sur vos enjeux",
+        "original": "Échanger sur vos enjeux"
+      },
+      {
+        "path": "entete.champ_005",
+        "kind": "link",
+        "default": "/#contact",
+        "original": "/#contact"
+      },
+      {
+        "path": "entete.champ_006",
+        "kind": "text",
+        "default": "Voir les ressources",
+        "original": "Voir les ressources"
+      },
+      {
+        "path": "entete.champ_007",
+        "kind": "link",
+        "default": "/ressources.html",
+        "original": "/ressources.html"
+      },
+      {
+        "path": "entete.champ_008",
+        "kind": "media",
+        "default": "/service-marketing.jpg",
+        "original": "/service-marketing.jpg"
+      },
+      {
+        "path": "entete.champ_009",
+        "kind": "text",
+        "default": "Analyse de données marketing et acquisition BtoB",
+        "original": "Analyse de données marketing et acquisition BtoB"
+      },
+      {
+        "path": "entete.champ_010",
+        "kind": "text",
+        "default": "Approche",
+        "original": "Approche"
+      },
+      {
+        "path": "section_1.champ_011",
+        "kind": "text",
+        "default": "Un marketing pensé pour soutenir le développement commercial.",
+        "original": "Un marketing pensé pour soutenir le développement commercial."
+      },
+      {
+        "path": "section_1.champ_012",
+        "kind": "text",
+        "default": "Pour une TPE ou une PME, le marketing BtoB ne doit pas être une accumulation de publications, de campagnes et d’outils. Chaque action doit avoir un rôle dans le parcours du prospect : créer de la visibilité, susciter un intérêt, obtenir une prise de contact ou aider à convaincre.",
+        "original": "Pour une TPE ou une PME, le marketing BtoB ne doit pas être une accumulation de publications, de campagnes et d’outils. Chaque action doit avoir un rôle dans le parcours du prospect : créer de la visibilité, susciter un intérêt, obtenir une prise de contact ou aider à convaincre."
+      },
+      {
+        "path": "section_1.champ_013",
+        "kind": "text",
+        "default": "Connect travaille donc le marketing à partir du besoin commercial. Le choix des canaux, des contenus et des supports dépend de la cible, de l’offre et de la manière dont vos prospects prennent réellement leurs décisions.",
+        "original": "Connect travaille donc le marketing à partir du besoin commercial. Le choix des canaux, des contenus et des supports dépend de la cible, de l’offre et de la manière dont vos prospects prennent réellement leurs décisions."
+      },
+      {
+        "path": "section_1.champ_014",
+        "kind": "text",
+        "default": "Acquisition",
+        "original": "Acquisition"
+      },
+      {
+        "path": "section_1.champ_015",
+        "kind": "text",
+        "default": "Choisir les canaux capables de toucher les prospects réellement intéressants.",
+        "original": "Choisir les canaux capables de toucher les prospects réellement intéressants."
+      },
+      {
+        "path": "section_1.champ_016",
+        "kind": "text",
+        "default": "Contenus",
+        "original": "Contenus"
+      },
+      {
+        "path": "section_1.champ_017",
+        "kind": "text",
+        "default": "Créer des messages plus clairs, utiles et orientés vers une action.",
+        "original": "Créer des messages plus clairs, utiles et orientés vers une action."
+      },
+      {
+        "path": "section_1.champ_018",
+        "kind": "text",
+        "default": "Conversion",
+        "original": "Conversion"
+      },
+      {
+        "path": "section_1.champ_019",
+        "kind": "text",
+        "default": "Améliorer les pages, formulaires et supports qui transforment l’intérêt en prise de contact.",
+        "original": "Améliorer les pages, formulaires et supports qui transforment l’intérêt en prise de contact."
+      },
+      {
+        "path": "section_2.champ_020",
+        "kind": "text",
+        "default": "Les sujets marketing que Connect peut prendre en charge",
+        "original": "Les sujets marketing que Connect peut prendre en charge"
+      },
+      {
+        "path": "section_2.champ_021",
+        "kind": "text",
+        "default": "stratégie d’acquisition BtoB ;",
+        "original": "stratégie d’acquisition BtoB ;"
+      },
+      {
+        "path": "section_2.champ_022",
+        "kind": "text",
+        "default": "analyse du parcours prospect ;",
+        "original": "analyse du parcours prospect ;"
+      },
+      {
+        "path": "section_2.champ_023",
+        "kind": "text",
+        "default": "création ou amélioration de landing pages ;",
+        "original": "création ou amélioration de landing pages ;"
+      },
+      {
+        "path": "section_2.champ_024",
+        "kind": "text",
+        "default": "messages et contenus orientés conversion ;",
+        "original": "messages et contenus orientés conversion ;"
+      },
+      {
+        "path": "section_2.champ_025",
+        "kind": "text",
+        "default": "campagnes commerciales et marketing ;",
+        "original": "campagnes commerciales et marketing ;"
+      },
+      {
+        "path": "section_2.champ_026",
+        "kind": "text",
+        "default": "visibilité locale et SEO lorsque le contexte s’y prête ;",
+        "original": "visibilité locale et SEO lorsque le contexte s’y prête ;"
+      },
+      {
+        "path": "section_2.champ_027",
+        "kind": "text",
+        "default": "cohérence entre marketing, CRM et suivi commercial.",
+        "original": "cohérence entre marketing, CRM et suivi commercial."
+      },
+      {
+        "path": "section_3.champ_028",
+        "kind": "text",
+        "default": "Marketing BtoB et cycle de vente",
+        "original": "Marketing BtoB et cycle de vente"
+      },
+      {
+        "path": "section_3.champ_029",
+        "kind": "text",
+        "default": "En BtoB, la décision est rarement instantanée. Le prospect peut découvrir l’entreprise, consulter plusieurs pages, comparer des solutions puis revenir quelques jours ou semaines plus tard. Le marketing doit donc faciliter chaque étape plutôt que chercher uniquement le clic.",
+        "original": "En BtoB, la décision est rarement instantanée. Le prospect peut découvrir l’entreprise, consulter plusieurs pages, comparer des solutions puis revenir quelques jours ou semaines plus tard. Le marketing doit donc faciliter chaque étape plutôt que chercher uniquement le clic."
+      },
+      {
+        "path": "section_4.champ_030",
+        "kind": "text",
+        "default": "Mesurer ce qui compte",
+        "original": "Mesurer ce qui compte"
+      },
+      {
+        "path": "section_4.champ_031",
+        "kind": "text",
+        "default": "Le suivi porte d’abord sur les indicateurs utiles : demandes entrantes, qualité des leads, taux de transformation, origine des opportunités et progression dans le parcours commercial. Les indicateurs de visibilité restent utiles, mais ils ne remplacent pas les résultats commerciaux.",
+        "original": "Le suivi porte d’abord sur les indicateurs utiles : demandes entrantes, qualité des leads, taux de transformation, origine des opportunités et progression dans le parcours commercial. Les indicateurs de visibilité restent utiles, mais ils ne remplacent pas les résultats commerciaux."
+      },
+      {
+        "path": "section_5.champ_032",
+        "kind": "text",
+        "default": "Questions fréquentes",
+        "original": "Questions fréquentes"
+      },
+      {
+        "path": "section_6.champ_033",
+        "kind": "text",
+        "default": "Connect est-il une agence marketing classique ?",
+        "original": "Connect est-il une agence marketing classique ?"
+      },
+      {
+        "path": "section_6.champ_034",
+        "kind": "text",
+        "default": "Connect se positionne à la croisée du conseil commercial et du marketing BtoB. Les actions marketing sont pensées en fonction des objectifs commerciaux.",
+        "original": "Connect se positionne à la croisée du conseil commercial et du marketing BtoB. Les actions marketing sont pensées en fonction des objectifs commerciaux."
+      },
+      {
+        "path": "section_7.champ_035",
+        "kind": "text",
+        "default": "Pouvez-vous améliorer une landing page existante ?",
+        "original": "Pouvez-vous améliorer une landing page existante ?"
+      },
+      {
+        "path": "section_7.champ_036",
+        "kind": "text",
+        "default": "Oui. Le travail peut porter sur le message, la structure, les appels à l’action, le formulaire et la cohérence avec la campagne d’acquisition.",
+        "original": "Oui. Le travail peut porter sur le message, la structure, les appels à l’action, le formulaire et la cohérence avec la campagne d’acquisition."
+      },
+      {
+        "path": "section_8.champ_037",
+        "kind": "text",
+        "default": "Travaillez-vous le SEO local ?",
+        "original": "Travaillez-vous le SEO local ?"
+      },
+      {
+        "path": "section_8.champ_038",
+        "kind": "text",
+        "default": "Oui lorsque le référencement local est pertinent pour l’activité, notamment autour d’Aix-en-Provence, Marseille et des Bouches-du-Rhône.",
+        "original": "Oui lorsque le référencement local est pertinent pour l’activité, notamment autour d’Aix-en-Provence, Marseille et des Bouches-du-Rhône."
+      },
+      {
+        "path": "section_8.champ_039",
+        "kind": "text",
+        "default": "Connect",
+        "original": "Connect"
+      },
+      {
+        "path": "section_9.champ_040",
+        "kind": "text",
+        "default": "Un besoin à cadrer ?",
+        "original": "Un besoin à cadrer ?"
+      },
+      {
+        "path": "section_9.champ_041",
+        "kind": "text",
+        "default": "Expliquez votre contexte, vos objectifs et ce qui bloque aujourd’hui. Connect peut intervenir sur un sujet précis ou sur l’ensemble du parcours commercial.",
+        "original": "Expliquez votre contexte, vos objectifs et ce qui bloque aujourd’hui. Connect peut intervenir sur un sujet précis ou sur l’ensemble du parcours commercial."
+      },
+      {
+        "path": "section_9.champ_042",
+        "kind": "text",
+        "default": "Parler de votre projet",
+        "original": "Parler de votre projet"
+      },
+      {
+        "path": "section_9.champ_043",
+        "kind": "link",
+        "default": "/#contact",
+        "original": "/#contact"
+      },
+      {
+        "path": "section_9.champ_044",
+        "kind": "text",
+        "default": "À explorer",
+        "original": "À explorer"
+      },
+      {
+        "path": "section_10.champ_045",
+        "kind": "text",
+        "default": "Services complémentaires.",
+        "original": "Services complémentaires."
+      },
+      {
+        "path": "section_10.champ_046",
+        "kind": "text",
+        "default": "Les sujets commerciaux et marketing fonctionnent mieux lorsqu’ils sont reliés entre eux.",
+        "original": "Les sujets commerciaux et marketing fonctionnent mieux lorsqu’ils sont reliés entre eux."
+      },
+      {
+        "path": "section_10.champ_047",
+        "kind": "text",
+        "default": "Conseil commercial",
+        "original": "Conseil commercial"
+      },
+      {
+        "path": "section_10.champ_048",
+        "kind": "text",
+        "default": "Clarifier votre stratégie et vos priorités.",
+        "original": "Clarifier votre stratégie et vos priorités."
+      },
+      {
+        "path": "section_10.champ_049",
+        "kind": "text",
+        "default": "Acquisition BtoB",
+        "original": "Acquisition BtoB"
+      },
+      {
+        "path": "section_10.champ_050",
+        "kind": "text",
+        "default": "Créer et mieux traiter les opportunités.",
+        "original": "Créer et mieux traiter les opportunités."
+      },
+      {
+        "path": "section_10.champ_051",
+        "kind": "text",
+        "default": "CRM & organisation",
+        "original": "CRM & organisation"
+      },
+      {
+        "path": "section_10.champ_052",
+        "kind": "text",
+        "default": "Structurer le suivi commercial.",
+        "original": "Structurer le suivi commercial."
+      }
+    ],
+    "structured": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://www.connect-affaires.fr/#website",
+            "url": "https://www.connect-affaires.fr/",
+            "name": "Connect",
+            "inLanguage": "fr-FR"
+          },
+          {
+            "@type": "ProfessionalService",
+            "@id": "https://www.connect-affaires.fr/#business",
+            "name": "Connect",
+            "url": "https://www.connect-affaires.fr/",
+            "logo": "https://www.connect-affaires.fr/logo.png",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Aix-en-Provence",
+              "addressRegion": "Provence-Alpes-Côte d'Azur",
+              "addressCountry": "FR"
+            }
+          },
+          {
+            "@type": "Service",
+            "@id": "https://www.connect-affaires.fr/marketing-btob-aix-en-provence.html#service",
+            "name": "Marketing BtoB",
+            "description": "Marketing BtoB à Aix-en-Provence pour TPE et PME : acquisition, contenus, landing pages, parcours prospect et actions orientées conversion.",
+            "provider": {
+              "@id": "https://www.connect-affaires.fr/#business"
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "Aix-en-Provence"
+            },
+            "url": "https://www.connect-affaires.fr/marketing-btob-aix-en-provence.html"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Connect est-il une agence marketing classique ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Connect se positionne à la croisée du conseil commercial et du marketing BtoB. Les actions marketing sont pensées en fonction des objectifs commerciaux."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Pouvez-vous améliorer une landing page existante ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Oui. Le travail peut porter sur le message, la structure, les appels à l’action, le formulaire et la cohérence avec la campagne d’acquisition."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Travaillez-vous le SEO local ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Oui lorsque le référencement local est pertinent pour l’activité, notamment autour d’Aix-en-Provence, Marseille et des Bouches-du-Rhône."
+                }
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.connect-affaires.fr/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Marketing BtoB",
+                "item": "https://www.connect-affaires.fr/marketing-btob-aix-en-provence.html"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "acquisition-btob-aix-en-provence",
+    "label": "Acquisition BtoB",
+    "output": "acquisition-btob-aix-en-provence.html",
+    "data": "content/pages/acquisition-btob-aix-en-provence.json",
+    "template": "templates/pages/acquisition-btob-aix-en-provence.html",
+    "fields": [
+      {
+        "path": "entete.champ_001",
+        "kind": "text",
+        "default": "Acquisition BtoB · Aix-en-Provence",
+        "original": "Acquisition BtoB · Aix-en-Provence"
+      },
+      {
+        "path": "entete.champ_002",
+        "kind": "text",
+        "default": "Acquisition BtoB à Aix-en-Provence : construire un flux d’opportunités plus régulier.",
+        "original": "Acquisition BtoB à Aix-en-Provence : construire un flux d’opportunités plus régulier."
+      },
+      {
+        "path": "entete.champ_003",
+        "kind": "text",
+        "default": "Connect aide les entreprises à choisir les bons canaux d’acquisition, mieux cibler leurs prospects et organiser le suivi des opportunités générées.",
+        "original": "Connect aide les entreprises à choisir les bons canaux d’acquisition, mieux cibler leurs prospects et organiser le suivi des opportunités générées."
+      },
+      {
+        "path": "entete.champ_004",
+        "kind": "text",
+        "default": "Échanger sur vos enjeux",
+        "original": "Échanger sur vos enjeux"
+      },
+      {
+        "path": "entete.champ_005",
+        "kind": "link",
+        "default": "/#contact",
+        "original": "/#contact"
+      },
+      {
+        "path": "entete.champ_006",
+        "kind": "text",
+        "default": "Voir les ressources",
+        "original": "Voir les ressources"
+      },
+      {
+        "path": "entete.champ_007",
+        "kind": "link",
+        "default": "/ressources.html",
+        "original": "/ressources.html"
+      },
+      {
+        "path": "entete.champ_008",
+        "kind": "media",
+        "default": "/service-conversion.jpg",
+        "original": "/service-conversion.jpg"
+      },
+      {
+        "path": "entete.champ_009",
+        "kind": "text",
+        "default": "Équipe travaillant sur une stratégie d’acquisition BtoB",
+        "original": "Équipe travaillant sur une stratégie d’acquisition BtoB"
+      },
+      {
+        "path": "entete.champ_010",
+        "kind": "text",
+        "default": "Approche",
+        "original": "Approche"
+      },
+      {
+        "path": "section_1.champ_011",
+        "kind": "text",
+        "default": "L’acquisition ne se résume pas à générer des leads.",
+        "original": "L’acquisition ne se résume pas à générer des leads."
+      },
+      {
+        "path": "section_1.champ_012",
+        "kind": "text",
+        "default": "Un lead n’a de valeur que s’il correspond à une cible pertinente, s’il est traité au bon moment et si l’entreprise sait quoi en faire. Une stratégie d’acquisition efficace relie donc le ciblage, le message, le canal et le suivi commercial.",
+        "original": "Un lead n’a de valeur que s’il correspond à une cible pertinente, s’il est traité au bon moment et si l’entreprise sait quoi en faire. Une stratégie d’acquisition efficace relie donc le ciblage, le message, le canal et le suivi commercial."
+      },
+      {
+        "path": "section_1.champ_013",
+        "kind": "text",
+        "default": "Connect intervient sur cette chaîne complète pour éviter les actions isolées : une campagne sans suivi, un formulaire sans réponse rapide ou une prospection sans CRM finissent par perdre une partie de leur potentiel.",
+        "original": "Connect intervient sur cette chaîne complète pour éviter les actions isolées : une campagne sans suivi, un formulaire sans réponse rapide ou une prospection sans CRM finissent par perdre une partie de leur potentiel."
+      },
+      {
+        "path": "section_1.champ_014",
+        "kind": "text",
+        "default": "Ciblage",
+        "original": "Ciblage"
+      },
+      {
+        "path": "section_1.champ_015",
+        "kind": "text",
+        "default": "Prioriser les profils d’entreprises et d’interlocuteurs les plus pertinents.",
+        "original": "Prioriser les profils d’entreprises et d’interlocuteurs les plus pertinents."
+      },
+      {
+        "path": "section_1.champ_016",
+        "kind": "text",
+        "default": "Canaux",
+        "original": "Canaux"
+      },
+      {
+        "path": "section_1.champ_017",
+        "kind": "text",
+        "default": "Combiner les leviers adaptés : contenu, landing pages, prospection, réseau ou partenariats.",
+        "original": "Combiner les leviers adaptés : contenu, landing pages, prospection, réseau ou partenariats."
+      },
+      {
+        "path": "section_1.champ_018",
+        "kind": "text",
+        "default": "Suivi",
+        "original": "Suivi"
+      },
+      {
+        "path": "section_1.champ_019",
+        "kind": "text",
+        "default": "Organiser le traitement des leads et la relance pour ne pas perdre les opportunités créées.",
+        "original": "Organiser le traitement des leads et la relance pour ne pas perdre les opportunités créées."
+      },
+      {
+        "path": "section_2.champ_020",
+        "kind": "text",
+        "default": "Quels leviers peuvent être utilisés ?",
+        "original": "Quels leviers peuvent être utilisés ?"
+      },
+      {
+        "path": "section_2.champ_021",
+        "kind": "text",
+        "default": "prospection BtoB ciblée ;",
+        "original": "prospection BtoB ciblée ;"
+      },
+      {
+        "path": "section_2.champ_022",
+        "kind": "text",
+        "default": "campagnes d’acquisition ;",
+        "original": "campagnes d’acquisition ;"
+      },
+      {
+        "path": "section_2.champ_023",
+        "kind": "text",
+        "default": "landing pages et formulaires ;",
+        "original": "landing pages et formulaires ;"
+      },
+      {
+        "path": "section_2.champ_024",
+        "kind": "text",
+        "default": "contenus permettant de rassurer ou qualifier ;",
+        "original": "contenus permettant de rassurer ou qualifier ;"
+      },
+      {
+        "path": "section_2.champ_025",
+        "kind": "text",
+        "default": "réseau, partenariats et recommandations ;",
+        "original": "réseau, partenariats et recommandations ;"
+      },
+      {
+        "path": "section_2.champ_026",
+        "kind": "text",
+        "default": "SEO et visibilité locale lorsque pertinents ;",
+        "original": "SEO et visibilité locale lorsque pertinents ;"
+      },
+      {
+        "path": "section_2.champ_027",
+        "kind": "text",
+        "default": "organisation du CRM et des relances.",
+        "original": "organisation du CRM et des relances."
+      },
+      {
+        "path": "section_3.champ_028",
+        "kind": "text",
+        "default": "Choisir moins de canaux, mais mieux les exploiter",
+        "original": "Choisir moins de canaux, mais mieux les exploiter"
+      },
+      {
+        "path": "section_3.champ_029",
+        "kind": "text",
+        "default": "Pour une petite ou moyenne structure, se disperser coûte vite du temps et du budget. L’objectif est de sélectionner quelques canaux cohérents avec la cible, puis de les exploiter suffisamment longtemps pour comprendre leur performance.",
+        "original": "Pour une petite ou moyenne structure, se disperser coûte vite du temps et du budget. L’objectif est de sélectionner quelques canaux cohérents avec la cible, puis de les exploiter suffisamment longtemps pour comprendre leur performance."
+      },
+      {
+        "path": "section_4.champ_030",
+        "kind": "text",
+        "default": "Relier acquisition et conversion",
+        "original": "Relier acquisition et conversion"
+      },
+      {
+        "path": "section_4.champ_031",
+        "kind": "text",
+        "default": "Le travail ne s’arrête pas lorsque le prospect laisse ses coordonnées. Le délai de réponse, le message de relance, les informations collectées et le suivi dans le CRM jouent directement sur la capacité à transformer une demande en opportunité commerciale.",
+        "original": "Le travail ne s’arrête pas lorsque le prospect laisse ses coordonnées. Le délai de réponse, le message de relance, les informations collectées et le suivi dans le CRM jouent directement sur la capacité à transformer une demande en opportunité commerciale."
+      },
+      {
+        "path": "section_5.champ_032",
+        "kind": "text",
+        "default": "Questions fréquentes",
+        "original": "Questions fréquentes"
+      },
+      {
+        "path": "section_6.champ_033",
+        "kind": "text",
+        "default": "Faites-vous de la génération de leads BtoB ?",
+        "original": "Faites-vous de la génération de leads BtoB ?"
+      },
+      {
+        "path": "section_6.champ_034",
+        "kind": "text",
+        "default": "Oui, dans le cadre d’une stratégie d’acquisition cohérente avec la cible, l’offre et les capacités de suivi de l’entreprise.",
+        "original": "Oui, dans le cadre d’une stratégie d’acquisition cohérente avec la cible, l’offre et les capacités de suivi de l’entreprise."
+      },
+      {
+        "path": "section_7.champ_035",
+        "kind": "text",
+        "default": "L’acquisition passe-t-elle forcément par la publicité ?",
+        "original": "L’acquisition passe-t-elle forcément par la publicité ?"
+      },
+      {
+        "path": "section_7.champ_036",
+        "kind": "text",
+        "default": "Non. Selon l’activité, elle peut combiner prospection, contenu, référencement, réseau, partenariats ou campagnes payantes.",
+        "original": "Non. Selon l’activité, elle peut combiner prospection, contenu, référencement, réseau, partenariats ou campagnes payantes."
+      },
+      {
+        "path": "section_8.champ_037",
+        "kind": "text",
+        "default": "Pouvez-vous organiser le suivi après la génération du lead ?",
+        "original": "Pouvez-vous organiser le suivi après la génération du lead ?"
+      },
+      {
+        "path": "section_8.champ_038",
+        "kind": "text",
+        "default": "Oui. Connect peut structurer le pipeline, les étapes de suivi, les relances et les informations utiles dans le CRM.",
+        "original": "Oui. Connect peut structurer le pipeline, les étapes de suivi, les relances et les informations utiles dans le CRM."
+      },
+      {
+        "path": "section_8.champ_039",
+        "kind": "text",
+        "default": "Connect",
+        "original": "Connect"
+      },
+      {
+        "path": "section_9.champ_040",
+        "kind": "text",
+        "default": "Un besoin à cadrer ?",
+        "original": "Un besoin à cadrer ?"
+      },
+      {
+        "path": "section_9.champ_041",
+        "kind": "text",
+        "default": "Expliquez votre contexte, vos objectifs et ce qui bloque aujourd’hui. Connect peut intervenir sur un sujet précis ou sur l’ensemble du parcours commercial.",
+        "original": "Expliquez votre contexte, vos objectifs et ce qui bloque aujourd’hui. Connect peut intervenir sur un sujet précis ou sur l’ensemble du parcours commercial."
+      },
+      {
+        "path": "section_9.champ_042",
+        "kind": "text",
+        "default": "Parler de votre projet",
+        "original": "Parler de votre projet"
+      },
+      {
+        "path": "section_9.champ_043",
+        "kind": "link",
+        "default": "/#contact",
+        "original": "/#contact"
+      },
+      {
+        "path": "section_9.champ_044",
+        "kind": "text",
+        "default": "À explorer",
+        "original": "À explorer"
+      },
+      {
+        "path": "section_10.champ_045",
+        "kind": "text",
+        "default": "Services complémentaires.",
+        "original": "Services complémentaires."
+      },
+      {
+        "path": "section_10.champ_046",
+        "kind": "text",
+        "default": "Les sujets commerciaux et marketing fonctionnent mieux lorsqu’ils sont reliés entre eux.",
+        "original": "Les sujets commerciaux et marketing fonctionnent mieux lorsqu’ils sont reliés entre eux."
+      },
+      {
+        "path": "section_10.champ_047",
+        "kind": "text",
+        "default": "Conseil commercial",
+        "original": "Conseil commercial"
+      },
+      {
+        "path": "section_10.champ_048",
+        "kind": "text",
+        "default": "Clarifier votre stratégie et vos priorités.",
+        "original": "Clarifier votre stratégie et vos priorités."
+      },
+      {
+        "path": "section_10.champ_049",
+        "kind": "text",
+        "default": "Marketing BtoB",
+        "original": "Marketing BtoB"
+      },
+      {
+        "path": "section_10.champ_050",
+        "kind": "text",
+        "default": "Relier visibilité, acquisition et conversion.",
+        "original": "Relier visibilité, acquisition et conversion."
+      },
+      {
+        "path": "section_10.champ_051",
+        "kind": "text",
+        "default": "CRM & organisation",
+        "original": "CRM & organisation"
+      },
+      {
+        "path": "section_10.champ_052",
+        "kind": "text",
+        "default": "Structurer le suivi commercial.",
+        "original": "Structurer le suivi commercial."
+      }
+    ],
+    "structured": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://www.connect-affaires.fr/#website",
+            "url": "https://www.connect-affaires.fr/",
+            "name": "Connect",
+            "inLanguage": "fr-FR"
+          },
+          {
+            "@type": "ProfessionalService",
+            "@id": "https://www.connect-affaires.fr/#business",
+            "name": "Connect",
+            "url": "https://www.connect-affaires.fr/",
+            "logo": "https://www.connect-affaires.fr/logo.png",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Aix-en-Provence",
+              "addressRegion": "Provence-Alpes-Côte d'Azur",
+              "addressCountry": "FR"
+            }
+          },
+          {
+            "@type": "Service",
+            "@id": "https://www.connect-affaires.fr/acquisition-btob-aix-en-provence.html#service",
+            "name": "Acquisition BtoB",
+            "description": "Acquisition BtoB à Aix-en-Provence : ciblage, canaux, campagnes, génération de leads et parcours commercial pour TPE et PME.",
+            "provider": {
+              "@id": "https://www.connect-affaires.fr/#business"
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "Aix-en-Provence"
+            },
+            "url": "https://www.connect-affaires.fr/acquisition-btob-aix-en-provence.html"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Faites-vous de la génération de leads BtoB ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Oui, dans le cadre d’une stratégie d’acquisition cohérente avec la cible, l’offre et les capacités de suivi de l’entreprise."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "L’acquisition passe-t-elle forcément par la publicité ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Non. Selon l’activité, elle peut combiner prospection, contenu, référencement, réseau, partenariats ou campagnes payantes."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Pouvez-vous organiser le suivi après la génération du lead ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Oui. Connect peut structurer le pipeline, les étapes de suivi, les relances et les informations utiles dans le CRM."
+                }
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.connect-affaires.fr/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Acquisition BtoB",
+                "item": "https://www.connect-affaires.fr/acquisition-btob-aix-en-provence.html"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "crm-organisation-commerciale-aix-en-provence",
+    "label": "CRM et organisation",
+    "output": "crm-organisation-commerciale-aix-en-provence.html",
+    "data": "content/pages/crm-organisation-commerciale-aix-en-provence.json",
+    "template": "templates/pages/crm-organisation-commerciale-aix-en-provence.html",
+    "fields": [
+      {
+        "path": "entete.champ_001",
+        "kind": "text",
+        "default": "CRM & organisation commerciale · Aix-en-Provence",
+        "original": "CRM & organisation commerciale · Aix-en-Provence"
+      },
+      {
+        "path": "entete.champ_002",
+        "kind": "text",
+        "default": "CRM & organisation commerciale à Aix-en-Provence : ne plus perdre le fil des opportunités.",
+        "original": "CRM & organisation commerciale à Aix-en-Provence : ne plus perdre le fil des opportunités."
+      },
+      {
+        "path": "entete.champ_003",
+        "kind": "text",
+        "default": "Connect aide les TPE et PME à structurer un suivi commercial simple : prospects centralisés, étapes claires, relances organisées et informations accessibles.",
+        "original": "Connect aide les TPE et PME à structurer un suivi commercial simple : prospects centralisés, étapes claires, relances organisées et informations accessibles."
+      },
+      {
+        "path": "entete.champ_004",
+        "kind": "text",
+        "default": "Échanger sur vos enjeux",
+        "original": "Échanger sur vos enjeux"
+      },
+      {
+        "path": "entete.champ_005",
+        "kind": "link",
+        "default": "/#contact",
+        "original": "/#contact"
+      },
+      {
+        "path": "entete.champ_006",
+        "kind": "text",
+        "default": "Voir les ressources",
+        "original": "Voir les ressources"
+      },
+      {
+        "path": "entete.champ_007",
+        "kind": "link",
+        "default": "/ressources.html",
+        "original": "/ressources.html"
+      },
+      {
+        "path": "entete.champ_008",
+        "kind": "media",
+        "default": "/service-crm.jpg",
+        "original": "/service-crm.jpg"
+      },
+      {
+        "path": "entete.champ_009",
+        "kind": "text",
+        "default": "Outil CRM utilisé pour organiser le suivi commercial",
+        "original": "Outil CRM utilisé pour organiser le suivi commercial"
+      },
+      {
+        "path": "entete.champ_010",
+        "kind": "text",
+        "default": "Approche",
+        "original": "Approche"
+      },
+      {
+        "path": "section_1.champ_011",
+        "kind": "text",
+        "default": "Un CRM utile est d’abord un CRM que l’équipe utilise réellement.",
+        "original": "Un CRM utile est d’abord un CRM que l’équipe utilise réellement."
+      },
+      {
+        "path": "section_1.champ_012",
+        "kind": "text",
+        "default": "Le problème n’est pas toujours l’absence d’outil. Il peut venir d’un CRM trop complexe, d’informations réparties entre plusieurs fichiers, d’étapes mal définies ou de relances gérées uniquement de mémoire.",
+        "original": "Le problème n’est pas toujours l’absence d’outil. Il peut venir d’un CRM trop complexe, d’informations réparties entre plusieurs fichiers, d’étapes mal définies ou de relances gérées uniquement de mémoire."
+      },
+      {
+        "path": "section_1.champ_013",
+        "kind": "text",
+        "default": "Connect simplifie l’organisation autour du fonctionnement réel de l’entreprise. Le but n’est pas de multiplier les champs et les automatisations, mais de savoir rapidement où en est chaque opportunité et quelle action doit suivre.",
+        "original": "Connect simplifie l’organisation autour du fonctionnement réel de l’entreprise. Le but n’est pas de multiplier les champs et les automatisations, mais de savoir rapidement où en est chaque opportunité et quelle action doit suivre."
+      },
+      {
+        "path": "section_1.champ_014",
+        "kind": "text",
+        "default": "Centralisation",
+        "original": "Centralisation"
+      },
+      {
+        "path": "section_1.champ_015",
+        "kind": "text",
+        "default": "Regrouper les prospects, clients et informations utiles au même endroit.",
+        "original": "Regrouper les prospects, clients et informations utiles au même endroit."
+      },
+      {
+        "path": "section_1.champ_016",
+        "kind": "text",
+        "default": "Pipeline",
+        "original": "Pipeline"
+      },
+      {
+        "path": "section_1.champ_017",
+        "kind": "text",
+        "default": "Définir des étapes commerciales compréhensibles et adaptées au cycle de vente.",
+        "original": "Définir des étapes commerciales compréhensibles et adaptées au cycle de vente."
+      },
+      {
+        "path": "section_1.champ_018",
+        "kind": "text",
+        "default": "Relances",
+        "original": "Relances"
+      },
+      {
+        "path": "section_1.champ_019",
+        "kind": "text",
+        "default": "Mettre en place un rythme de suivi pour réduire les opportunités oubliées.",
+        "original": "Mettre en place un rythme de suivi pour réduire les opportunités oubliées."
+      },
+      {
+        "path": "section_2.champ_020",
+        "kind": "text",
+        "default": "Ce qui peut être structuré",
+        "original": "Ce qui peut être structuré"
+      },
+      {
+        "path": "section_2.champ_021",
+        "kind": "text",
+        "default": "organisation des prospects et clients ;",
+        "original": "organisation des prospects et clients ;"
+      },
+      {
+        "path": "section_2.champ_022",
+        "kind": "text",
+        "default": "création ou simplification du pipeline ;",
+        "original": "création ou simplification du pipeline ;"
+      },
+      {
+        "path": "section_2.champ_023",
+        "kind": "text",
+        "default": "règles de saisie des informations ;",
+        "original": "règles de saisie des informations ;"
+      },
+      {
+        "path": "section_2.champ_024",
+        "kind": "text",
+        "default": "suivi des prochaines actions ;",
+        "original": "suivi des prochaines actions ;"
+      },
+      {
+        "path": "section_2.champ_025",
+        "kind": "text",
+        "default": "relances et rappels simples ;",
+        "original": "relances et rappels simples ;"
+      },
+      {
+        "path": "section_2.champ_026",
+        "kind": "text",
+        "default": "automatisations légères lorsque pertinentes ;",
+        "original": "automatisations légères lorsque pertinentes ;"
+      },
+      {
+        "path": "section_2.champ_027",
+        "kind": "text",
+        "default": "tableaux de bord et indicateurs commerciaux.",
+        "original": "tableaux de bord et indicateurs commerciaux."
+      },
+      {
+        "path": "section_3.champ_028",
+        "kind": "text",
+        "default": "Commencer par le process, pas par l’outil",
+        "original": "Commencer par le process, pas par l’outil"
+      },
+      {
+        "path": "section_3.champ_029",
+        "kind": "text",
+        "default": "Avant de choisir ou configurer un CRM, il faut comprendre comment une opportunité progresse réellement : premier contact, qualification, rendez-vous, proposition, relance et décision. L’outil vient ensuite soutenir ce fonctionnement.",
+        "original": "Avant de choisir ou configurer un CRM, il faut comprendre comment une opportunité progresse réellement : premier contact, qualification, rendez-vous, proposition, relance et décision. L’outil vient ensuite soutenir ce fonctionnement."
+      },
+      {
+        "path": "section_4.champ_030",
+        "kind": "text",
+        "default": "Une organisation qui facilite le pilotage",
+        "original": "Une organisation qui facilite le pilotage"
+      },
+      {
+        "path": "section_4.champ_031",
+        "kind": "text",
+        "default": "Lorsque les données sont suffisamment propres et structurées, il devient plus facile de suivre le nombre d’opportunités en cours, les relances à effectuer et les étapes où les affaires ralentissent.",
+        "original": "Lorsque les données sont suffisamment propres et structurées, il devient plus facile de suivre le nombre d’opportunités en cours, les relances à effectuer et les étapes où les affaires ralentissent."
+      },
+      {
+        "path": "section_5.champ_032",
+        "kind": "text",
+        "default": "Questions fréquentes",
+        "original": "Questions fréquentes"
+      },
+      {
+        "path": "section_6.champ_033",
+        "kind": "text",
+        "default": "Pouvez-vous travailler avec notre CRM actuel ?",
+        "original": "Pouvez-vous travailler avec notre CRM actuel ?"
+      },
+      {
+        "path": "section_6.champ_034",
+        "kind": "text",
+        "default": "Oui. L’objectif est d’abord d’améliorer l’existant lorsque l’outil est adapté.",
+        "original": "Oui. L’objectif est d’abord d’améliorer l’existant lorsque l’outil est adapté."
+      },
+      {
+        "path": "section_7.champ_035",
+        "kind": "text",
+        "default": "Faut-il automatiser toutes les tâches ?",
+        "original": "Faut-il automatiser toutes les tâches ?"
+      },
+      {
+        "path": "section_7.champ_036",
+        "kind": "text",
+        "default": "Non. Les automatisations sont utiles uniquement lorsqu’elles simplifient réellement le suivi sans rendre le process plus opaque.",
+        "original": "Non. Les automatisations sont utiles uniquement lorsqu’elles simplifient réellement le suivi sans rendre le process plus opaque."
+      },
+      {
+        "path": "section_8.champ_037",
+        "kind": "text",
+        "default": "Cette prestation convient-elle à une petite équipe ?",
+        "original": "Cette prestation convient-elle à une petite équipe ?"
+      },
+      {
+        "path": "section_8.champ_038",
+        "kind": "text",
+        "default": "Oui. L’organisation est justement adaptée au niveau de maturité et au volume commercial de la structure.",
+        "original": "Oui. L’organisation est justement adaptée au niveau de maturité et au volume commercial de la structure."
+      },
+      {
+        "path": "section_8.champ_039",
+        "kind": "text",
+        "default": "Connect",
+        "original": "Connect"
+      },
+      {
+        "path": "section_9.champ_040",
+        "kind": "text",
+        "default": "Un besoin à cadrer ?",
+        "original": "Un besoin à cadrer ?"
+      },
+      {
+        "path": "section_9.champ_041",
+        "kind": "text",
+        "default": "Expliquez votre contexte, vos objectifs et ce qui bloque aujourd’hui. Connect peut intervenir sur un sujet précis ou sur l’ensemble du parcours commercial.",
+        "original": "Expliquez votre contexte, vos objectifs et ce qui bloque aujourd’hui. Connect peut intervenir sur un sujet précis ou sur l’ensemble du parcours commercial."
+      },
+      {
+        "path": "section_9.champ_042",
+        "kind": "text",
+        "default": "Parler de votre projet",
+        "original": "Parler de votre projet"
+      },
+      {
+        "path": "section_9.champ_043",
+        "kind": "link",
+        "default": "/#contact",
+        "original": "/#contact"
+      },
+      {
+        "path": "section_9.champ_044",
+        "kind": "text",
+        "default": "À explorer",
+        "original": "À explorer"
+      },
+      {
+        "path": "section_10.champ_045",
+        "kind": "text",
+        "default": "Services complémentaires.",
+        "original": "Services complémentaires."
+      },
+      {
+        "path": "section_10.champ_046",
+        "kind": "text",
+        "default": "Les sujets commerciaux et marketing fonctionnent mieux lorsqu’ils sont reliés entre eux.",
+        "original": "Les sujets commerciaux et marketing fonctionnent mieux lorsqu’ils sont reliés entre eux."
+      },
+      {
+        "path": "section_10.champ_047",
+        "kind": "text",
+        "default": "Conseil commercial",
+        "original": "Conseil commercial"
+      },
+      {
+        "path": "section_10.champ_048",
+        "kind": "text",
+        "default": "Clarifier votre stratégie et vos priorités.",
+        "original": "Clarifier votre stratégie et vos priorités."
+      },
+      {
+        "path": "section_10.champ_049",
+        "kind": "text",
+        "default": "Marketing BtoB",
+        "original": "Marketing BtoB"
+      },
+      {
+        "path": "section_10.champ_050",
+        "kind": "text",
+        "default": "Relier visibilité, acquisition et conversion.",
+        "original": "Relier visibilité, acquisition et conversion."
+      },
+      {
+        "path": "section_10.champ_051",
+        "kind": "text",
+        "default": "Acquisition BtoB",
+        "original": "Acquisition BtoB"
+      },
+      {
+        "path": "section_10.champ_052",
+        "kind": "text",
+        "default": "Créer et mieux traiter les opportunités.",
+        "original": "Créer et mieux traiter les opportunités."
+      }
+    ],
+    "structured": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://www.connect-affaires.fr/#website",
+            "url": "https://www.connect-affaires.fr/",
+            "name": "Connect",
+            "inLanguage": "fr-FR"
+          },
+          {
+            "@type": "ProfessionalService",
+            "@id": "https://www.connect-affaires.fr/#business",
+            "name": "Connect",
+            "url": "https://www.connect-affaires.fr/",
+            "logo": "https://www.connect-affaires.fr/logo.png",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Aix-en-Provence",
+              "addressRegion": "Provence-Alpes-Côte d'Azur",
+              "addressCountry": "FR"
+            }
+          },
+          {
+            "@type": "Service",
+            "@id": "https://www.connect-affaires.fr/crm-organisation-commerciale-aix-en-provence.html#service",
+            "name": "CRM & organisation commerciale",
+            "description": "Structuration CRM et organisation commerciale à Aix-en-Provence : pipeline, suivi prospects, données clients, relances et pilotage pour TPE et PME.",
+            "provider": {
+              "@id": "https://www.connect-affaires.fr/#business"
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "Aix-en-Provence"
+            },
+            "url": "https://www.connect-affaires.fr/crm-organisation-commerciale-aix-en-provence.html"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Pouvez-vous travailler avec notre CRM actuel ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Oui. L’objectif est d’abord d’améliorer l’existant lorsque l’outil est adapté."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Faut-il automatiser toutes les tâches ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Non. Les automatisations sont utiles uniquement lorsqu’elles simplifient réellement le suivi sans rendre le process plus opaque."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Cette prestation convient-elle à une petite équipe ?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Oui. L’organisation est justement adaptée au niveau de maturité et au volume commercial de la structure."
+                }
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.connect-affaires.fr/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "CRM & organisation commerciale",
+                "item": "https://www.connect-affaires.fr/crm-organisation-commerciale-aix-en-provence.html"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ressources",
+    "label": "Liste des ressources",
+    "output": "ressources.html",
+    "data": "content/pages/ressources.json",
+    "template": "templates/pages/ressources.html",
+    "fields": [
+      {
+        "path": "entete.champ_001",
+        "kind": "text",
+        "default": "Ressources Connect",
+        "original": "Ressources Connect"
+      },
+      {
+        "path": "entete.champ_002",
+        "kind": "text",
+        "default": "Des contenus utiles pour mieux structurer votre développement.",
+        "original": "Des contenus utiles pour mieux structurer votre développement."
+      },
+      {
+        "path": "entete.champ_003",
+        "kind": "text",
+        "default": "Guides pratiques, retours d’expérience et cas clients autour du commerce, du marketing BtoB, de l’acquisition et de l’organisation.",
+        "original": "Guides pratiques, retours d’expérience et cas clients autour du commerce, du marketing BtoB, de l’acquisition et de l’organisation."
+      },
+      {
+        "path": "entete.champ_004",
+        "kind": "media",
+        "default": "/connect-motion-poster.jpg",
+        "original": "/connect-motion-poster.jpg"
+      },
+      {
+        "path": "entete.champ_005",
+        "kind": "text",
+        "default": "Développement commercial et marketing BtoB",
+        "original": "Développement commercial et marketing BtoB"
+      },
+      {
+        "path": "entete.champ_006",
+        "kind": "text",
+        "default": "Guide",
+        "original": "Guide"
+      },
+      {
+        "path": "section_1.champ_007",
+        "kind": "text",
+        "default": "Comment structurer le développement commercial d’une PME ?",
+        "original": "Comment structurer le développement commercial d’une PME ?"
+      },
+      {
+        "path": "section_1.champ_008",
+        "kind": "text",
+        "default": "Une méthode simple pour passer des objectifs à un plan d’action commercial exploitable.",
+        "original": "Une méthode simple pour passer des objectifs à un plan d’action commercial exploitable."
+      },
+      {
+        "path": "section_1.champ_009",
+        "kind": "text",
+        "default": "Lire →",
+        "original": "Lire →"
+      },
+      {
+        "path": "section_1.champ_010",
+        "kind": "link",
+        "default": "/structurer-developpement-commercial-pme.html",
+        "original": "/structurer-developpement-commercial-pme.html"
+      },
+      {
+        "path": "section_1.champ_011",
+        "kind": "text",
+        "default": "Guide",
+        "original": "Guide"
+      },
+      {
+        "path": "section_2.champ_012",
+        "kind": "text",
+        "default": "Marketing BtoB : par où commencer quand on est une TPE ou PME ?",
+        "original": "Marketing BtoB : par où commencer quand on est une TPE ou PME ?"
+      },
+      {
+        "path": "section_2.champ_013",
+        "kind": "text",
+        "default": "Prioriser les bons canaux, les bons contenus et les bons indicateurs sans se disperser.",
+        "original": "Prioriser les bons canaux, les bons contenus et les bons indicateurs sans se disperser."
+      },
+      {
+        "path": "section_2.champ_014",
+        "kind": "text",
+        "default": "Lire →",
+        "original": "Lire →"
+      },
+      {
+        "path": "section_2.champ_015",
+        "kind": "link",
+        "default": "/marketing-btob-tpe-pme.html",
+        "original": "/marketing-btob-tpe-pme.html"
+      },
+      {
+        "path": "section_2.champ_016",
+        "kind": "text",
+        "default": "Cas client",
+        "original": "Cas client"
+      },
+      {
+        "path": "section_3.champ_017",
+        "kind": "text",
+        "default": "Fer de Lance : visibilité, ciblage et demandes entrantes",
+        "original": "Fer de Lance : visibilité, ciblage et demandes entrantes"
+      },
+      {
+        "path": "section_3.champ_018",
+        "kind": "text",
+        "default": "Retour sur la collaboration autour du site et de l’acquisition, à partir du témoignage publié par le client.",
+        "original": "Retour sur la collaboration autour du site et de l’acquisition, à partir du témoignage publié par le client."
+      },
+      {
+        "path": "section_3.champ_019",
+        "kind": "text",
+        "default": "Lire →",
+        "original": "Lire →"
+      },
+      {
+        "path": "section_3.champ_020",
+        "kind": "link",
+        "default": "/cas-client-fer-de-lance.html",
+        "original": "/cas-client-fer-de-lance.html"
+      },
+      {
+        "path": "section_3.champ_021",
+        "kind": "text",
+        "default": "Service",
+        "original": "Service"
+      },
+      {
+        "path": "section_4.champ_022",
+        "kind": "text",
+        "default": "Conseil commercial à Aix-en-Provence",
+        "original": "Conseil commercial à Aix-en-Provence"
+      },
+      {
+        "path": "section_4.champ_023",
+        "kind": "text",
+        "default": "Clarifier la stratégie, les priorités et l’organisation commerciale.",
+        "original": "Clarifier la stratégie, les priorités et l’organisation commerciale."
+      },
+      {
+        "path": "section_4.champ_024",
+        "kind": "text",
+        "default": "Lire →",
+        "original": "Lire →"
+      },
+      {
+        "path": "section_4.champ_025",
+        "kind": "link",
+        "default": "/conseil-commercial-aix-en-provence.html",
+        "original": "/conseil-commercial-aix-en-provence.html"
+      },
+      {
+        "path": "section_4.champ_026",
+        "kind": "text",
+        "default": "Service",
+        "original": "Service"
+      },
+      {
+        "path": "section_5.champ_027",
+        "kind": "text",
+        "default": "Marketing BtoB à Aix-en-Provence",
+        "original": "Marketing BtoB à Aix-en-Provence"
+      },
+      {
+        "path": "section_5.champ_028",
+        "kind": "text",
+        "default": "Relier acquisition, contenus et conversion aux objectifs commerciaux.",
+        "original": "Relier acquisition, contenus et conversion aux objectifs commerciaux."
+      },
+      {
+        "path": "section_5.champ_029",
+        "kind": "text",
+        "default": "Lire →",
+        "original": "Lire →"
+      },
+      {
+        "path": "section_5.champ_030",
+        "kind": "link",
+        "default": "/marketing-btob-aix-en-provence.html",
+        "original": "/marketing-btob-aix-en-provence.html"
+      },
+      {
+        "path": "section_5.champ_031",
+        "kind": "text",
+        "default": "Service",
+        "original": "Service"
+      },
+      {
+        "path": "section_6.champ_032",
+        "kind": "text",
+        "default": "CRM & organisation commerciale",
+        "original": "CRM & organisation commerciale"
+      },
+      {
+        "path": "section_6.champ_033",
+        "kind": "text",
+        "default": "Structurer le pipeline, les relances et le suivi des opportunités.",
+        "original": "Structurer le pipeline, les relances et le suivi des opportunités."
+      },
+      {
+        "path": "section_6.champ_034",
+        "kind": "text",
+        "default": "Lire →",
+        "original": "Lire →"
+      },
+      {
+        "path": "section_6.champ_035",
+        "kind": "link",
+        "default": "/crm-organisation-commerciale-aix-en-provence.html",
+        "original": "/crm-organisation-commerciale-aix-en-provence.html"
+      }
+    ],
+    "structured": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://www.connect-affaires.fr/#website",
+            "url": "https://www.connect-affaires.fr/",
+            "name": "Connect",
+            "inLanguage": "fr-FR"
+          },
+          {
+            "@type": "ProfessionalService",
+            "@id": "https://www.connect-affaires.fr/#business",
+            "name": "Connect",
+            "url": "https://www.connect-affaires.fr/",
+            "logo": "https://www.connect-affaires.fr/logo.png",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Aix-en-Provence",
+              "addressRegion": "Provence-Alpes-Côte d'Azur",
+              "addressCountry": "FR"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.connect-affaires.fr/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Ressources",
+                "item": "https://www.connect-affaires.fr/ressources.html"
+              }
+            ]
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://www.connect-affaires.fr/ressources.html#page",
+            "url": "https://www.connect-affaires.fr/ressources.html",
+            "name": "Ressources développement commercial & marketing BtoB | Connect",
+            "description": "Guides pratiques et cas clients Connect sur le développement commercial, le marketing BtoB, l’acquisition et l’organisation commerciale des TPE et PME.",
+            "isPartOf": {
+              "@id": "https://www.connect-affaires.fr/#website"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "structurer-developpement-commercial-pme",
+    "label": "Guide — Développement commercial",
+    "output": "structurer-developpement-commercial-pme.html",
+    "data": "content/pages/structurer-developpement-commercial-pme.json",
+    "template": "templates/pages/structurer-developpement-commercial-pme.html",
+    "fields": [
+      {
+        "path": "entete.champ_001",
+        "kind": "text",
+        "default": "Guide développement commercial",
+        "original": "Guide développement commercial"
+      },
+      {
+        "path": "entete.champ_002",
+        "kind": "text",
+        "default": "Comment structurer le développement commercial d’une PME ?",
+        "original": "Comment structurer le développement commercial d’une PME ?"
+      },
+      {
+        "path": "entete.champ_003",
+        "kind": "text",
+        "default": "Méthode pratique pour structurer le développement commercial d’une TPE ou PME : cibles, offre, acquisition, CRM, suivi et pilotage.",
+        "original": "Méthode pratique pour structurer le développement commercial d’une TPE ou PME : cibles, offre, acquisition, CRM, suivi et pilotage."
+      },
+      {
+        "path": "entete.champ_004",
+        "kind": "media",
+        "default": "/service-strategy.jpg",
+        "original": "/service-strategy.jpg"
+      },
+      {
+        "path": "entete.champ_005",
+        "kind": "text",
+        "default": "Comment structurer le développement commercial d’une PME ?",
+        "original": "Comment structurer le développement commercial d’une PME ?"
+      },
+      {
+        "path": "entete.champ_006",
+        "kind": "text",
+        "default": "Structurer le développement commercial d’une PME ne consiste pas à multiplier les actions. Il s’agit surtout de savoir où concentrer l’effort, comment suivre les opportunités et comment relier les actions marketing aux objectifs de vente.",
+        "original": "Structurer le développement commercial d’une PME ne consiste pas à multiplier les actions. Il s’agit surtout de savoir où concentrer l’effort, comment suivre les opportunités et comment relier les actions marketing aux objectifs de vente."
+      },
+      {
+        "path": "section_1.champ_007",
+        "kind": "text",
+        "default": "1. Commencer par une cible et une offre lisibles",
+        "original": "1. Commencer par une cible et une offre lisibles"
+      },
+      {
+        "path": "section_1.champ_008",
+        "kind": "text",
+        "default": "Avant de parler de prospection, de publicité ou de CRM, il faut pouvoir répondre simplement à trois questions : quel type de client veut-on développer, quel problème résout-on pour lui et pourquoi devrait-il choisir cette offre plutôt qu’une autre ?",
+        "original": "Avant de parler de prospection, de publicité ou de CRM, il faut pouvoir répondre simplement à trois questions : quel type de client veut-on développer, quel problème résout-on pour lui et pourquoi devrait-il choisir cette offre plutôt qu’une autre ?"
+      },
+      {
+        "path": "section_1.champ_009",
+        "kind": "text",
+        "default": "Une cible trop large rend les messages génériques. Une offre mal expliquée oblige les commerciaux à improviser. Le premier travail consiste donc à réduire l’ambiguïté.",
+        "original": "Une cible trop large rend les messages génériques. Une offre mal expliquée oblige les commerciaux à improviser. Le premier travail consiste donc à réduire l’ambiguïté."
+      },
+      {
+        "path": "section_2.champ_010",
+        "kind": "text",
+        "default": "2. Choisir quelques canaux d’acquisition",
+        "original": "2. Choisir quelques canaux d’acquisition"
+      },
+      {
+        "path": "section_2.champ_011",
+        "kind": "text",
+        "default": "Une PME n’a généralement aucun intérêt à être présente partout. Il vaut mieux sélectionner deux ou trois canaux cohérents avec son marché et les exploiter correctement.",
+        "original": "Une PME n’a généralement aucun intérêt à être présente partout. Il vaut mieux sélectionner deux ou trois canaux cohérents avec son marché et les exploiter correctement."
+      },
+      {
+        "path": "section_2.champ_012",
+        "kind": "text",
+        "default": "Prospection directe lorsque les cibles sont identifiables.",
+        "original": "Prospection directe lorsque les cibles sont identifiables."
+      },
+      {
+        "path": "section_2.champ_013",
+        "kind": "text",
+        "default": "SEO ou visibilité locale lorsque les prospects expriment déjà une demande.",
+        "original": "SEO ou visibilité locale lorsque les prospects expriment déjà une demande."
+      },
+      {
+        "path": "section_2.champ_014",
+        "kind": "text",
+        "default": "Contenus et réseaux professionnels lorsque la confiance doit se construire dans le temps.",
+        "original": "Contenus et réseaux professionnels lorsque la confiance doit se construire dans le temps."
+      },
+      {
+        "path": "section_2.champ_015",
+        "kind": "text",
+        "default": "Réseau, partenariats et recommandations lorsque la relation joue un rôle important.",
+        "original": "Réseau, partenariats et recommandations lorsque la relation joue un rôle important."
+      },
+      {
+        "path": "section_3.champ_016",
+        "kind": "text",
+        "default": "3. Organiser le passage du lead à l’opportunité",
+        "original": "3. Organiser le passage du lead à l’opportunité"
+      },
+      {
+        "path": "section_3.champ_017",
+        "kind": "text",
+        "default": "Le développement commercial se dégrade souvent entre la prise de contact et le suivi. Les demandes entrantes ne sont pas toujours qualifiées de la même manière, les relances restent dans les boîtes mail et les prochaines actions ne sont pas clairement définies.",
+        "original": "Le développement commercial se dégrade souvent entre la prise de contact et le suivi. Les demandes entrantes ne sont pas toujours qualifiées de la même manière, les relances restent dans les boîtes mail et les prochaines actions ne sont pas clairement définies."
+      },
+      {
+        "path": "section_4.champ_018",
+        "kind": "text",
+        "default": "4. Transformer les objectifs en rythme de travail",
+        "original": "4. Transformer les objectifs en rythme de travail"
+      },
+      {
+        "path": "section_4.champ_019",
+        "kind": "text",
+        "default": "Un objectif annuel n’aide pas beaucoup au quotidien. Il doit être traduit en activités suivies régulièrement : opportunités créées, rendez-vous obtenus, propositions envoyées, affaires en attente de relance ou taux de transformation.",
+        "original": "Un objectif annuel n’aide pas beaucoup au quotidien. Il doit être traduit en activités suivies régulièrement : opportunités créées, rendez-vous obtenus, propositions envoyées, affaires en attente de relance ou taux de transformation."
+      },
+      {
+        "path": "section_4.champ_020",
+        "kind": "text",
+        "default": "Le but n’est pas de tout mesurer. Il est de disposer de suffisamment d’informations pour décider où agir.",
+        "original": "Le but n’est pas de tout mesurer. Il est de disposer de suffisamment d’informations pour décider où agir."
+      },
+      {
+        "path": "section_5.champ_021",
+        "kind": "text",
+        "default": "5. Faire évoluer le plan à partir des retours",
+        "original": "5. Faire évoluer le plan à partir des retours"
+      },
+      {
+        "path": "section_5.champ_022",
+        "kind": "text",
+        "default": "Une stratégie commerciale n’est pas figée. Les objections des prospects, les canaux qui produisent les meilleurs contacts et les étapes où les affaires ralentissent donnent des informations utiles pour ajuster l’offre, les messages et le process.",
+        "original": "Une stratégie commerciale n’est pas figée. Les objections des prospects, les canaux qui produisent les meilleurs contacts et les étapes où les affaires ralentissent donnent des informations utiles pour ajuster l’offre, les messages et le process."
+      },
+      {
+        "path": "section_6.champ_023",
+        "kind": "text",
+        "default": "Une structure simple pour démarrer",
+        "original": "Une structure simple pour démarrer"
+      },
+      {
+        "path": "section_6.champ_024",
+        "kind": "text",
+        "default": "Définir les cibles prioritaires.",
+        "original": "Définir les cibles prioritaires."
+      },
+      {
+        "path": "section_6.champ_025",
+        "kind": "text",
+        "default": "Clarifier l’offre et les arguments.",
+        "original": "Clarifier l’offre et les arguments."
+      },
+      {
+        "path": "section_6.champ_026",
+        "kind": "text",
+        "default": "Choisir les principaux canaux d’acquisition.",
+        "original": "Choisir les principaux canaux d’acquisition."
+      },
+      {
+        "path": "section_6.champ_027",
+        "kind": "text",
+        "default": "Créer un pipeline de suivi.",
+        "original": "Créer un pipeline de suivi."
+      },
+      {
+        "path": "section_6.champ_028",
+        "kind": "text",
+        "default": "Définir quelques indicateurs.",
+        "original": "Définir quelques indicateurs."
+      },
+      {
+        "path": "section_6.champ_029",
+        "kind": "text",
+        "default": "Faire un point régulier pour ajuster.",
+        "original": "Faire un point régulier pour ajuster."
+      },
+      {
+        "path": "section_6.champ_030",
+        "kind": "text",
+        "default": "Cette structure suffit déjà à rendre le développement commercial plus lisible sans transformer l’entreprise en organisation complexe.",
+        "original": "Cette structure suffit déjà à rendre le développement commercial plus lisible sans transformer l’entreprise en organisation complexe."
+      },
+      {
+        "path": "section_6.champ_031",
+        "kind": "text",
+        "default": "Vous voulez appliquer cette logique à votre entreprise ?",
+        "original": "Vous voulez appliquer cette logique à votre entreprise ?"
+      },
+      {
+        "path": "section_6.champ_032",
+        "kind": "text",
+        "default": "À poursuivre",
+        "original": "À poursuivre"
+      },
+      {
+        "path": "section_7.champ_033",
+        "kind": "text",
+        "default": "Approfondir le sujet.",
+        "original": "Approfondir le sujet."
+      },
+      {
+        "path": "section_7.champ_034",
+        "kind": "text",
+        "default": "Conseil commercial",
+        "original": "Conseil commercial"
+      },
+      {
+        "path": "section_7.champ_035",
+        "kind": "text",
+        "default": "Clarifier la stratégie et les priorités.",
+        "original": "Clarifier la stratégie et les priorités."
+      },
+      {
+        "path": "section_7.champ_036",
+        "kind": "text",
+        "default": "Marketing BtoB",
+        "original": "Marketing BtoB"
+      },
+      {
+        "path": "section_7.champ_037",
+        "kind": "text",
+        "default": "Relier acquisition et conversion.",
+        "original": "Relier acquisition et conversion."
+      },
+      {
+        "path": "section_7.champ_038",
+        "kind": "text",
+        "default": "Fer de Lance",
+        "original": "Fer de Lance"
+      },
+      {
+        "path": "section_7.champ_039",
+        "kind": "text",
+        "default": "Un retour client réel sur la visibilité et l’acquisition.",
+        "original": "Un retour client réel sur la visibilité et l’acquisition."
+      }
+    ],
+    "structured": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://www.connect-affaires.fr/#website",
+            "url": "https://www.connect-affaires.fr/",
+            "name": "Connect",
+            "inLanguage": "fr-FR"
+          },
+          {
+            "@type": "ProfessionalService",
+            "@id": "https://www.connect-affaires.fr/#business",
+            "name": "Connect",
+            "url": "https://www.connect-affaires.fr/",
+            "logo": "https://www.connect-affaires.fr/logo.png",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Aix-en-Provence",
+              "addressRegion": "Provence-Alpes-Côte d'Azur",
+              "addressCountry": "FR"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.connect-affaires.fr/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Ressources",
+                "item": "https://www.connect-affaires.fr/ressources.html"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Comment structurer le développement commercial d’une PME ?",
+                "item": "https://www.connect-affaires.fr/structurer-developpement-commercial-pme.html"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.connect-affaires.fr/structurer-developpement-commercial-pme.html#article",
+            "headline": "Comment structurer le développement commercial d’une PME ?",
+            "description": "Méthode pratique pour structurer le développement commercial d’une TPE ou PME : cibles, offre, acquisition, CRM, suivi et pilotage.",
+            "datePublished": "2026-09-30",
+            "dateModified": "2026-09-30",
+            "author": {
+              "@id": "https://www.connect-affaires.fr/#valentin-turpin"
+            },
+            "publisher": {
+              "@id": "https://www.connect-affaires.fr/#business"
+            },
+            "mainEntityOfPage": "https://www.connect-affaires.fr/structurer-developpement-commercial-pme.html",
+            "image": "https://www.connect-affaires.fr/service-strategy.jpg",
+            "inLanguage": "fr-FR"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "marketing-btob-tpe-pme",
+    "label": "Guide — Marketing BtoB",
+    "output": "marketing-btob-tpe-pme.html",
+    "data": "content/pages/marketing-btob-tpe-pme.json",
+    "template": "templates/pages/marketing-btob-tpe-pme.html",
+    "fields": [
+      {
+        "path": "entete.champ_001",
+        "kind": "text",
+        "default": "Guide marketing BtoB",
+        "original": "Guide marketing BtoB"
+      },
+      {
+        "path": "entete.champ_002",
+        "kind": "text",
+        "default": "Marketing BtoB : par où commencer quand on est une TPE ou PME ?",
+        "original": "Marketing BtoB : par où commencer quand on est une TPE ou PME ?"
+      },
+      {
+        "path": "entete.champ_003",
+        "kind": "text",
+        "default": "Guide marketing BtoB pour TPE et PME : objectifs, acquisition, contenus, landing pages, conversion et mesure des résultats.",
+        "original": "Guide marketing BtoB pour TPE et PME : objectifs, acquisition, contenus, landing pages, conversion et mesure des résultats."
+      },
+      {
+        "path": "entete.champ_004",
+        "kind": "media",
+        "default": "/service-marketing.jpg",
+        "original": "/service-marketing.jpg"
+      },
+      {
+        "path": "entete.champ_005",
+        "kind": "text",
+        "default": "Marketing BtoB : par où commencer quand on est une TPE ou PME ?",
+        "original": "Marketing BtoB : par où commencer quand on est une TPE ou PME ?"
+      },
+      {
+        "path": "entete.champ_006",
+        "kind": "text",
+        "default": "Le marketing BtoB peut vite devenir une suite d’actions déconnectées : quelques publications, une campagne ponctuelle, un nouveau site, puis un outil supplémentaire. Pour une TPE ou une PME, la priorité est plutôt de construire une logique simple entre visibilité, acquisition et vente.",
+        "original": "Le marketing BtoB peut vite devenir une suite d’actions déconnectées : quelques publications, une campagne ponctuelle, un nouveau site, puis un outil supplémentaire. Pour une TPE ou une PME, la priorité est plutôt de construire une logique simple entre visibilité, acquisition et vente."
+      },
+      {
+        "path": "section_1.champ_007",
+        "kind": "text",
+        "default": "1. Partir de l’objectif commercial",
+        "original": "1. Partir de l’objectif commercial"
+      },
+      {
+        "path": "section_1.champ_008",
+        "kind": "text",
+        "default": "Le canal marketing vient après l’objectif. Une entreprise qui cherche des rendez-vous avec des dirigeants locaux n’a pas les mêmes besoins qu’une entreprise qui veut développer une offre nationale ou faire connaître une expertise très spécialisée.",
+        "original": "Le canal marketing vient après l’objectif. Une entreprise qui cherche des rendez-vous avec des dirigeants locaux n’a pas les mêmes besoins qu’une entreprise qui veut développer une offre nationale ou faire connaître une expertise très spécialisée."
+      },
+      {
+        "path": "section_1.champ_009",
+        "kind": "text",
+        "default": "Avant de choisir un canal, il faut définir ce que le marketing doit produire : prises de contact, demandes de devis, inscriptions, rendez-vous ou simplement davantage de visibilité auprès d’une cible précise.",
+        "original": "Avant de choisir un canal, il faut définir ce que le marketing doit produire : prises de contact, demandes de devis, inscriptions, rendez-vous ou simplement davantage de visibilité auprès d’une cible précise."
+      },
+      {
+        "path": "section_2.champ_010",
+        "kind": "text",
+        "default": "2. Comprendre comment les prospects prennent leur décision",
+        "original": "2. Comprendre comment les prospects prennent leur décision"
+      },
+      {
+        "path": "section_2.champ_011",
+        "kind": "text",
+        "default": "En BtoB, le parcours comporte souvent plusieurs étapes. Un prospect peut découvrir une entreprise via Google, consulter LinkedIn, revenir sur le site, télécharger une information, puis prendre contact après plusieurs jours.",
+        "original": "En BtoB, le parcours comporte souvent plusieurs étapes. Un prospect peut découvrir une entreprise via Google, consulter LinkedIn, revenir sur le site, télécharger une information, puis prendre contact après plusieurs jours."
+      },
+      {
+        "path": "section_2.champ_012",
+        "kind": "text",
+        "default": "Le travail consiste à rendre ce parcours cohérent : message clair, preuve suffisante, appel à l’action visible et suivi efficace lorsque le prospect se manifeste.",
+        "original": "Le travail consiste à rendre ce parcours cohérent : message clair, preuve suffisante, appel à l’action visible et suivi efficace lorsque le prospect se manifeste."
+      },
+      {
+        "path": "section_3.champ_013",
+        "kind": "text",
+        "default": "3. Choisir les contenus qui servent réellement le commerce",
+        "original": "3. Choisir les contenus qui servent réellement le commerce"
+      },
+      {
+        "path": "section_3.champ_014",
+        "kind": "text",
+        "default": "Pages services qui répondent aux questions importantes avant une prise de contact.",
+        "original": "Pages services qui répondent aux questions importantes avant une prise de contact."
+      },
+      {
+        "path": "section_3.champ_015",
+        "kind": "text",
+        "default": "Cas clients pour montrer comment un problème concret a été traité.",
+        "original": "Cas clients pour montrer comment un problème concret a été traité."
+      },
+      {
+        "path": "section_3.champ_016",
+        "kind": "text",
+        "default": "Guides ou articles pour couvrir les questions recherchées par les prospects.",
+        "original": "Guides ou articles pour couvrir les questions recherchées par les prospects."
+      },
+      {
+        "path": "section_3.champ_017",
+        "kind": "text",
+        "default": "Messages de campagne adaptés au niveau de maturité de la cible.",
+        "original": "Messages de campagne adaptés au niveau de maturité de la cible."
+      },
+      {
+        "path": "section_4.champ_018",
+        "kind": "text",
+        "default": "4. Optimiser la conversion avant d’augmenter le trafic",
+        "original": "4. Optimiser la conversion avant d’augmenter le trafic"
+      },
+      {
+        "path": "section_4.champ_019",
+        "kind": "text",
+        "default": "Envoyer plus de visiteurs vers une page mal structurée augmente rarement les résultats de manière durable. Il faut d’abord vérifier la proposition de valeur, la lisibilité de l’offre, les preuves, le formulaire et les appels à l’action.",
+        "original": "Envoyer plus de visiteurs vers une page mal structurée augmente rarement les résultats de manière durable. Il faut d’abord vérifier la proposition de valeur, la lisibilité de l’offre, les preuves, le formulaire et les appels à l’action."
+      },
+      {
+        "path": "section_5.champ_020",
+        "kind": "text",
+        "default": "5. Suivre quelques indicateurs utiles",
+        "original": "5. Suivre quelques indicateurs utiles"
+      },
+      {
+        "path": "section_5.champ_021",
+        "kind": "text",
+        "default": "Les impressions et les clics permettent de comprendre la visibilité, mais ils ne suffisent pas. Pour piloter le marketing BtoB, il faut aussi suivre la qualité des leads, leur origine, le taux de transformation et les opportunités réellement créées.",
+        "original": "Les impressions et les clics permettent de comprendre la visibilité, mais ils ne suffisent pas. Pour piloter le marketing BtoB, il faut aussi suivre la qualité des leads, leur origine, le taux de transformation et les opportunités réellement créées."
+      },
+      {
+        "path": "section_6.champ_022",
+        "kind": "text",
+        "default": "Par où commencer concrètement ?",
+        "original": "Par où commencer concrètement ?"
+      },
+      {
+        "path": "section_6.champ_023",
+        "kind": "text",
+        "default": "Définir la cible et l’objectif commercial.",
+        "original": "Définir la cible et l’objectif commercial."
+      },
+      {
+        "path": "section_6.champ_024",
+        "kind": "text",
+        "default": "Choisir un canal principal d’acquisition.",
+        "original": "Choisir un canal principal d’acquisition."
+      },
+      {
+        "path": "section_6.champ_025",
+        "kind": "text",
+        "default": "Créer ou améliorer la page de conversion associée.",
+        "original": "Créer ou améliorer la page de conversion associée."
+      },
+      {
+        "path": "section_6.champ_026",
+        "kind": "text",
+        "default": "Prévoir le suivi commercial des leads.",
+        "original": "Prévoir le suivi commercial des leads."
+      },
+      {
+        "path": "section_6.champ_027",
+        "kind": "text",
+        "default": "Mesurer les résultats avant d’ajouter un nouveau canal.",
+        "original": "Mesurer les résultats avant d’ajouter un nouveau canal."
+      },
+      {
+        "path": "section_6.champ_028",
+        "kind": "text",
+        "default": "Cette logique permet d’avancer progressivement et d’éviter de disperser le budget et le temps de l’équipe.",
+        "original": "Cette logique permet d’avancer progressivement et d’éviter de disperser le budget et le temps de l’équipe."
+      },
+      {
+        "path": "section_6.champ_029",
+        "kind": "text",
+        "default": "Vous voulez appliquer cette logique à votre entreprise ?",
+        "original": "Vous voulez appliquer cette logique à votre entreprise ?"
+      },
+      {
+        "path": "section_6.champ_030",
+        "kind": "text",
+        "default": "À poursuivre",
+        "original": "À poursuivre"
+      },
+      {
+        "path": "section_7.champ_031",
+        "kind": "text",
+        "default": "Approfondir le sujet.",
+        "original": "Approfondir le sujet."
+      },
+      {
+        "path": "section_7.champ_032",
+        "kind": "text",
+        "default": "Conseil commercial",
+        "original": "Conseil commercial"
+      },
+      {
+        "path": "section_7.champ_033",
+        "kind": "text",
+        "default": "Clarifier la stratégie et les priorités.",
+        "original": "Clarifier la stratégie et les priorités."
+      },
+      {
+        "path": "section_7.champ_034",
+        "kind": "text",
+        "default": "Marketing BtoB",
+        "original": "Marketing BtoB"
+      },
+      {
+        "path": "section_7.champ_035",
+        "kind": "text",
+        "default": "Relier acquisition et conversion.",
+        "original": "Relier acquisition et conversion."
+      },
+      {
+        "path": "section_7.champ_036",
+        "kind": "text",
+        "default": "Fer de Lance",
+        "original": "Fer de Lance"
+      },
+      {
+        "path": "section_7.champ_037",
+        "kind": "text",
+        "default": "Un retour client réel sur la visibilité et l’acquisition.",
+        "original": "Un retour client réel sur la visibilité et l’acquisition."
+      }
+    ],
+    "structured": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://www.connect-affaires.fr/#website",
+            "url": "https://www.connect-affaires.fr/",
+            "name": "Connect",
+            "inLanguage": "fr-FR"
+          },
+          {
+            "@type": "ProfessionalService",
+            "@id": "https://www.connect-affaires.fr/#business",
+            "name": "Connect",
+            "url": "https://www.connect-affaires.fr/",
+            "logo": "https://www.connect-affaires.fr/logo.png",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Aix-en-Provence",
+              "addressRegion": "Provence-Alpes-Côte d'Azur",
+              "addressCountry": "FR"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.connect-affaires.fr/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Ressources",
+                "item": "https://www.connect-affaires.fr/ressources.html"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Marketing BtoB : par où commencer quand on est une TPE ou PME ?",
+                "item": "https://www.connect-affaires.fr/marketing-btob-tpe-pme.html"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.connect-affaires.fr/marketing-btob-tpe-pme.html#article",
+            "headline": "Marketing BtoB : par où commencer quand on est une TPE ou PME ?",
+            "description": "Guide marketing BtoB pour TPE et PME : objectifs, acquisition, contenus, landing pages, conversion et mesure des résultats.",
+            "datePublished": "2026-09-30",
+            "dateModified": "2026-09-30",
+            "author": {
+              "@id": "https://www.connect-affaires.fr/#valentin-turpin"
+            },
+            "publisher": {
+              "@id": "https://www.connect-affaires.fr/#business"
+            },
+            "mainEntityOfPage": "https://www.connect-affaires.fr/marketing-btob-tpe-pme.html",
+            "image": "https://www.connect-affaires.fr/service-marketing.jpg",
+            "inLanguage": "fr-FR"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cas-client-fer-de-lance",
+    "label": "Fer de Lance",
+    "output": "cas-client-fer-de-lance.html",
+    "data": "content/pages/cas-client-fer-de-lance.json",
+    "template": "templates/pages/cas-client-fer-de-lance.html",
+    "fields": [
+      {
+        "path": "entete.champ_001",
+        "kind": "text",
+        "default": "Cas client",
+        "original": "Cas client"
+      },
+      {
+        "path": "entete.champ_002",
+        "kind": "text",
+        "default": "Fer de Lance : mieux cibler, mieux être vu et générer davantage de demandes.",
+        "original": "Fer de Lance : mieux cibler, mieux être vu et générer davantage de demandes."
+      },
+      {
+        "path": "entete.champ_003",
+        "kind": "text",
+        "default": "Retour sur une collaboration autour du site internet et de l’acquisition, à partir du témoignage publié par le client sur Google.",
+        "original": "Retour sur une collaboration autour du site internet et de l’acquisition, à partir du témoignage publié par le client sur Google."
+      },
+      {
+        "path": "entete.champ_004",
+        "kind": "media",
+        "default": "/connect-motion-poster.jpg",
+        "original": "/connect-motion-poster.jpg"
+      },
+      {
+        "path": "entete.champ_005",
+        "kind": "text",
+        "default": "Cas client Fer de Lance et Connect",
+        "original": "Cas client Fer de Lance et Connect"
+      },
+      {
+        "path": "section_1.champ_006",
+        "kind": "text",
+        "default": "Le contexte",
+        "original": "Le contexte"
+      },
+      {
+        "path": "section_1.champ_007",
+        "kind": "text",
+        "default": "Dans son avis Google, Fer de Lance explique qu’avant la création de son site avec InsightToSell et Connect Affaires, sa communication reposait principalement sur les réseaux sociaux et la sponsorisation. Selon son retour, cette approche lui permettait de gagner des abonnés mais ciblait moins efficacement les personnes susceptibles de prendre rendez-vous.",
+        "original": "Dans son avis Google, Fer de Lance explique qu’avant la création de son site avec InsightToSell et Connect Affaires, sa communication reposait principalement sur les réseaux sociaux et la sponsorisation. Selon son retour, cette approche lui permettait de gagner des abonnés mais ciblait moins efficacement les personnes susceptibles de prendre rendez-vous."
+      },
+      {
+        "path": "section_2.champ_008",
+        "kind": "text",
+        "default": "Le travail engagé",
+        "original": "Le travail engagé"
+      },
+      {
+        "path": "section_2.champ_009",
+        "kind": "text",
+        "default": "La collaboration a porté sur la mise en place d’un site internet et d’un dispositif permettant de mieux présenter l’activité, mieux orienter la visibilité et créer un parcours plus adapté aux demandes commerciales.",
+        "original": "La collaboration a porté sur la mise en place d’un site internet et d’un dispositif permettant de mieux présenter l’activité, mieux orienter la visibilité et créer un parcours plus adapté aux demandes commerciales."
+      },
+      {
+        "path": "section_2.champ_010",
+        "kind": "text",
+        "default": "Le rôle de Connect s’inscrit dans cette logique : relier le besoin commercial, le message, l’acquisition et les outils de conversion plutôt que traiter chaque sujet séparément.",
+        "original": "Le rôle de Connect s’inscrit dans cette logique : relier le besoin commercial, le message, l’acquisition et les outils de conversion plutôt que traiter chaque sujet séparément."
+      },
+      {
+        "path": "section_2.champ_011",
+        "kind": "text",
+        "default": "Résultats rapportés par le client",
+        "original": "Résultats rapportés par le client"
+      },
+      {
+        "path": "section_2.champ_012",
+        "kind": "text",
+        "default": "Dans son avis Google, Fer de Lance indique une augmentation de son chiffre d’affaires d’environ 30 %, de nombreuses demandes de devis quotidiennes et un planning davantage rempli sur le long terme depuis la création du site en juin 2026.",
+        "original": "Dans son avis Google, Fer de Lance indique une augmentation de son chiffre d’affaires d’environ 30 %, de nombreuses demandes de devis quotidiennes et un planning davantage rempli sur le long terme depuis la création du site en juin 2026."
+      },
+      {
+        "path": "section_2.champ_013",
+        "kind": "text",
+        "default": "Ces résultats sont ceux déclarés par le client dans son avis Google. Ils ne constituent pas une promesse de performance et peuvent varier selon l’activité, le marché et le contexte.",
+        "original": "Ces résultats sont ceux déclarés par le client dans son avis Google. Ils ne constituent pas une promesse de performance et peuvent varier selon l’activité, le marché et le contexte."
+      },
+      {
+        "path": "section_3.champ_014",
+        "kind": "text",
+        "default": "Ce que ce cas illustre",
+        "original": "Ce que ce cas illustre"
+      },
+      {
+        "path": "section_3.champ_015",
+        "kind": "text",
+        "default": "Ce retour met surtout en évidence l’intérêt de relier visibilité et conversion. Une entreprise peut gagner en audience sans forcément générer davantage de rendez-vous. La question est donc moins « combien de personnes voient la marque ? » que « est-ce que les bonnes personnes comprennent l’offre et savent comment passer à l’étape suivante ? »",
+        "original": "Ce retour met surtout en évidence l’intérêt de relier visibilité et conversion. Une entreprise peut gagner en audience sans forcément générer davantage de rendez-vous. La question est donc moins « combien de personnes voient la marque ? » que « est-ce que les bonnes personnes comprennent l’offre et savent comment passer à l’étape suivante ? »"
+      },
+      {
+        "path": "section_3.champ_016",
+        "kind": "text",
+        "default": "clarifier la cible et le positionnement ;",
+        "original": "clarifier la cible et le positionnement ;"
+      },
+      {
+        "path": "section_3.champ_017",
+        "kind": "text",
+        "default": "créer un support capable de présenter l’offre ;",
+        "original": "créer un support capable de présenter l’offre ;"
+      },
+      {
+        "path": "section_3.champ_018",
+        "kind": "text",
+        "default": "orienter les actions d’acquisition vers la bonne clientèle ;",
+        "original": "orienter les actions d’acquisition vers la bonne clientèle ;"
+      },
+      {
+        "path": "section_3.champ_019",
+        "kind": "text",
+        "default": "faciliter la prise de contact ;",
+        "original": "faciliter la prise de contact ;"
+      },
+      {
+        "path": "section_3.champ_020",
+        "kind": "text",
+        "default": "suivre les demandes générées.",
+        "original": "suivre les demandes générées."
+      },
+      {
+        "path": "section_4.champ_021",
+        "kind": "text",
+        "default": "Un retour client vérifiable",
+        "original": "Un retour client vérifiable"
+      },
+      {
+        "path": "section_4.champ_022",
+        "kind": "text",
+        "default": "L’avis complet est accessible depuis la fiche Google de Connect.",
+        "original": "L’avis complet est accessible depuis la fiche Google de Connect."
+      },
+      {
+        "path": "section_4.champ_023",
+        "kind": "inline",
+        "default": "[Voir la fiche Google](https://share.google/8ZrhbUUEqymf9vwSP)",
+        "original": "<a class=\"btn btn-light\" href=\"https://share.google/8ZrhbUUEqymf9vwSP\" target=\"_blank\" rel=\"noopener noreferrer\">Voir la fiche Google</a>"
+      },
+      {
+        "path": "section_4.champ_024",
+        "kind": "text",
+        "default": "Vous avez un problème similaire ?",
+        "original": "Vous avez un problème similaire ?"
+      },
+      {
+        "path": "section_4.champ_025",
+        "kind": "text",
+        "default": "À lire aussi",
+        "original": "À lire aussi"
+      },
+      {
+        "path": "section_5.champ_026",
+        "kind": "text",
+        "default": "Guides et services liés.",
+        "original": "Guides et services liés."
+      },
+      {
+        "path": "section_5.champ_027",
+        "kind": "text",
+        "default": "Marketing BtoB pour TPE & PME",
+        "original": "Marketing BtoB pour TPE & PME"
+      },
+      {
+        "path": "section_5.champ_028",
+        "kind": "text",
+        "default": "Choisir les bons leviers sans se disperser.",
+        "original": "Choisir les bons leviers sans se disperser."
+      },
+      {
+        "path": "section_5.champ_029",
+        "kind": "text",
+        "default": "Marketing BtoB à Aix-en-Provence",
+        "original": "Marketing BtoB à Aix-en-Provence"
+      },
+      {
+        "path": "section_5.champ_030",
+        "kind": "text",
+        "default": "Acquisition, contenus et conversion.",
+        "original": "Acquisition, contenus et conversion."
+      },
+      {
+        "path": "section_5.champ_031",
+        "kind": "text",
+        "default": "Acquisition BtoB",
+        "original": "Acquisition BtoB"
+      },
+      {
+        "path": "section_5.champ_032",
+        "kind": "text",
+        "default": "Construire un flux d’opportunités plus régulier.",
+        "original": "Construire un flux d’opportunités plus régulier."
+      }
+    ],
+    "structured": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://www.connect-affaires.fr/#website",
+            "url": "https://www.connect-affaires.fr/",
+            "name": "Connect",
+            "inLanguage": "fr-FR"
+          },
+          {
+            "@type": "ProfessionalService",
+            "@id": "https://www.connect-affaires.fr/#business",
+            "name": "Connect",
+            "url": "https://www.connect-affaires.fr/",
+            "logo": "https://www.connect-affaires.fr/logo.png",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Aix-en-Provence",
+              "addressRegion": "Provence-Alpes-Côte d'Azur",
+              "addressCountry": "FR"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.connect-affaires.fr/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Ressources",
+                "item": "https://www.connect-affaires.fr/ressources.html"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Cas client Fer de Lance",
+                "item": "https://www.connect-affaires.fr/cas-client-fer-de-lance.html"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.connect-affaires.fr/cas-client-fer-de-lance.html#article",
+            "headline": "Fer de Lance : mieux cibler, mieux être vu et générer davantage de demandes",
+            "description": "Cas client Connect x Fer de Lance : création du site, ciblage et acquisition. Résultats présentés à partir du témoignage Google publié par le client.",
+            "datePublished": "2026-09-30",
+            "dateModified": "2026-09-30",
+            "author": {
+              "@id": "https://www.connect-affaires.fr/#valentin-turpin"
+            },
+            "publisher": {
+              "@id": "https://www.connect-affaires.fr/#business"
+            },
+            "mainEntityOfPage": "https://www.connect-affaires.fr/cas-client-fer-de-lance.html",
+            "inLanguage": "fr-FR"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mentions-legales",
+    "label": "Mentions légales",
+    "output": "mentions-legales.html",
+    "data": "content/pages/mentions-legales.json",
+    "template": "templates/pages/mentions-legales.html",
+    "fields": [
+      {
+        "path": "entete.champ_001",
+        "kind": "text",
+        "default": "Légal",
+        "original": "Légal"
+      },
+      {
+        "path": "entete.champ_002",
+        "kind": "text",
+        "default": "Mentions légales",
+        "original": "Mentions légales"
+      },
+      {
+        "path": "entete.champ_003",
+        "kind": "text",
+        "default": "Informations juridiques relatives à l'éditeur du site connect-affaires.fr.",
+        "original": "Informations juridiques relatives à l'éditeur du site connect-affaires.fr."
+      },
+      {
+        "path": "section_1.champ_004",
+        "kind": "text",
+        "default": "Éditeur du site",
+        "original": "Éditeur du site"
+      },
+      {
+        "path": "section_1.champ_005",
+        "kind": "inline",
+        "default": "Le site [connect-affaires.fr](https://www.connect-affaires.fr) est édité par **Valentin Turpin — Connect**, entreprise individuelle (auto-entrepreneur), basée à Aix-en-Provence, Bouches-du-Rhône (13), France.",
+        "original": "Le site <a href=\"https://www.connect-affaires.fr\">connect-affaires.fr</a> est édité par <strong>Valentin Turpin — Connect</strong>, entreprise individuelle (auto-entrepreneur), basée à Aix-en-Provence, Bouches-du-Rhône (13), France."
+      },
+      {
+        "path": "section_1.champ_006",
+        "kind": "inline",
+        "default": "SIRET : disponible sur demande\nTVA : non applicable, article 293 B du CGI",
+        "original": "SIRET : disponible sur demande<br/>TVA : non applicable, article 293 B du CGI"
+      },
+      {
+        "path": "section_2.champ_007",
+        "kind": "text",
+        "default": "Directeur de la publication",
+        "original": "Directeur de la publication"
+      },
+      {
+        "path": "section_2.champ_008",
+        "kind": "inline",
+        "default": "Le directeur de la publication est **Valentin Turpin**, fondateur de Connect.",
+        "original": "Le directeur de la publication est <strong>Valentin Turpin</strong>, fondateur de Connect."
+      },
+      {
+        "path": "section_3.champ_009",
+        "kind": "text",
+        "default": "Hébergement",
+        "original": "Hébergement"
+      },
+      {
+        "path": "section_3.champ_010",
+        "kind": "inline",
+        "default": "**Vercel Inc.**\n340 Pine Street, Suite 701, San Francisco, CA 94104, États-Unis\n[vercel.com](https://vercel.com)",
+        "original": "<strong>Vercel Inc.</strong><br/>340 Pine Street, Suite 701, San Francisco, CA 94104, États-Unis<br/><a href=\"https://vercel.com\" rel=\"noopener\" target=\"_blank\">vercel.com</a>"
+      },
+      {
+        "path": "section_4.champ_011",
+        "kind": "text",
+        "default": "Activité",
+        "original": "Activité"
+      },
+      {
+        "path": "section_4.champ_012",
+        "kind": "inline",
+        "default": "Connect exerce une activité de **conseil commercial**, **marketing BtoB** et **développement commercial** auprès des entreprises.",
+        "original": "Connect exerce une activité de <strong>conseil commercial</strong>, <strong>marketing BtoB</strong> et <strong>développement commercial</strong> auprès des entreprises."
+      },
+      {
+        "path": "section_4.champ_013",
+        "kind": "text",
+        "default": "Code APE : 7022Z — Conseil pour les affaires et autres conseils de gestion.",
+        "original": "Code APE : 7022Z — Conseil pour les affaires et autres conseils de gestion."
+      },
+      {
+        "path": "section_5.champ_014",
+        "kind": "text",
+        "default": "Propriété intellectuelle",
+        "original": "Propriété intellectuelle"
+      },
+      {
+        "path": "section_5.champ_015",
+        "kind": "text",
+        "default": "L'ensemble des contenus de ce site — textes, images, logo, structure, charte graphique et code source — est protégé. Toute reproduction, diffusion ou exploitation sans autorisation écrite préalable est interdite.",
+        "original": "L'ensemble des contenus de ce site — textes, images, logo, structure, charte graphique et code source — est protégé. Toute reproduction, diffusion ou exploitation sans autorisation écrite préalable est interdite."
+      },
+      {
+        "path": "section_6.champ_016",
+        "kind": "text",
+        "default": "Liens hypertextes",
+        "original": "Liens hypertextes"
+      },
+      {
+        "path": "section_6.champ_017",
+        "kind": "text",
+        "default": "Le site peut contenir des liens vers des sites tiers. Connect ne peut être tenu responsable de leur contenu ou de leurs pratiques.",
+        "original": "Le site peut contenir des liens vers des sites tiers. Connect ne peut être tenu responsable de leur contenu ou de leurs pratiques."
+      },
+      {
+        "path": "section_7.champ_018",
+        "kind": "text",
+        "default": "Responsabilité",
+        "original": "Responsabilité"
+      },
+      {
+        "path": "section_7.champ_019",
+        "kind": "text",
+        "default": "Connect s'efforce de fournir des informations exactes et à jour. L'utilisation des informations présentes sur le site se fait sous la seule responsabilité de l'utilisateur.",
+        "original": "Connect s'efforce de fournir des informations exactes et à jour. L'utilisation des informations présentes sur le site se fait sous la seule responsabilité de l'utilisateur."
+      },
+      {
+        "path": "section_8.champ_020",
+        "kind": "text",
+        "default": "Données personnelles",
+        "original": "Données personnelles"
+      },
+      {
+        "path": "section_8.champ_021",
+        "kind": "inline",
+        "default": "Le traitement des données personnelles est détaillé dans la [politique de confidentialité](/politique-confidentialite.html).",
+        "original": "Le traitement des données personnelles est détaillé dans la <a href=\"/politique-confidentialite.html\">politique de confidentialité</a>."
+      },
+      {
+        "path": "section_9.champ_022",
+        "kind": "text",
+        "default": "Droit applicable",
+        "original": "Droit applicable"
+      },
+      {
+        "path": "section_9.champ_023",
+        "kind": "text",
+        "default": "Les présentes mentions légales sont régies par le droit français. Tout litige relève de la compétence des tribunaux d'Aix-en-Provence.",
+        "original": "Les présentes mentions légales sont régies par le droit français. Tout litige relève de la compétence des tribunaux d'Aix-en-Provence."
+      },
+      {
+        "path": "section_10.champ_024",
+        "kind": "text",
+        "default": "Contact",
+        "original": "Contact"
+      },
+      {
+        "path": "section_10.champ_025",
+        "kind": "inline",
+        "default": "Pour toute question : [valentin@connect-affaires.fr](mailto:valentin@connect-affaires.fr)",
+        "original": "Pour toute question : <a href=\"mailto:valentin@connect-affaires.fr\">valentin@connect-affaires.fr</a>"
+      },
+      {
+        "path": "section_10.champ_026",
+        "kind": "text",
+        "default": "Dernière mise à jour : 1er avril 2026.",
+        "original": "Dernière mise à jour : 1er avril 2026."
+      }
+    ],
+    "structured": []
+  },
+  {
+    "id": "politique-confidentialite",
+    "label": "Confidentialité",
+    "output": "politique-confidentialite.html",
+    "data": "content/pages/politique-confidentialite.json",
+    "template": "templates/pages/politique-confidentialite.html",
+    "fields": [
+      {
+        "path": "entete.champ_001",
+        "kind": "text",
+        "default": "RGPD",
+        "original": "RGPD"
+      },
+      {
+        "path": "entete.champ_002",
+        "kind": "text",
+        "default": "Politique de confidentialité",
+        "original": "Politique de confidentialité"
+      },
+      {
+        "path": "entete.champ_003",
+        "kind": "text",
+        "default": "Comment Connect collecte, utilise et protège les données envoyées via le formulaire de contact.",
+        "original": "Comment Connect collecte, utilise et protège les données envoyées via le formulaire de contact."
+      },
+      {
+        "path": "section_1.champ_004",
+        "kind": "text",
+        "default": "Responsable du traitement",
+        "original": "Responsable du traitement"
+      },
+      {
+        "path": "section_1.champ_005",
+        "kind": "inline",
+        "default": "**Valentin Turpin — Connect**, entreprise individuelle (auto-entrepreneur), basée à Aix-en-Provence, Bouches-du-Rhône, France.",
+        "original": "<strong>Valentin Turpin — Connect</strong>, entreprise individuelle (auto-entrepreneur), basée à Aix-en-Provence, Bouches-du-Rhône, France."
+      },
+      {
+        "path": "section_2.champ_006",
+        "kind": "text",
+        "default": "Données collectées",
+        "original": "Données collectées"
+      },
+      {
+        "path": "section_2.champ_007",
+        "kind": "text",
+        "default": "Via le formulaire de contact, Connect collecte uniquement les informations suivantes :",
+        "original": "Via le formulaire de contact, Connect collecte uniquement les informations suivantes :"
+      },
+      {
+        "path": "section_2.champ_008",
+        "kind": "text",
+        "default": "Nom et prénom",
+        "original": "Nom et prénom"
+      },
+      {
+        "path": "section_2.champ_009",
+        "kind": "text",
+        "default": "Nom de l'entreprise (optionnel)",
+        "original": "Nom de l'entreprise (optionnel)"
+      },
+      {
+        "path": "section_2.champ_010",
+        "kind": "text",
+        "default": "Adresse email",
+        "original": "Adresse email"
+      },
+      {
+        "path": "section_2.champ_011",
+        "kind": "text",
+        "default": "Numéro de téléphone (optionnel)",
+        "original": "Numéro de téléphone (optionnel)"
+      },
+      {
+        "path": "section_2.champ_012",
+        "kind": "text",
+        "default": "Type de besoin",
+        "original": "Type de besoin"
+      },
+      {
+        "path": "section_2.champ_013",
+        "kind": "text",
+        "default": "Contenu du message",
+        "original": "Contenu du message"
+      },
+      {
+        "path": "section_2.champ_014",
+        "kind": "text",
+        "default": "Aucun cookie publicitaire n'est déposé sur le site.",
+        "original": "Aucun cookie publicitaire n'est déposé sur le site."
+      },
+      {
+        "path": "section_3.champ_015",
+        "kind": "text",
+        "default": "Finalité",
+        "original": "Finalité"
+      },
+      {
+        "path": "section_3.champ_016",
+        "kind": "text",
+        "default": "Ces données sont utilisées exclusivement pour répondre à votre demande, échanger avec vous et, si nécessaire, engager une relation commerciale.",
+        "original": "Ces données sont utilisées exclusivement pour répondre à votre demande, échanger avec vous et, si nécessaire, engager une relation commerciale."
+      },
+      {
+        "path": "section_4.champ_017",
+        "kind": "text",
+        "default": "Base légale",
+        "original": "Base légale"
+      },
+      {
+        "path": "section_4.champ_018",
+        "kind": "text",
+        "default": "Le traitement repose sur votre consentement explicite, recueilli via la case d’acceptation obligatoire du formulaire (article 6.1.a du RGPD).",
+        "original": "Le traitement repose sur votre consentement explicite, recueilli via la case d’acceptation obligatoire du formulaire (article 6.1.a du RGPD)."
+      },
+      {
+        "path": "section_5.champ_019",
+        "kind": "text",
+        "default": "Durée de conservation",
+        "original": "Durée de conservation"
+      },
+      {
+        "path": "section_5.champ_020",
+        "kind": "inline",
+        "default": "Les données sont conservées pendant **3 ans maximum** à compter du dernier échange.",
+        "original": "Les données sont conservées pendant <strong>3 ans maximum</strong> à compter du dernier échange."
+      },
+      {
+        "path": "section_6.champ_021",
+        "kind": "text",
+        "default": "Destinataires",
+        "original": "Destinataires"
+      },
+      {
+        "path": "section_6.champ_022",
+        "kind": "inline",
+        "default": "Les données sont traitées uniquement par Valentin Turpin. Elles ne sont ni vendues, ni louées, ni cédées. Le formulaire utilise l'intermédiaire technique **Web3Forms**.",
+        "original": "Les données sont traitées uniquement par Valentin Turpin. Elles ne sont ni vendues, ni louées, ni cédées. Le formulaire utilise l'intermédiaire technique <strong>Web3Forms</strong>."
+      },
+      {
+        "path": "section_7.champ_023",
+        "kind": "text",
+        "default": "Vos droits",
+        "original": "Vos droits"
+      },
+      {
+        "path": "section_7.champ_024",
+        "kind": "inline",
+        "default": "Conformément au RGPD, vous disposez d'un droit d'accès, de rectification, d'effacement, de limitation, d'opposition et de portabilité. Pour exercer vos droits : [valentin@connect-affaires.fr](mailto:valentin@connect-affaires.fr).",
+        "original": "Conformément au RGPD, vous disposez d'un droit d'accès, de rectification, d'effacement, de limitation, d'opposition et de portabilité. Pour exercer vos droits : <a href=\"mailto:valentin@connect-affaires.fr\">valentin@connect-affaires.fr</a>."
+      },
+      {
+        "path": "section_8.champ_025",
+        "kind": "text",
+        "default": "Sécurité",
+        "original": "Sécurité"
+      },
+      {
+        "path": "section_8.champ_026",
+        "kind": "text",
+        "default": "Le site utilise une connexion sécurisée en HTTPS. Les données sont transmises via des services sécurisés.",
+        "original": "Le site utilise une connexion sécurisée en HTTPS. Les données sont transmises via des services sécurisés."
+      },
+      {
+        "path": "section_9.champ_027",
+        "kind": "text",
+        "default": "Avis Google Maps",
+        "original": "Avis Google Maps"
+      },
+      {
+        "path": "section_9.champ_028",
+        "kind": "inline",
+        "default": "Le site peut afficher des avis publics provenant de la fiche Google Maps de Connect via  (Places API). Les contenus affichés restent attribués à leurs auteurs et renvoient vers leur source sur Google Maps. Cette intégration est soumise aux [conditions ](https://cloud.google.com/maps-platform/terms) et à la [politique de confidentialité de Google](https://policies.google.com/privacy).",
+        "original": "Le site peut afficher des avis publics provenant de la fiche Google Maps de Connect via  (Places API). Les contenus affichés restent attribués à leurs auteurs et renvoient vers leur source sur Google Maps. Cette intégration est soumise aux <a href=\"https://cloud.google.com/maps-platform/terms\" target=\"_blank\" rel=\"noopener\">conditions </a> et à la <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">politique de confidentialité de Google</a>."
+      },
+      {
+        "path": "section_10.champ_029",
+        "kind": "text",
+        "default": "Réclamation",
+        "original": "Réclamation"
+      },
+      {
+        "path": "section_10.champ_030",
+        "kind": "inline",
+        "default": "Vous pouvez adresser une réclamation à la **CNIL** : [www.cnil.fr](https://www.cnil.fr).",
+        "original": "Vous pouvez adresser une réclamation à la <strong>CNIL</strong> : <a href=\"https://www.cnil.fr\" rel=\"noopener\" target=\"_blank\">www.cnil.fr</a>."
+      },
+      {
+        "path": "section_10.champ_031",
+        "kind": "text",
+        "default": "Dernière mise à jour : 1er avril 2026.",
+        "original": "Dernière mise à jour : 1er avril 2026."
+      }
+    ],
+    "structured": []
+  }
+]

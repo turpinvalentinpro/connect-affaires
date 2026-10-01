@@ -1,0 +1,22 @@
+#connect-bar{position:fixed;inset:0 0 auto;height:48px;z-index:10000;display:flex;align-items:center;gap:20px;padding:0 20px;background:#0b1426;color:white;font:13px system-ui;box-sizing:border-box}#connect-bar a{color:white;text-decoration:none}#connect-bar span{margin-right:auto;color:#a8bbd4}#connect-bar button{border:1px solid #607189;border-radius:7px;background:#16243a;color:white;padding:7px 10px;cursor:pointer;display:none}#loading{margin:100px 24px;font:16px system-ui}body{padding-top:48px!important}[class*="AppHeader"]{top:48px!important}[class*="CollectionMain"]{min-width:0!important}input,textarea{font-size:16px!important}textarea{line-height:1.55!important} [class*="ObjectWidgetTopBar"]{background:#eef6fc!important;border-radius:9px!important} [class*="ControlPaneContainer"]{padding-bottom:80px!important}
+/* Selectors match the pinned Decap CMS 3.16.3 components. */
+.e1nx103k5{top:48px!important;height:calc(100% - 48px)!important}
+@media(max-width:799px){
+ html,body{min-width:0!important;width:100%!important;overflow-x:hidden!important}
+ #connect-bar{padding:0 10px;gap:8px;font-size:12px}#connect-bar span{display:none}#connect-bar a:last-child{margin-left:auto;font-size:11px}#connect-bar button{display:block;min-height:34px}
+ .e1nx103k5{min-width:0!important;max-width:100vw!important;padding-top:108px!important}
+ .e1d2l9mo22{min-width:0!important;height:108px!important;flex-wrap:wrap!important;align-content:flex-start!important}
+ .e1d2l9mo18{height:44px!important;padding:0 10px!important;max-width:55%!important;overflow:hidden!important}
+ .e1d2l9mo17{height:44px!important;max-width:45%!important;margin-left:auto!important;padding:0 4px!important}
+ .e1d2l9mo21{order:3!important;flex:0 0 100%!important;width:100%!important;height:64px!important;padding:0 8px!important;min-width:0!important;overflow:visible!important}
+ .e1d2l9mo20,.e1d2l9mo19{min-width:0!important;gap:4px!important}
+ .e1nx103k4,.e1nx103k7,.e1nx103k6{width:100%!important;min-width:0!important;max-width:100%!important}
+ .SplitPane.vertical{display:block!important;width:100%!important;min-width:0!important}
+ .SplitPane.vertical>.Pane1{width:100%!important;min-width:0!important;max-width:none!important;height:100%!important;display:block!important}
+ .SplitPane.vertical>.Pane2,.SplitPane.vertical>.Resizer{display:none!important}
+ body.connect-preview .SplitPane.vertical>.Pane1{display:none!important}
+ body.connect-preview .SplitPane.vertical>.Pane2{display:block!important;width:100%!important;min-width:0!important;max-width:none!important;height:100%!important}
+ .e1nx103k0{display:none!important}.e1nx103k2{padding:0 10px!important}.e11hw0lx4{width:100%!important;max-width:none!important}
+ input,textarea,[contenteditable=true]{max-width:100%!important;font-size:16px!important}
+ [class*="ObjectWidget"]{max-width:100%!important;overflow-wrap:anywhere}
+}

@@ -1,0 +1,76 @@
+{
+  "entete": {
+    "champ_001": "CRM & organisation commerciale · Aix-en-Provence",
+    "champ_002": "CRM & organisation commerciale à Aix-en-Provence : ne plus perdre le fil des opportunités.",
+    "champ_003": "Connect aide les TPE et PME à structurer un suivi commercial simple : prospects centralisés, étapes claires, relances organisées et informations accessibles.",
+    "champ_004": "Échanger sur vos enjeux",
+    "champ_005": "/#contact",
+    "champ_006": "Voir les ressources",
+    "champ_007": "/ressources.html",
+    "champ_008": "/service-crm.jpg",
+    "champ_009": "Outil CRM utilisé pour organiser le suivi commercial",
+    "champ_010": "Approche"
+  },
+  "section_1": {
+    "champ_011": "Un CRM utile est d’abord un CRM que l’équipe utilise réellement.",
+    "champ_012": "Le problème n’est pas toujours l’absence d’outil. Il peut venir d’un CRM trop complexe, d’informations réparties entre plusieurs fichiers, d’étapes mal définies ou de relances gérées uniquement de mémoire.",
+    "champ_013": "Connect simplifie l’organisation autour du fonctionnement réel de l’entreprise. Le but n’est pas de multiplier les champs et les automatisations, mais de savoir rapidement où en est chaque opportunité et quelle action doit suivre.",
+    "champ_014": "Centralisation",
+    "champ_015": "Regrouper les prospects, clients et informations utiles au même endroit.",
+    "champ_016": "Pipeline",
+    "champ_017": "Définir des étapes commerciales compréhensibles et adaptées au cycle de vente.",
+    "champ_018": "Relances",
+    "champ_019": "Mettre en place un rythme de suivi pour réduire les opportunités oubliées."
+  },
+  "section_2": {
+    "champ_020": "Ce qui peut être structuré",
+    "champ_021": "organisation des prospects et clients ;",
+    "champ_022": "création ou simplification du pipeline ;",
+    "champ_023": "règles de saisie des informations ;",
+    "champ_024": "suivi des prochaines actions ;",
+    "champ_025": "relances et rappels simples ;",
+    "champ_026": "automatisations légères lorsque pertinentes ;",
+    "champ_027": "tableaux de bord et indicateurs commerciaux."
+  },
+  "section_3": {
+    "champ_028": "Commencer par le process, pas par l’outil",
+    "champ_029": "Avant de choisir ou configurer un CRM, il faut comprendre comment une opportunité progresse réellement : premier contact, qualification, rendez-vous, proposition, relance et décision. L’outil vient ensuite soutenir ce fonctionnement."
+  },
+  "section_4": {
+    "champ_030": "Une organisation qui facilite le pilotage",
+    "champ_031": "Lorsque les données sont suffisamment propres et structurées, il devient plus facile de suivre le nombre d’opportunités en cours, les relances à effectuer et les étapes où les affaires ralentissent."
+  },
+  "section_5": {
+    "champ_032": "Questions fréquentes"
+  },
+  "section_6": {
+    "champ_033": "Pouvez-vous travailler avec notre CRM actuel ?",
+    "champ_034": "Oui. L’objectif est d’abord d’améliorer l’existant lorsque l’outil est adapté."
+  },
+  "section_7": {
+    "champ_035": "Faut-il automatiser toutes les tâches ?",
+    "champ_036": "Non. Les automatisations sont utiles uniquement lorsqu’elles simplifient réellement le suivi sans rendre le process plus opaque."
+  },
+  "section_8": {
+    "champ_037": "Cette prestation convient-elle à une petite équipe ?",
+    "champ_038": "Oui. L’organisation est justement adaptée au niveau de maturité et au volume commercial de la structure.",
+    "champ_039": "Connect"
+  },
+  "section_9": {
+    "champ_040": "Un besoin à cadrer ?",
+    "champ_041": "Expliquez votre contexte, vos objectifs et ce qui bloque aujourd’hui. Connect peut intervenir sur un sujet précis ou sur l’ensemble du parcours commercial.",
+    "champ_042": "Parler de votre projet",
+    "champ_043": "/#contact",
+    "champ_044": "À explorer"
+  },
+  "section_10": {
+    "champ_045": "Services complémentaires.",
+    "champ_046": "Les sujets commerciaux et marketing fonctionnent mieux lorsqu’ils sont reliés entre eux.",
+    "champ_047": "Conseil commercial",
+    "champ_048": "Clarifier votre stratégie et vos priorités.",
+    "champ_049": "Marketing BtoB",
+    "champ_050": "Relier visibilité, acquisition et conversion.",
+    "champ_051": "Acquisition BtoB",
+    "champ_052": "Créer et mieux traiter les opportunités."
+  }
+}

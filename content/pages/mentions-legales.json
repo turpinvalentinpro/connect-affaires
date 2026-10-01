@@ -1,0 +1,50 @@
+{
+  "entete": {
+    "champ_001": "Légal",
+    "champ_002": "Mentions légales",
+    "champ_003": "Informations juridiques relatives à l'éditeur du site connect-affaires.fr."
+  },
+  "section_1": {
+    "champ_004": "Éditeur du site",
+    "champ_005": "Le site [connect-affaires.fr](https://www.connect-affaires.fr) est édité par **Valentin Turpin — Connect**, entreprise individuelle (auto-entrepreneur), basée à Aix-en-Provence, Bouches-du-Rhône (13), France.",
+    "champ_006": "SIRET : disponible sur demande\nTVA : non applicable, article 293 B du CGI"
+  },
+  "section_2": {
+    "champ_007": "Directeur de la publication",
+    "champ_008": "Le directeur de la publication est **Valentin Turpin**, fondateur de Connect."
+  },
+  "section_3": {
+    "champ_009": "Hébergement",
+    "champ_010": "**Vercel Inc.**\n340 Pine Street, Suite 701, San Francisco, CA 94104, États-Unis\n[vercel.com](https://vercel.com)"
+  },
+  "section_4": {
+    "champ_011": "Activité",
+    "champ_012": "Connect exerce une activité de **conseil commercial**, **marketing BtoB** et **développement commercial** auprès des entreprises.",
+    "champ_013": "Code APE : 7022Z — Conseil pour les affaires et autres conseils de gestion."
+  },
+  "section_5": {
+    "champ_014": "Propriété intellectuelle",
+    "champ_015": "L'ensemble des contenus de ce site — textes, images, logo, structure, charte graphique et code source — est protégé. Toute reproduction, diffusion ou exploitation sans autorisation écrite préalable est interdite."
+  },
+  "section_6": {
+    "champ_016": "Liens hypertextes",
+    "champ_017": "Le site peut contenir des liens vers des sites tiers. Connect ne peut être tenu responsable de leur contenu ou de leurs pratiques."
+  },
+  "section_7": {
+    "champ_018": "Responsabilité",
+    "champ_019": "Connect s'efforce de fournir des informations exactes et à jour. L'utilisation des informations présentes sur le site se fait sous la seule responsabilité de l'utilisateur."
+  },
+  "section_8": {
+    "champ_020": "Données personnelles",
+    "champ_021": "Le traitement des données personnelles est détaillé dans la [politique de confidentialité](/politique-confidentialite.html)."
+  },
+  "section_9": {
+    "champ_022": "Droit applicable",
+    "champ_023": "Les présentes mentions légales sont régies par le droit français. Tout litige relève de la compétence des tribunaux d'Aix-en-Provence."
+  },
+  "section_10": {
+    "champ_024": "Contact",
+    "champ_025": "Pour toute question : [valentin@connect-affaires.fr](mailto:valentin@connect-affaires.fr)",
+    "champ_026": "Dernière mise à jour : 1er avril 2026."
+  }
+}

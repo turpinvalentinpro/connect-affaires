@@ -3,9 +3,14 @@
   "private": true,
   "scripts": {
     "build": "node build.mjs",
-    "test": "node --test tests/oauth.test.cjs"
+    "test": "node --test tests/oauth.test.cjs tests/visual.test.mjs"
   },
   "engines": {
     "node": "22.x"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "marked": "18.0.14",
+    "sanitize-html": "2.18.0"
   }
 }

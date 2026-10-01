@@ -1,0 +1,55 @@
+{
+  "entete": {
+    "champ_001": "Guide marketing BtoB",
+    "champ_002": "Marketing BtoB : par où commencer quand on est une TPE ou PME ?",
+    "champ_003": "Guide marketing BtoB pour TPE et PME : objectifs, acquisition, contenus, landing pages, conversion et mesure des résultats.",
+    "champ_004": "/service-marketing.jpg",
+    "champ_005": "Marketing BtoB : par où commencer quand on est une TPE ou PME ?",
+    "champ_006": "Le marketing BtoB peut vite devenir une suite d’actions déconnectées : quelques publications, une campagne ponctuelle, un nouveau site, puis un outil supplémentaire. Pour une TPE ou une PME, la priorité est plutôt de construire une logique simple entre visibilité, acquisition et vente."
+  },
+  "section_1": {
+    "champ_007": "1. Partir de l’objectif commercial",
+    "champ_008": "Le canal marketing vient après l’objectif. Une entreprise qui cherche des rendez-vous avec des dirigeants locaux n’a pas les mêmes besoins qu’une entreprise qui veut développer une offre nationale ou faire connaître une expertise très spécialisée.",
+    "champ_009": "Avant de choisir un canal, il faut définir ce que le marketing doit produire : prises de contact, demandes de devis, inscriptions, rendez-vous ou simplement davantage de visibilité auprès d’une cible précise."
+  },
+  "section_2": {
+    "champ_010": "2. Comprendre comment les prospects prennent leur décision",
+    "champ_011": "En BtoB, le parcours comporte souvent plusieurs étapes. Un prospect peut découvrir une entreprise via Google, consulter LinkedIn, revenir sur le site, télécharger une information, puis prendre contact après plusieurs jours.",
+    "champ_012": "Le travail consiste à rendre ce parcours cohérent : message clair, preuve suffisante, appel à l’action visible et suivi efficace lorsque le prospect se manifeste."
+  },
+  "section_3": {
+    "champ_013": "3. Choisir les contenus qui servent réellement le commerce",
+    "champ_014": "Pages services qui répondent aux questions importantes avant une prise de contact.",
+    "champ_015": "Cas clients pour montrer comment un problème concret a été traité.",
+    "champ_016": "Guides ou articles pour couvrir les questions recherchées par les prospects.",
+    "champ_017": "Messages de campagne adaptés au niveau de maturité de la cible."
+  },
+  "section_4": {
+    "champ_018": "4. Optimiser la conversion avant d’augmenter le trafic",
+    "champ_019": "Envoyer plus de visiteurs vers une page mal structurée augmente rarement les résultats de manière durable. Il faut d’abord vérifier la proposition de valeur, la lisibilité de l’offre, les preuves, le formulaire et les appels à l’action."
+  },
+  "section_5": {
+    "champ_020": "5. Suivre quelques indicateurs utiles",
+    "champ_021": "Les impressions et les clics permettent de comprendre la visibilité, mais ils ne suffisent pas. Pour piloter le marketing BtoB, il faut aussi suivre la qualité des leads, leur origine, le taux de transformation et les opportunités réellement créées."
+  },
+  "section_6": {
+    "champ_022": "Par où commencer concrètement ?",
+    "champ_023": "Définir la cible et l’objectif commercial.",
+    "champ_024": "Choisir un canal principal d’acquisition.",
+    "champ_025": "Créer ou améliorer la page de conversion associée.",
+    "champ_026": "Prévoir le suivi commercial des leads.",
+    "champ_027": "Mesurer les résultats avant d’ajouter un nouveau canal.",
+    "champ_028": "Cette logique permet d’avancer progressivement et d’éviter de disperser le budget et le temps de l’équipe.",
+    "champ_029": "Vous voulez appliquer cette logique à votre entreprise ?",
+    "champ_030": "À poursuivre"
+  },
+  "section_7": {
+    "champ_031": "Approfondir le sujet.",
+    "champ_032": "Conseil commercial",
+    "champ_033": "Clarifier la stratégie et les priorités.",
+    "champ_034": "Marketing BtoB",
+    "champ_035": "Relier acquisition et conversion.",
+    "champ_036": "Fer de Lance",
+    "champ_037": "Un retour client réel sur la visibilité et l’acquisition."
+  }
+}

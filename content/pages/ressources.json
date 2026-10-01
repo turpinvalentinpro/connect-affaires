@@ -1,0 +1,51 @@
+{
+  "entete": {
+    "champ_001": "Ressources Connect",
+    "champ_002": "Des contenus utiles pour mieux structurer votre développement.",
+    "champ_003": "Guides pratiques, retours d’expérience et cas clients autour du commerce, du marketing BtoB, de l’acquisition et de l’organisation.",
+    "champ_004": "/connect-motion-poster.jpg",
+    "champ_005": "Développement commercial et marketing BtoB",
+    "champ_006": "Guide"
+  },
+  "section_1": {
+    "champ_007": "Comment structurer le développement commercial d’une PME ?",
+    "champ_008": "Une méthode simple pour passer des objectifs à un plan d’action commercial exploitable.",
+    "champ_009": "Lire →",
+    "champ_010": "/structurer-developpement-commercial-pme.html",
+    "champ_011": "Guide"
+  },
+  "section_2": {
+    "champ_012": "Marketing BtoB : par où commencer quand on est une TPE ou PME ?",
+    "champ_013": "Prioriser les bons canaux, les bons contenus et les bons indicateurs sans se disperser.",
+    "champ_014": "Lire →",
+    "champ_015": "/marketing-btob-tpe-pme.html",
+    "champ_016": "Cas client"
+  },
+  "section_3": {
+    "champ_017": "Fer de Lance : visibilité, ciblage et demandes entrantes",
+    "champ_018": "Retour sur la collaboration autour du site et de l’acquisition, à partir du témoignage publié par le client.",
+    "champ_019": "Lire →",
+    "champ_020": "/cas-client-fer-de-lance.html",
+    "champ_021": "Service"
+  },
+  "section_4": {
+    "champ_022": "Conseil commercial à Aix-en-Provence",
+    "champ_023": "Clarifier la stratégie, les priorités et l’organisation commerciale.",
+    "champ_024": "Lire →",
+    "champ_025": "/conseil-commercial-aix-en-provence.html",
+    "champ_026": "Service"
+  },
+  "section_5": {
+    "champ_027": "Marketing BtoB à Aix-en-Provence",
+    "champ_028": "Relier acquisition, contenus et conversion aux objectifs commerciaux.",
+    "champ_029": "Lire →",
+    "champ_030": "/marketing-btob-aix-en-provence.html",
+    "champ_031": "Service"
+  },
+  "section_6": {
+    "champ_032": "CRM & organisation commerciale",
+    "champ_033": "Structurer le pipeline, les relances et le suivi des opportunités.",
+    "champ_034": "Lire →",
+    "champ_035": "/crm-organisation-commerciale-aix-en-provence.html"
+  }
+}

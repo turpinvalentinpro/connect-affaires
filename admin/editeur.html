@@ -1,0 +1,18 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Éditeur — Connect</title><link rel="stylesheet" href="/admin/editor.css"></head><body>
+<div id="connect-bar"><a href="/admin/">← Mes pages</a><span>Connect · Éditeur</span><button id="mobile-view" type="button">Voir l’aperçu</button><a href="/" target="_blank" rel="noopener">Voir le site ↗</a></div>
+<p id="loading">Chargement de votre espace d’édition…</p>
+<script>window.CMS_MANUAL_INIT=true;</script><script src="https://unpkg.com/decap-cms@3.16.3/dist/decap-cms.js"></script>
+<script type="module">
+import {registerPreviews} from '/admin/previews.js';
+try {
+ const responses=await Promise.all([fetch('/admin/config.yml',{cache:'no-store'}),fetch('/admin/preview-data.json',{cache:'no-store'})]);
+ if(responses.some(r=>!r.ok))throw Error('Configuration indisponible');
+ const [config,pages]=await Promise.all(responses.map(r=>r.json()));
+ registerPreviews(pages);
+ CMS.init({config:{...config,load_config_file:false}});
+ document.getElementById('loading').remove();
+} catch { document.getElementById('loading').textContent='Chargement impossible. Actualisez la page. Si le problème persiste, vérifiez le dernier déploiement Vercel.'; }
+const button=document.getElementById('mobile-view');
+button.onclick=()=>{const active=document.body.classList.toggle('connect-preview');button.textContent=active?'Revenir aux champs':'Voir l’aperçu';button.setAttribute('aria-pressed',String(active));};
+window.addEventListener('hashchange',()=>{document.body.classList.remove('connect-preview');button.textContent='Voir l’aperçu';});
+</script></body></html>

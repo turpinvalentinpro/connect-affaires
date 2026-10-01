@@ -1,0 +1,55 @@
+{
+  "entete": {
+    "champ_001": "RGPD",
+    "champ_002": "Politique de confidentialité",
+    "champ_003": "Comment Connect collecte, utilise et protège les données envoyées via le formulaire de contact."
+  },
+  "section_1": {
+    "champ_004": "Responsable du traitement",
+    "champ_005": "**Valentin Turpin — Connect**, entreprise individuelle (auto-entrepreneur), basée à Aix-en-Provence, Bouches-du-Rhône, France."
+  },
+  "section_2": {
+    "champ_006": "Données collectées",
+    "champ_007": "Via le formulaire de contact, Connect collecte uniquement les informations suivantes :",
+    "champ_008": "Nom et prénom",
+    "champ_009": "Nom de l'entreprise (optionnel)",
+    "champ_010": "Adresse email",
+    "champ_011": "Numéro de téléphone (optionnel)",
+    "champ_012": "Type de besoin",
+    "champ_013": "Contenu du message",
+    "champ_014": "Aucun cookie publicitaire n'est déposé sur le site."
+  },
+  "section_3": {
+    "champ_015": "Finalité",
+    "champ_016": "Ces données sont utilisées exclusivement pour répondre à votre demande, échanger avec vous et, si nécessaire, engager une relation commerciale."
+  },
+  "section_4": {
+    "champ_017": "Base légale",
+    "champ_018": "Le traitement repose sur votre consentement explicite, recueilli via la case d’acceptation obligatoire du formulaire (article 6.1.a du RGPD)."
+  },
+  "section_5": {
+    "champ_019": "Durée de conservation",
+    "champ_020": "Les données sont conservées pendant **3 ans maximum** à compter du dernier échange."
+  },
+  "section_6": {
+    "champ_021": "Destinataires",
+    "champ_022": "Les données sont traitées uniquement par Valentin Turpin. Elles ne sont ni vendues, ni louées, ni cédées. Le formulaire utilise l'intermédiaire technique **Web3Forms**."
+  },
+  "section_7": {
+    "champ_023": "Vos droits",
+    "champ_024": "Conformément au RGPD, vous disposez d'un droit d'accès, de rectification, d'effacement, de limitation, d'opposition et de portabilité. Pour exercer vos droits : [valentin@connect-affaires.fr](mailto:valentin@connect-affaires.fr)."
+  },
+  "section_8": {
+    "champ_025": "Sécurité",
+    "champ_026": "Le site utilise une connexion sécurisée en HTTPS. Les données sont transmises via des services sécurisés."
+  },
+  "section_9": {
+    "champ_027": "Avis Google Maps",
+    "champ_028": "Le site peut afficher des avis publics provenant de la fiche Google Maps de Connect via  (Places API). Les contenus affichés restent attribués à leurs auteurs et renvoient vers leur source sur Google Maps. Cette intégration est soumise aux [conditions ](https://cloud.google.com/maps-platform/terms) et à la [politique de confidentialité de Google](https://policies.google.com/privacy)."
+  },
+  "section_10": {
+    "champ_029": "Réclamation",
+    "champ_030": "Vous pouvez adresser une réclamation à la **CNIL** : [www.cnil.fr](https://www.cnil.fr).",
+    "champ_031": "Dernière mise à jour : 1er avril 2026."
+  }
+}

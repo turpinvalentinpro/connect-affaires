@@ -11,176 +11,3288 @@
   "public_folder": "/uploads",
   "collections": [
     {
-      "name": "landing",
-      "label": "Landing page Connect",
-      "editor": {
-        "preview": false
-      },
+      "name": "accueil",
+      "label": "01 · Accueil",
+      "description": "Ouvrez une rubrique, modifiez, vérifiez l’aperçu, puis publiez.",
       "files": [
         {
-          "name": "home",
-          "label": "Textes, médias et contact",
-          "file": "content/home.json",
+          "name": "accueil",
+          "label": "Page d’accueil",
+          "file": "content/accueil.json",
           "fields": [
             {
-              "name": "hero_title",
-              "label": "Accroche — première ligne",
-              "widget": "string"
+              "name": "entete",
+              "label": "01 · Première impression",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "hero_title",
+                  "label": "Accroche — première ligne",
+                  "widget": "string"
+                },
+                {
+                  "name": "hero_accent",
+                  "label": "Accroche — deuxième ligne",
+                  "widget": "string"
+                },
+                {
+                  "name": "hero_intro",
+                  "label": "Introduction",
+                  "widget": "text"
+                },
+                {
+                  "name": "cta",
+                  "label": "Texte du bouton de Contact",
+                  "widget": "string"
+                }
+              ]
             },
             {
-              "name": "hero_accent",
-              "label": "Accroche — deuxième ligne",
-              "widget": "string"
+              "name": "services",
+              "label": "02 · Présentation des services",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "services_title",
+                  "label": "Services — titre",
+                  "widget": "string"
+                },
+                {
+                  "name": "services_intro",
+                  "label": "Services — introduction",
+                  "widget": "text"
+                }
+              ]
             },
             {
-              "name": "hero_intro",
-              "label": "Introduction",
-              "widget": "text"
+              "name": "methode",
+              "label": "03 · Méthode de travail",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "methode_title",
+                  "label": "Méthode — titre",
+                  "widget": "string"
+                },
+                {
+                  "name": "methode_intro",
+                  "label": "Méthode — introduction",
+                  "widget": "text"
+                },
+                {
+                  "name": "method_title_0",
+                  "label": "Étape 1 — titre",
+                  "widget": "string"
+                },
+                {
+                  "name": "method_text_0",
+                  "label": "Étape 1 — description",
+                  "widget": "string"
+                },
+                {
+                  "name": "method_title_1",
+                  "label": "Étape 2 — titre",
+                  "widget": "string"
+                },
+                {
+                  "name": "method_text_1",
+                  "label": "Étape 2 — description",
+                  "widget": "string"
+                },
+                {
+                  "name": "method_title_2",
+                  "label": "Étape 3 — titre",
+                  "widget": "string"
+                },
+                {
+                  "name": "method_text_2",
+                  "label": "Étape 3 — description",
+                  "widget": "string"
+                }
+              ]
             },
             {
-              "name": "services_title",
-              "label": "services — titre",
-              "widget": "string"
-            },
-            {
-              "name": "services_intro",
-              "label": "services — introduction",
-              "widget": "text"
-            },
-            {
-              "name": "methode_title",
-              "label": "methode — titre",
-              "widget": "string"
-            },
-            {
-              "name": "methode_intro",
-              "label": "methode — introduction",
-              "widget": "text"
-            },
-            {
-              "name": "about_title",
-              "label": "about — titre",
-              "widget": "string"
-            },
-            {
-              "name": "references_title",
-              "label": "references — titre",
-              "widget": "string"
-            },
-            {
-              "name": "references_intro",
-              "label": "references — introduction",
-              "widget": "string"
-            },
-            {
-              "name": "faq_title",
-              "label": "faq — titre",
-              "widget": "string"
-            },
-            {
-              "name": "faq_intro",
-              "label": "faq — introduction",
-              "widget": "string"
-            },
-            {
-              "name": "contact_title",
-              "label": "contact — titre",
-              "widget": "string"
-            },
-            {
-              "name": "contact_intro",
-              "label": "contact — introduction",
-              "widget": "text"
-            },
-            {
-              "name": "method_title_0",
-              "label": "Étape 1 — titre",
-              "widget": "string"
-            },
-            {
-              "name": "method_text_0",
-              "label": "Étape 1 — description",
-              "widget": "string"
-            },
-            {
-              "name": "method_title_1",
-              "label": "Étape 2 — titre",
-              "widget": "string"
-            },
-            {
-              "name": "method_text_1",
-              "label": "Étape 2 — description",
-              "widget": "string"
-            },
-            {
-              "name": "method_title_2",
-              "label": "Étape 3 — titre",
-              "widget": "string"
-            },
-            {
-              "name": "method_text_2",
-              "label": "Étape 3 — description",
-              "widget": "string"
-            },
-            {
-              "name": "about_text_0",
-              "label": "Présentation — paragraphe 1",
-              "widget": "text"
-            },
-            {
-              "name": "about_text_1",
-              "label": "Présentation — paragraphe 2",
-              "widget": "text"
-            },
-            {
-              "name": "about_note",
-              "label": "Présentation — note",
-              "widget": "text"
-            },
-            {
-              "name": "portrait",
-              "label": "Photo de présentation",
-              "widget": "image"
-            },
-            {
-              "name": "portrait_alt",
-              "label": "Description de la photo",
-              "widget": "string"
-            },
-            {
-              "name": "video_poster",
-              "label": "Image de couverture vidéo",
-              "widget": "image"
+              "name": "presentation",
+              "label": "04 · Votre présentation",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "about_title",
+                  "label": "Présentation — titre",
+                  "widget": "string"
+                },
+                {
+                  "name": "about_text_0",
+                  "label": "Présentation — paragraphe 1",
+                  "widget": "text"
+                },
+                {
+                  "name": "about_text_1",
+                  "label": "Présentation — paragraphe 2",
+                  "widget": "text"
+                },
+                {
+                  "name": "about_note",
+                  "label": "Présentation — note",
+                  "widget": "text"
+                },
+                {
+                  "name": "portrait",
+                  "label": "Photo de présentation",
+                  "widget": "image"
+                },
+                {
+                  "name": "portrait_alt",
+                  "label": "Description de la photo",
+                  "widget": "string"
+                }
+              ]
             },
             {
               "name": "video",
-              "label": "Vidéo WebM",
-              "widget": "file"
+              "label": "05 · Vidéo",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "video",
+                  "label": "Vidéo WebM",
+                  "widget": "file"
+                },
+                {
+                  "name": "video_poster",
+                  "label": "Image de couverture vidéo",
+                  "widget": "image"
+                }
+              ]
             },
             {
-              "name": "email",
-              "label": "Adresse email publique",
-              "widget": "string"
+              "name": "references",
+              "label": "06 · Témoignages — introduction",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "references_title",
+                  "label": "Témoignages — titre",
+                  "widget": "string"
+                },
+                {
+                  "name": "references_intro",
+                  "label": "Témoignages — introduction",
+                  "widget": "string"
+                }
+              ]
             },
             {
-              "name": "zone",
-              "label": "Zone affichée dans le contact",
-              "widget": "string"
+              "name": "faq",
+              "label": "07 · Questions fréquentes — introduction",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "faq_title",
+                  "label": "FAQ — titre",
+                  "widget": "string"
+                },
+                {
+                  "name": "faq_intro",
+                  "label": "FAQ — introduction",
+                  "widget": "string"
+                }
+              ]
             },
             {
-              "name": "google_link",
-              "label": "Lien fiche Google",
-              "widget": "string"
+              "name": "contact",
+              "label": "08 · Contact",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "contact_title",
+                  "label": "Contact — titre",
+                  "widget": "string"
+                },
+                {
+                  "name": "contact_intro",
+                  "label": "Contact — introduction",
+                  "widget": "text"
+                },
+                {
+                  "name": "email",
+                  "label": "Adresse email publique",
+                  "widget": "string"
+                },
+                {
+                  "name": "zone",
+                  "label": "Zone affichée dans le Contact",
+                  "widget": "string"
+                },
+                {
+                  "name": "google_link",
+                  "label": "Lien fiche Google",
+                  "widget": "string"
+                }
+              ]
             },
             {
-              "name": "cta",
-              "label": "Texte du bouton de contact",
-              "widget": "string"
+              "name": "pied",
+              "label": "09 · Pied de page",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "footer_text",
+                  "label": "Présentation pied de page",
+                  "widget": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "services",
+      "label": "02 · Pages services",
+      "files": [
+        {
+          "name": "conseil-commercial-aix-en-provence",
+          "label": "Conseil commercial",
+          "file": "content/pages/conseil-commercial-aix-en-provence.json",
+          "fields": [
+            {
+              "name": "entete",
+              "label": "01 · En-tête de page",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_001",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_002",
+                  "label": "Titre principal",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_003",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_004",
+                  "label": "Texte du bouton",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_005",
+                  "label": "Destination du bouton",
+                  "widget": "string"
+                },
+                {
+                  "name": "champ_006",
+                  "label": "Texte du bouton",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_007",
+                  "label": "Destination du bouton",
+                  "widget": "string"
+                },
+                {
+                  "name": "champ_008",
+                  "label": "Image",
+                  "widget": "image",
+                  "hint": "Image compressée JPG, PNG ou WebP. Nom de fichier simple, sans espace ni accent."
+                },
+                {
+                  "name": "champ_009",
+                  "label": "Description de l’image",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_010",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                }
+              ]
             },
             {
-              "name": "footer_text",
-              "label": "Présentation pied de page",
-              "widget": "text"
+              "name": "section_1",
+              "label": "02 · Un regard extérieur pour décider plus vite et mieux structurer l’action commerciale.",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_011",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_012",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_013",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_014",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_015",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_016",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_017",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_018",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_019",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_2",
+              "label": "03 · Sur quoi peut porter une mission de conseil commercial ?",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_020",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_021",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_022",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_023",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_024",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_025",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_026",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_027",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_3",
+              "label": "04 · Une approche adaptée aux TPE et PME",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_028",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_029",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_4",
+              "label": "05 · Conseil et mise en œuvre",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_030",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_031",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_5",
+              "label": "06 · Questions fréquentes",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_032",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_6",
+              "label": "07 · À qui s’adresse le conseil commercial de Connect ?",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_033",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_034",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_7",
+              "label": "08 · Peut-on commencer par un audit ponctuel ?",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_035",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_036",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_8",
+              "label": "09 · Intervenez-vous uniquement à Aix-en-Provence ?",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_037",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_038",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_039",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_9",
+              "label": "10 · Un besoin à cadrer ?",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_040",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_041",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_042",
+                  "label": "Texte du bouton",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_043",
+                  "label": "Destination du bouton",
+                  "widget": "string"
+                },
+                {
+                  "name": "champ_044",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_10",
+              "label": "11 · Services complémentaires.",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_045",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_046",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_047",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_048",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_049",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_050",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_051",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_052",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "marketing-btob-aix-en-provence",
+          "label": "Marketing BtoB",
+          "file": "content/pages/marketing-btob-aix-en-provence.json",
+          "fields": [
+            {
+              "name": "entete",
+              "label": "01 · En-tête de page",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_001",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_002",
+                  "label": "Titre principal",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_003",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_004",
+                  "label": "Texte du bouton",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_005",
+                  "label": "Destination du bouton",
+                  "widget": "string"
+                },
+                {
+                  "name": "champ_006",
+                  "label": "Texte du bouton",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_007",
+                  "label": "Destination du bouton",
+                  "widget": "string"
+                },
+                {
+                  "name": "champ_008",
+                  "label": "Image",
+                  "widget": "image",
+                  "hint": "Image compressée JPG, PNG ou WebP. Nom de fichier simple, sans espace ni accent."
+                },
+                {
+                  "name": "champ_009",
+                  "label": "Description de l’image",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_010",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_1",
+              "label": "02 · Un marketing pensé pour soutenir le développement commercial.",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_011",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_012",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_013",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_014",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_015",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_016",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_017",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_018",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_019",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_2",
+              "label": "03 · Les sujets marketing que Connect peut prendre en charge",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_020",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_021",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_022",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_023",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_024",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_025",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_026",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_027",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_3",
+              "label": "04 · Marketing BtoB et cycle de vente",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_028",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_029",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_4",
+              "label": "05 · Mesurer ce qui compte",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_030",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_031",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_5",
+              "label": "06 · Questions fréquentes",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_032",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_6",
+              "label": "07 · Connect est-il une agence marketing classique ?",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_033",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_034",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_7",
+              "label": "08 · Pouvez-vous améliorer une landing page existante ?",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_035",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_036",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_8",
+              "label": "09 · Travaillez-vous le SEO local ?",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_037",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_038",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_039",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_9",
+              "label": "10 · Un besoin à cadrer ?",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_040",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_041",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_042",
+                  "label": "Texte du bouton",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_043",
+                  "label": "Destination du bouton",
+                  "widget": "string"
+                },
+                {
+                  "name": "champ_044",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_10",
+              "label": "11 · Services complémentaires.",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_045",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_046",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_047",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_048",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_049",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_050",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_051",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_052",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "acquisition-btob-aix-en-provence",
+          "label": "Acquisition BtoB",
+          "file": "content/pages/acquisition-btob-aix-en-provence.json",
+          "fields": [
+            {
+              "name": "entete",
+              "label": "01 · En-tête de page",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_001",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_002",
+                  "label": "Titre principal",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_003",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_004",
+                  "label": "Texte du bouton",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_005",
+                  "label": "Destination du bouton",
+                  "widget": "string"
+                },
+                {
+                  "name": "champ_006",
+                  "label": "Texte du bouton",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_007",
+                  "label": "Destination du bouton",
+                  "widget": "string"
+                },
+                {
+                  "name": "champ_008",
+                  "label": "Image",
+                  "widget": "image",
+                  "hint": "Image compressée JPG, PNG ou WebP. Nom de fichier simple, sans espace ni accent."
+                },
+                {
+                  "name": "champ_009",
+                  "label": "Description de l’image",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_010",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_1",
+              "label": "02 · L’acquisition ne se résume pas à générer des leads.",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_011",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_012",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_013",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_014",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_015",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_016",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_017",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_018",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_019",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_2",
+              "label": "03 · Quels leviers peuvent être utilisés ?",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_020",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_021",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_022",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_023",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_024",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_025",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_026",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_027",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_3",
+              "label": "04 · Choisir moins de canaux, mais mieux les exploiter",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_028",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_029",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_4",
+              "label": "05 · Relier acquisition et conversion",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_030",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_031",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_5",
+              "label": "06 · Questions fréquentes",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_032",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_6",
+              "label": "07 · Faites-vous de la génération de leads BtoB ?",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_033",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_034",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_7",
+              "label": "08 · L’acquisition passe-t-elle forcément par la publicité ?",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_035",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_036",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_8",
+              "label": "09 · Pouvez-vous organiser le suivi après la génération du lead ?",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_037",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_038",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_039",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_9",
+              "label": "10 · Un besoin à cadrer ?",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_040",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_041",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_042",
+                  "label": "Texte du bouton",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_043",
+                  "label": "Destination du bouton",
+                  "widget": "string"
+                },
+                {
+                  "name": "champ_044",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_10",
+              "label": "11 · Services complémentaires.",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_045",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_046",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_047",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_048",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_049",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_050",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_051",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_052",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "crm-organisation-commerciale-aix-en-provence",
+          "label": "CRM et organisation",
+          "file": "content/pages/crm-organisation-commerciale-aix-en-provence.json",
+          "fields": [
+            {
+              "name": "entete",
+              "label": "01 · En-tête de page",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_001",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_002",
+                  "label": "Titre principal",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_003",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_004",
+                  "label": "Texte du bouton",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_005",
+                  "label": "Destination du bouton",
+                  "widget": "string"
+                },
+                {
+                  "name": "champ_006",
+                  "label": "Texte du bouton",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_007",
+                  "label": "Destination du bouton",
+                  "widget": "string"
+                },
+                {
+                  "name": "champ_008",
+                  "label": "Image",
+                  "widget": "image",
+                  "hint": "Image compressée JPG, PNG ou WebP. Nom de fichier simple, sans espace ni accent."
+                },
+                {
+                  "name": "champ_009",
+                  "label": "Description de l’image",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_010",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_1",
+              "label": "02 · Un CRM utile est d’abord un CRM que l’équipe utilise réellement.",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_011",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_012",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_013",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_014",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_015",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_016",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_017",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_018",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_019",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_2",
+              "label": "03 · Ce qui peut être structuré",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_020",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_021",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_022",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_023",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_024",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_025",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_026",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_027",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_3",
+              "label": "04 · Commencer par le process, pas par l’outil",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_028",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_029",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_4",
+              "label": "05 · Une organisation qui facilite le pilotage",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_030",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_031",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_5",
+              "label": "06 · Questions fréquentes",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_032",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_6",
+              "label": "07 · Pouvez-vous travailler avec notre CRM actuel ?",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_033",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_034",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_7",
+              "label": "08 · Faut-il automatiser toutes les tâches ?",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_035",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_036",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_8",
+              "label": "09 · Cette prestation convient-elle à une petite équipe ?",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_037",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_038",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_039",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_9",
+              "label": "10 · Un besoin à cadrer ?",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_040",
+                  "label": "Sous-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_041",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_042",
+                  "label": "Texte du bouton",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_043",
+                  "label": "Destination du bouton",
+                  "widget": "string"
+                },
+                {
+                  "name": "champ_044",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_10",
+              "label": "11 · Services complémentaires.",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_045",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_046",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_047",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_048",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_049",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_050",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_051",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_052",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ressources",
+      "label": "03 · Ressources et guides",
+      "files": [
+        {
+          "name": "ressources",
+          "label": "Liste des ressources",
+          "file": "content/pages/ressources.json",
+          "fields": [
+            {
+              "name": "entete",
+              "label": "01 · En-tête de page",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_001",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_002",
+                  "label": "Titre principal",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_003",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_004",
+                  "label": "Image",
+                  "widget": "image",
+                  "hint": "Image compressée JPG, PNG ou WebP. Nom de fichier simple, sans espace ni accent."
+                },
+                {
+                  "name": "champ_005",
+                  "label": "Description de l’image",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_006",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_1",
+              "label": "02 · Comment structurer le développement commercial d’une PME ?",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_007",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_008",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_009",
+                  "label": "Texte du bouton",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_010",
+                  "label": "Destination du bouton",
+                  "widget": "string"
+                },
+                {
+                  "name": "champ_011",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_2",
+              "label": "03 · Marketing BtoB : par où commencer quand on est une TPE ou PME ?",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_012",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_013",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_014",
+                  "label": "Texte du bouton",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_015",
+                  "label": "Destination du bouton",
+                  "widget": "string"
+                },
+                {
+                  "name": "champ_016",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_3",
+              "label": "04 · Fer de Lance : visibilité, ciblage et demandes entrantes",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_017",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_018",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_019",
+                  "label": "Texte du bouton",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_020",
+                  "label": "Destination du bouton",
+                  "widget": "string"
+                },
+                {
+                  "name": "champ_021",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_4",
+              "label": "05 · Conseil commercial à Aix-en-Provence",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_022",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_023",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_024",
+                  "label": "Texte du bouton",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_025",
+                  "label": "Destination du bouton",
+                  "widget": "string"
+                },
+                {
+                  "name": "champ_026",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_5",
+              "label": "06 · Marketing BtoB à Aix-en-Provence",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_027",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_028",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_029",
+                  "label": "Texte du bouton",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_030",
+                  "label": "Destination du bouton",
+                  "widget": "string"
+                },
+                {
+                  "name": "champ_031",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_6",
+              "label": "07 · CRM & organisation commerciale",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_032",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_033",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_034",
+                  "label": "Texte du bouton",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_035",
+                  "label": "Destination du bouton",
+                  "widget": "string"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "structurer-developpement-commercial-pme",
+          "label": "Guide — Développement commercial",
+          "file": "content/pages/structurer-developpement-commercial-pme.json",
+          "fields": [
+            {
+              "name": "entete",
+              "label": "01 · En-tête de page",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_001",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_002",
+                  "label": "Titre principal",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_003",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_004",
+                  "label": "Image",
+                  "widget": "image",
+                  "hint": "Image compressée JPG, PNG ou WebP. Nom de fichier simple, sans espace ni accent."
+                },
+                {
+                  "name": "champ_005",
+                  "label": "Description de l’image",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_006",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_1",
+              "label": "02 · 1. Commencer par une cible et une offre lisibles",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_007",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_008",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_009",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_2",
+              "label": "03 · 2. Choisir quelques canaux d’acquisition",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_010",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_011",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_012",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_013",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_014",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_015",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_3",
+              "label": "04 · 3. Organiser le passage du lead à l’opportunité",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_016",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_017",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_4",
+              "label": "05 · 4. Transformer les objectifs en rythme de travail",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_018",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_019",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_020",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_5",
+              "label": "06 · 5. Faire évoluer le plan à partir des retours",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_021",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_022",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_6",
+              "label": "07 · Une structure simple pour démarrer",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_023",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_024",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_025",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_026",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_027",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_028",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_029",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_030",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_031",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_032",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_7",
+              "label": "08 · Approfondir le sujet.",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_033",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_034",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_035",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_036",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_037",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_038",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_039",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "marketing-btob-tpe-pme",
+          "label": "Guide — Marketing BtoB",
+          "file": "content/pages/marketing-btob-tpe-pme.json",
+          "fields": [
+            {
+              "name": "entete",
+              "label": "01 · En-tête de page",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_001",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_002",
+                  "label": "Titre principal",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_003",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_004",
+                  "label": "Image",
+                  "widget": "image",
+                  "hint": "Image compressée JPG, PNG ou WebP. Nom de fichier simple, sans espace ni accent."
+                },
+                {
+                  "name": "champ_005",
+                  "label": "Description de l’image",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_006",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_1",
+              "label": "02 · 1. Partir de l’objectif commercial",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_007",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_008",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_009",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_2",
+              "label": "03 · 2. Comprendre comment les prospects prennent leur décision",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_010",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_011",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_012",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_3",
+              "label": "04 · 3. Choisir les contenus qui servent réellement le commerce",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_013",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_014",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_015",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_016",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_017",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_4",
+              "label": "05 · 4. Optimiser la conversion avant d’augmenter le trafic",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_018",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_019",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_5",
+              "label": "06 · 5. Suivre quelques indicateurs utiles",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_020",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_021",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_6",
+              "label": "07 · Par où commencer concrètement ?",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_022",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_023",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_024",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_025",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_026",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_027",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_028",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_029",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_030",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_7",
+              "label": "08 · Approfondir le sujet.",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_031",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_032",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_033",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_034",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_035",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_036",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_037",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "clients",
+      "label": "04 · Cas client",
+      "files": [
+        {
+          "name": "cas-client-fer-de-lance",
+          "label": "Fer de Lance",
+          "file": "content/pages/cas-client-fer-de-lance.json",
+          "fields": [
+            {
+              "name": "entete",
+              "label": "01 · En-tête de page",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_001",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_002",
+                  "label": "Titre principal",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_003",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_004",
+                  "label": "Image",
+                  "widget": "image",
+                  "hint": "Image compressée JPG, PNG ou WebP. Nom de fichier simple, sans espace ni accent."
+                },
+                {
+                  "name": "champ_005",
+                  "label": "Description de l’image",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_1",
+              "label": "02 · Le contexte",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_006",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_007",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_2",
+              "label": "03 · Le travail engagé",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_008",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_009",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_010",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_011",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_012",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_013",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_3",
+              "label": "04 · Ce que ce cas illustre",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_014",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_015",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_016",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_017",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_018",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_019",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_020",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_4",
+              "label": "05 · Un retour client vérifiable",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_021",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_022",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_023",
+                  "label": "Paragraphe",
+                  "widget": "markdown",
+                  "minimal": true,
+                  "modes": [
+                    "rich_text"
+                  ],
+                  "buttons": [
+                    "bold",
+                    "italic",
+                    "link"
+                  ],
+                  "editor_components": []
+                },
+                {
+                  "name": "champ_024",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_025",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_5",
+              "label": "06 · Guides et services liés.",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_026",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_027",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_028",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_029",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_030",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_031",
+                  "label": "Intitulé",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_032",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "legal",
+      "label": "05 · Informations légales",
+      "files": [
+        {
+          "name": "mentions-legales",
+          "label": "Mentions légales",
+          "file": "content/pages/mentions-legales.json",
+          "fields": [
+            {
+              "name": "entete",
+              "label": "01 · En-tête de page",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_001",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_002",
+                  "label": "Titre principal",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_003",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_1",
+              "label": "02 · Éditeur du site",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_004",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_005",
+                  "label": "Paragraphe",
+                  "widget": "markdown",
+                  "minimal": true,
+                  "modes": [
+                    "rich_text"
+                  ],
+                  "buttons": [
+                    "bold",
+                    "italic",
+                    "link"
+                  ],
+                  "editor_components": []
+                },
+                {
+                  "name": "champ_006",
+                  "label": "Paragraphe",
+                  "widget": "markdown",
+                  "minimal": true,
+                  "modes": [
+                    "rich_text"
+                  ],
+                  "buttons": [
+                    "bold",
+                    "italic",
+                    "link"
+                  ],
+                  "editor_components": []
+                }
+              ]
+            },
+            {
+              "name": "section_2",
+              "label": "03 · Directeur de la publication",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_007",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_008",
+                  "label": "Paragraphe",
+                  "widget": "markdown",
+                  "minimal": true,
+                  "modes": [
+                    "rich_text"
+                  ],
+                  "buttons": [
+                    "bold",
+                    "italic",
+                    "link"
+                  ],
+                  "editor_components": []
+                }
+              ]
+            },
+            {
+              "name": "section_3",
+              "label": "04 · Hébergement",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_009",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_010",
+                  "label": "Paragraphe",
+                  "widget": "markdown",
+                  "minimal": true,
+                  "modes": [
+                    "rich_text"
+                  ],
+                  "buttons": [
+                    "bold",
+                    "italic",
+                    "link"
+                  ],
+                  "editor_components": []
+                }
+              ]
+            },
+            {
+              "name": "section_4",
+              "label": "05 · Activité",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_011",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_012",
+                  "label": "Paragraphe",
+                  "widget": "markdown",
+                  "minimal": true,
+                  "modes": [
+                    "rich_text"
+                  ],
+                  "buttons": [
+                    "bold",
+                    "italic",
+                    "link"
+                  ],
+                  "editor_components": []
+                },
+                {
+                  "name": "champ_013",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_5",
+              "label": "06 · Propriété intellectuelle",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_014",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_015",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_6",
+              "label": "07 · Liens hypertextes",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_016",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_017",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_7",
+              "label": "08 · Responsabilité",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_018",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_019",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_8",
+              "label": "09 · Données personnelles",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_020",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_021",
+                  "label": "Paragraphe",
+                  "widget": "markdown",
+                  "minimal": true,
+                  "modes": [
+                    "rich_text"
+                  ],
+                  "buttons": [
+                    "bold",
+                    "italic",
+                    "link"
+                  ],
+                  "editor_components": []
+                }
+              ]
+            },
+            {
+              "name": "section_9",
+              "label": "10 · Droit applicable",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_022",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_023",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_10",
+              "label": "11 · Contact",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_024",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_025",
+                  "label": "Paragraphe",
+                  "widget": "markdown",
+                  "minimal": true,
+                  "modes": [
+                    "rich_text"
+                  ],
+                  "buttons": [
+                    "bold",
+                    "italic",
+                    "link"
+                  ],
+                  "editor_components": []
+                },
+                {
+                  "name": "champ_026",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "politique-confidentialite",
+          "label": "Confidentialité",
+          "file": "content/pages/politique-confidentialite.json",
+          "fields": [
+            {
+              "name": "entete",
+              "label": "01 · En-tête de page",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_001",
+                  "label": "Sur-titre",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_002",
+                  "label": "Titre principal",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_003",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_1",
+              "label": "02 · Responsable du traitement",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_004",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_005",
+                  "label": "Paragraphe",
+                  "widget": "markdown",
+                  "minimal": true,
+                  "modes": [
+                    "rich_text"
+                  ],
+                  "buttons": [
+                    "bold",
+                    "italic",
+                    "link"
+                  ],
+                  "editor_components": []
+                }
+              ]
+            },
+            {
+              "name": "section_2",
+              "label": "03 · Données collectées",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_006",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_007",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_008",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_009",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_010",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_011",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_012",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_013",
+                  "label": "Point de la liste",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_014",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_3",
+              "label": "04 · Finalité",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_015",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_016",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_4",
+              "label": "05 · Base légale",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_017",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_018",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_5",
+              "label": "06 · Durée de conservation",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_019",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_020",
+                  "label": "Paragraphe",
+                  "widget": "markdown",
+                  "minimal": true,
+                  "modes": [
+                    "rich_text"
+                  ],
+                  "buttons": [
+                    "bold",
+                    "italic",
+                    "link"
+                  ],
+                  "editor_components": []
+                }
+              ]
+            },
+            {
+              "name": "section_6",
+              "label": "07 · Destinataires",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_021",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_022",
+                  "label": "Paragraphe",
+                  "widget": "markdown",
+                  "minimal": true,
+                  "modes": [
+                    "rich_text"
+                  ],
+                  "buttons": [
+                    "bold",
+                    "italic",
+                    "link"
+                  ],
+                  "editor_components": []
+                }
+              ]
+            },
+            {
+              "name": "section_7",
+              "label": "08 · Vos droits",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_023",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_024",
+                  "label": "Paragraphe",
+                  "widget": "markdown",
+                  "minimal": true,
+                  "modes": [
+                    "rich_text"
+                  ],
+                  "buttons": [
+                    "bold",
+                    "italic",
+                    "link"
+                  ],
+                  "editor_components": []
+                }
+              ]
+            },
+            {
+              "name": "section_8",
+              "label": "09 · Sécurité",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_025",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_026",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
+            },
+            {
+              "name": "section_9",
+              "label": "10 · Avis Google Maps",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_027",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_028",
+                  "label": "Paragraphe",
+                  "widget": "markdown",
+                  "minimal": true,
+                  "modes": [
+                    "rich_text"
+                  ],
+                  "buttons": [
+                    "bold",
+                    "italic",
+                    "link"
+                  ],
+                  "editor_components": []
+                }
+              ]
+            },
+            {
+              "name": "section_10",
+              "label": "11 · Réclamation",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "champ_029",
+                  "label": "Titre de section",
+                  "widget": "text"
+                },
+                {
+                  "name": "champ_030",
+                  "label": "Paragraphe",
+                  "widget": "markdown",
+                  "minimal": true,
+                  "modes": [
+                    "rich_text"
+                  ],
+                  "buttons": [
+                    "bold",
+                    "italic",
+                    "link"
+                  ],
+                  "editor_components": []
+                },
+                {
+                  "name": "champ_031",
+                  "label": "Paragraphe",
+                  "widget": "text"
+                }
+              ]
             }
           ]
         }
@@ -188,5 +3300,6 @@
     }
   ],
   "site_url": "https://www.connect-affaires.fr",
-  "display_url": "https://www.connect-affaires.fr"
+  "display_url": "https://www.connect-affaires.fr",
+  "logo_url": "/logo.png"
 }

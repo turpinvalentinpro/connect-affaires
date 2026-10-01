@@ -1,0 +1,57 @@
+{
+  "entete": {
+    "champ_001": "Guide développement commercial",
+    "champ_002": "Comment structurer le développement commercial d’une PME ?",
+    "champ_003": "Méthode pratique pour structurer le développement commercial d’une TPE ou PME : cibles, offre, acquisition, CRM, suivi et pilotage.",
+    "champ_004": "/service-strategy.jpg",
+    "champ_005": "Comment structurer le développement commercial d’une PME ?",
+    "champ_006": "Structurer le développement commercial d’une PME ne consiste pas à multiplier les actions. Il s’agit surtout de savoir où concentrer l’effort, comment suivre les opportunités et comment relier les actions marketing aux objectifs de vente."
+  },
+  "section_1": {
+    "champ_007": "1. Commencer par une cible et une offre lisibles",
+    "champ_008": "Avant de parler de prospection, de publicité ou de CRM, il faut pouvoir répondre simplement à trois questions : quel type de client veut-on développer, quel problème résout-on pour lui et pourquoi devrait-il choisir cette offre plutôt qu’une autre ?",
+    "champ_009": "Une cible trop large rend les messages génériques. Une offre mal expliquée oblige les commerciaux à improviser. Le premier travail consiste donc à réduire l’ambiguïté."
+  },
+  "section_2": {
+    "champ_010": "2. Choisir quelques canaux d’acquisition",
+    "champ_011": "Une PME n’a généralement aucun intérêt à être présente partout. Il vaut mieux sélectionner deux ou trois canaux cohérents avec son marché et les exploiter correctement.",
+    "champ_012": "Prospection directe lorsque les cibles sont identifiables.",
+    "champ_013": "SEO ou visibilité locale lorsque les prospects expriment déjà une demande.",
+    "champ_014": "Contenus et réseaux professionnels lorsque la confiance doit se construire dans le temps.",
+    "champ_015": "Réseau, partenariats et recommandations lorsque la relation joue un rôle important."
+  },
+  "section_3": {
+    "champ_016": "3. Organiser le passage du lead à l’opportunité",
+    "champ_017": "Le développement commercial se dégrade souvent entre la prise de contact et le suivi. Les demandes entrantes ne sont pas toujours qualifiées de la même manière, les relances restent dans les boîtes mail et les prochaines actions ne sont pas clairement définies."
+  },
+  "section_4": {
+    "champ_018": "4. Transformer les objectifs en rythme de travail",
+    "champ_019": "Un objectif annuel n’aide pas beaucoup au quotidien. Il doit être traduit en activités suivies régulièrement : opportunités créées, rendez-vous obtenus, propositions envoyées, affaires en attente de relance ou taux de transformation.",
+    "champ_020": "Le but n’est pas de tout mesurer. Il est de disposer de suffisamment d’informations pour décider où agir."
+  },
+  "section_5": {
+    "champ_021": "5. Faire évoluer le plan à partir des retours",
+    "champ_022": "Une stratégie commerciale n’est pas figée. Les objections des prospects, les canaux qui produisent les meilleurs contacts et les étapes où les affaires ralentissent donnent des informations utiles pour ajuster l’offre, les messages et le process."
+  },
+  "section_6": {
+    "champ_023": "Une structure simple pour démarrer",
+    "champ_024": "Définir les cibles prioritaires.",
+    "champ_025": "Clarifier l’offre et les arguments.",
+    "champ_026": "Choisir les principaux canaux d’acquisition.",
+    "champ_027": "Créer un pipeline de suivi.",
+    "champ_028": "Définir quelques indicateurs.",
+    "champ_029": "Faire un point régulier pour ajuster.",
+    "champ_030": "Cette structure suffit déjà à rendre le développement commercial plus lisible sans transformer l’entreprise en organisation complexe.",
+    "champ_031": "Vous voulez appliquer cette logique à votre entreprise ?",
+    "champ_032": "À poursuivre"
+  },
+  "section_7": {
+    "champ_033": "Approfondir le sujet.",
+    "champ_034": "Conseil commercial",
+    "champ_035": "Clarifier la stratégie et les priorités.",
+    "champ_036": "Marketing BtoB",
+    "champ_037": "Relier acquisition et conversion.",
+    "champ_038": "Fer de Lance",
+    "champ_039": "Un retour client réel sur la visibilité et l’acquisition."
+  }
+}

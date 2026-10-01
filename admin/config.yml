@@ -1,0 +1,192 @@
+{
+  "backend": {
+    "name": "github",
+    "repo": "turpinvalentinpro/connect-affaires",
+    "branch": "main",
+    "base_url": "https://www.connect-affaires.fr",
+    "auth_endpoint": "api/auth"
+  },
+  "locale": "fr",
+  "media_folder": "uploads",
+  "public_folder": "/uploads",
+  "collections": [
+    {
+      "name": "landing",
+      "label": "Landing page Connect",
+      "editor": {
+        "preview": false
+      },
+      "files": [
+        {
+          "name": "home",
+          "label": "Textes, médias et contact",
+          "file": "content/home.json",
+          "fields": [
+            {
+              "name": "hero_title",
+              "label": "Accroche — première ligne",
+              "widget": "string"
+            },
+            {
+              "name": "hero_accent",
+              "label": "Accroche — deuxième ligne",
+              "widget": "string"
+            },
+            {
+              "name": "hero_intro",
+              "label": "Introduction",
+              "widget": "text"
+            },
+            {
+              "name": "services_title",
+              "label": "services — titre",
+              "widget": "string"
+            },
+            {
+              "name": "services_intro",
+              "label": "services — introduction",
+              "widget": "text"
+            },
+            {
+              "name": "methode_title",
+              "label": "methode — titre",
+              "widget": "string"
+            },
+            {
+              "name": "methode_intro",
+              "label": "methode — introduction",
+              "widget": "text"
+            },
+            {
+              "name": "about_title",
+              "label": "about — titre",
+              "widget": "string"
+            },
+            {
+              "name": "references_title",
+              "label": "references — titre",
+              "widget": "string"
+            },
+            {
+              "name": "references_intro",
+              "label": "references — introduction",
+              "widget": "string"
+            },
+            {
+              "name": "faq_title",
+              "label": "faq — titre",
+              "widget": "string"
+            },
+            {
+              "name": "faq_intro",
+              "label": "faq — introduction",
+              "widget": "string"
+            },
+            {
+              "name": "contact_title",
+              "label": "contact — titre",
+              "widget": "string"
+            },
+            {
+              "name": "contact_intro",
+              "label": "contact — introduction",
+              "widget": "text"
+            },
+            {
+              "name": "method_title_0",
+              "label": "Étape 1 — titre",
+              "widget": "string"
+            },
+            {
+              "name": "method_text_0",
+              "label": "Étape 1 — description",
+              "widget": "string"
+            },
+            {
+              "name": "method_title_1",
+              "label": "Étape 2 — titre",
+              "widget": "string"
+            },
+            {
+              "name": "method_text_1",
+              "label": "Étape 2 — description",
+              "widget": "string"
+            },
+            {
+              "name": "method_title_2",
+              "label": "Étape 3 — titre",
+              "widget": "string"
+            },
+            {
+              "name": "method_text_2",
+              "label": "Étape 3 — description",
+              "widget": "string"
+            },
+            {
+              "name": "about_text_0",
+              "label": "Présentation — paragraphe 1",
+              "widget": "text"
+            },
+            {
+              "name": "about_text_1",
+              "label": "Présentation — paragraphe 2",
+              "widget": "text"
+            },
+            {
+              "name": "about_note",
+              "label": "Présentation — note",
+              "widget": "text"
+            },
+            {
+              "name": "portrait",
+              "label": "Photo de présentation",
+              "widget": "image"
+            },
+            {
+              "name": "portrait_alt",
+              "label": "Description de la photo",
+              "widget": "string"
+            },
+            {
+              "name": "video_poster",
+              "label": "Image de couverture vidéo",
+              "widget": "image"
+            },
+            {
+              "name": "video",
+              "label": "Vidéo WebM",
+              "widget": "file"
+            },
+            {
+              "name": "email",
+              "label": "Adresse email publique",
+              "widget": "string"
+            },
+            {
+              "name": "zone",
+              "label": "Zone affichée dans le contact",
+              "widget": "string"
+            },
+            {
+              "name": "google_link",
+              "label": "Lien fiche Google",
+              "widget": "string"
+            },
+            {
+              "name": "cta",
+              "label": "Texte du bouton de contact",
+              "widget": "string"
+            },
+            {
+              "name": "footer_text",
+              "label": "Présentation pied de page",
+              "widget": "text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "site_url": "https://www.connect-affaires.fr",
+  "display_url": "https://www.connect-affaires.fr"
+}

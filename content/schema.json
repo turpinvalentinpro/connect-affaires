@@ -1,0 +1,130 @@
+[
+  {
+    "key": "hero_title",
+    "kind": "text"
+  },
+  {
+    "key": "hero_accent",
+    "kind": "text"
+  },
+  {
+    "key": "hero_intro",
+    "kind": "text"
+  },
+  {
+    "key": "services_title",
+    "kind": "text"
+  },
+  {
+    "key": "services_intro",
+    "kind": "text"
+  },
+  {
+    "key": "methode_title",
+    "kind": "text"
+  },
+  {
+    "key": "methode_intro",
+    "kind": "text"
+  },
+  {
+    "key": "about_title",
+    "kind": "text"
+  },
+  {
+    "key": "references_title",
+    "kind": "text"
+  },
+  {
+    "key": "references_intro",
+    "kind": "text"
+  },
+  {
+    "key": "faq_title",
+    "kind": "text"
+  },
+  {
+    "key": "faq_intro",
+    "kind": "text"
+  },
+  {
+    "key": "contact_title",
+    "kind": "text"
+  },
+  {
+    "key": "contact_intro",
+    "kind": "text"
+  },
+  {
+    "key": "method_title_0",
+    "kind": "text"
+  },
+  {
+    "key": "method_text_0",
+    "kind": "text"
+  },
+  {
+    "key": "method_title_1",
+    "kind": "text"
+  },
+  {
+    "key": "method_text_1",
+    "kind": "text"
+  },
+  {
+    "key": "method_title_2",
+    "kind": "text"
+  },
+  {
+    "key": "method_text_2",
+    "kind": "text"
+  },
+  {
+    "key": "about_text_0",
+    "kind": "text"
+  },
+  {
+    "key": "about_text_1",
+    "kind": "text"
+  },
+  {
+    "key": "about_note",
+    "kind": "text"
+  },
+  {
+    "key": "portrait",
+    "kind": "media"
+  },
+  {
+    "key": "portrait_alt",
+    "kind": "text"
+  },
+  {
+    "key": "video_poster",
+    "kind": "media"
+  },
+  {
+    "key": "video",
+    "kind": "media"
+  },
+  {
+    "key": "email",
+    "kind": "email"
+  },
+  {
+    "key": "zone",
+    "kind": "text"
+  },
+  {
+    "key": "google_link",
+    "kind": "url"
+  },
+  {
+    "key": "cta",
+    "kind": "text"
+  },
+  {
+    "key": "footer_text",
+    "kind": "text"
+  }
+]

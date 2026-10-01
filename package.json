@@ -1,0 +1,11 @@
+{
+  "name": "connect-cms",
+  "private": true,
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test tests/oauth.test.cjs"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Administration Connect</title></head>
+<body><p id="loading">Chargement de l’administration Connect…</p>
+<script>window.CMS_MANUAL_INIT=true;</script>
+<script src="https://unpkg.com/decap-cms@3.16.3/dist/decap-cms.js"></script>
+<script>
+(async () => {
+ try {
+  if (location.origin !== 'https://www.connect-affaires.fr') {
+   document.getElementById('loading').textContent = 'Pour publier, ouvrez https://www.connect-affaires.fr/admin/';
+   return;
+  }
+  const response = await fetch('/admin/config.yml', {cache:'no-store'});
+  if (!response.ok) throw new Error('Configuration introuvable');
+  const config = await response.json();
+  if (!window.CMS) throw new Error('Éditeur indisponible');
+  CMS.init({config:{...config,load_config_file:false}});
+  document.getElementById('loading').remove();
+ } catch {
+  document.getElementById('loading').textContent = 'Chargement impossible. Rechargez la page et vérifiez votre connexion.';
+ }
+})();
+</script></body></html>

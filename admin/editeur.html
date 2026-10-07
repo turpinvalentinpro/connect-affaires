@@ -3,16 +3,29 @@
 <p id="loading">Chargement de l’éditeur…</p>
 <script>window.CMS_MANUAL_INIT=true;</script><script src="https://unpkg.com/decap-cms@3.16.3/dist/decap-cms.js"></script>
 <script type="module">
-import {registerPreviews} from '/admin/previews.js?v=connect-1';
+const timeout=(promise,ms)=>Promise.race([promise,new Promise((_,reject)=>setTimeout(()=>reject(Error('Délai de chargement dépassé')),ms))]);
 try {
- const responses=await Promise.all([fetch('/admin/config.yml',{cache:'no-store'}),fetch('/admin/preview-data.json',{cache:'no-store'})]);
- if(responses.some(r=>!r.ok))throw Error('Configuration indisponible');
- const [config,pages]=await Promise.all(responses.map(r=>r.json()));
+ const response=await fetch('/admin/config.yml',{cache:'no-store',signal:AbortSignal.timeout(15000)});
+ if(!response.ok)throw Error('Configuration indisponible');
+ const config=await response.json();
+ let pages=[];
+ try {
+  const response=await fetch('/admin/preview-data.json',{cache:'no-store',signal:AbortSignal.timeout(10000)});
+  if(!response.ok)throw Error('Aperçus indisponibles');
+  pages=await response.json();
+  const {registerPreviews}=await timeout(import('/admin/previews.js?v=20261007-fix'),10000);
+  registerPreviews(pages);
+ } catch(error) {
+  console.warn('Aperçu Connect indisponible',error);
+  const notice=document.createElement('p');
+  notice.textContent='L’aperçu personnalisé est indisponible. Vous pouvez continuer à modifier et enregistrer vos contenus.';
+  notice.style.cssText='position:fixed;bottom:0;left:0;right:0;z-index:10001;margin:0;padding:12px;background:#fff4d6;color:#172033;font:14px system-ui';
+  document.body.append(notice);
+ }
  const labelWithoutNumber=value=>value.replace(/^\d+\s*·\s*/, '');
  for(const collection of config.collections){collection.label=labelWithoutNumber(collection.label);for(const file of collection.files){for(const field of file.fields)field.label=labelWithoutNumber(field.label);}}
  const showPage=()=>{const id=location.hash.split('/').at(-1);const page=pages.find(p=>p.id===id);document.getElementById('current-page').textContent=page?.label||'Édition';};
  showPage();window.addEventListener('hashchange',showPage);
- registerPreviews(pages);
  CMS.init({config:{...config,load_config_file:false}});
  document.getElementById('loading').remove();
 } catch { document.getElementById('loading').textContent='Chargement impossible. Actualisez la page. Si le problème persiste, vérifiez le dernier déploiement Vercel.'; }

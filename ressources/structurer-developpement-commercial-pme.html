@@ -339,7 +339,39 @@ body{background:#fff}
 .seo-inline-links{display:flex;flex-wrap:wrap;gap:9px 14px;margin-top:20px;font-size:13px}.seo-inline-links a{color:#147faf;font-weight:700;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
 @media(max-width:920px){.seo-hero-grid,.content-grid{grid-template-columns:1fr}.seo-hero-media{max-width:700px}.side-card{position:static}.value-grid,.related-links{grid-template-columns:1fr 1fr}.resource-list{grid-template-columns:1fr}}
 @media(max-width:640px){.seo-hero{padding:50px 0}.seo-hero-grid{gap:28px}.seo-hero h1{font-size:clamp(36px,10vw,49px)}.seo-hero-actions{flex-direction:column}.seo-hero-actions .btn{width:100%}.content-section{padding:62px 0}.value-grid,.related-links{grid-template-columns:1fr}.prose p,.article-body p{font-size:16px}.article-body h2{margin-top:34px}.resource-card{min-height:0}}
-</style><script async src="https://www.googletagmanager.com/gtag/js?id=G-YQL7F6LPR1"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-YQL7F6LPR1');</script></head><body><a href="#main" class="skip-link">Aller au contenu</a><header class="site-header">
+</style><script async src="https://www.googletagmanager.com/gtag/js?id=G-YQL7F6LPR1"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-YQL7F6LPR1');</script>
+<style id="responsive-media-fix">
+/* Responsive media hardening: preserve intrinsic image ratios and prevent overflow. */
+img{max-width:100%;}
+figure{max-width:100%;}
+.seo-hero-grid>*{min-width:0;}
+.seo-hero-media{
+  width:100% !important;
+  max-width:100% !important;
+  min-width:0 !important;
+  margin:0 !important;
+}
+.seo-hero-media img{
+  display:block !important;
+  width:100% !important;
+  max-width:100% !important;
+  height:auto !important;
+  aspect-ratio:auto !important;
+  object-fit:contain !important;
+  object-position:center center !important;
+}
+.hero-visual,.service-image,.portrait-wrap{max-width:100%;min-width:0;}
+.hero-visual img,.service-image img,.portrait{max-width:100%;}
+.article-body img,.prose img,.resource-card img{max-width:100%;height:auto;}
+@media (max-width:920px){
+  .seo-hero-media{justify-self:stretch !important;margin-inline:auto !important;}
+}
+@media (max-width:640px){
+  .seo-hero-media{width:100% !important;max-width:100% !important;}
+  .seo-hero-media img{width:100% !important;height:auto !important;}
+}
+</style>
+</head><body><a href="#main" class="skip-link">Aller au contenu</a><header class="site-header">
 <div class="container nav-wrap">
 <a aria-label="Connect — Accueil" class="brand" href="/">
 <img alt="Logo Connect" class="brand-logo" height="42" src="/logo.png" width="42"/>

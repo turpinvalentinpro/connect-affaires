@@ -493,7 +493,39 @@ body{background:#fff}
   .review-static-card{padding-top:10px}
 }
 
-</style><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-YQL7F6LPR1"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-YQL7F6LPR1');</script></head><body><a class="skip-link" href="#main">Aller au contenu</a><header class="site-header">
+</style><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-YQL7F6LPR1"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-YQL7F6LPR1');</script>
+<style id="responsive-media-fix">
+/* Responsive media hardening: preserve intrinsic image ratios and prevent overflow. */
+img{max-width:100%;}
+figure{max-width:100%;}
+.seo-hero-grid>*{min-width:0;}
+.seo-hero-media{
+  width:100% !important;
+  max-width:100% !important;
+  min-width:0 !important;
+  margin:0 !important;
+}
+.seo-hero-media img{
+  display:block !important;
+  width:100% !important;
+  max-width:100% !important;
+  height:auto !important;
+  aspect-ratio:auto !important;
+  object-fit:contain !important;
+  object-position:center center !important;
+}
+.hero-visual,.service-image,.portrait-wrap{max-width:100%;min-width:0;}
+.hero-visual img,.service-image img,.portrait{max-width:100%;}
+.article-body img,.prose img,.resource-card img{max-width:100%;height:auto;}
+@media (max-width:920px){
+  .seo-hero-media{justify-self:stretch !important;margin-inline:auto !important;}
+}
+@media (max-width:640px){
+  .seo-hero-media{width:100% !important;max-width:100% !important;}
+  .seo-hero-media img{width:100% !important;height:auto !important;}
+}
+</style>
+</head><body><a class="skip-link" href="#main">Aller au contenu</a><header class="site-header">
 <div class="container nav-wrap">
 <a aria-label="Connect — Accueil" class="brand" href="/">
 <img alt="Logo Connect" class="brand-logo" height="42" src="/logo.png" width="42"/>

@@ -16,7 +16,7 @@ for(const page of pages) {
   if(typeof value!=='string'||!fs.existsSync('.'+value))throw Error(`Média absent : ${page.label} / ${value}`);
   if(f.path==='video.video'&&!value.toLowerCase().endsWith('.webm'))throw Error('Vidéo WebM requise');
  }
- const template=fs.readFileSync(page.template,'utf8').replace(/<\/head>/i, '<link rel="stylesheet" href="/responsive-media.css?v=1"></head>');
+ const template=fs.readFileSync(page.template,'utf8').replace(/<\/head>/i, '<link rel="stylesheet" href="/responsive-media.css?v=20261007"></head>');
  const html=render(page,data,template);fs.writeFileSync(path.join('dist',page.output),html);
  if(page.id==='accueil')fs.writeFileSync('dist/preview.html',html);
  const clean=template.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,'').replace(/<meta\b[^>]*http-equiv[^>]*>/gi,'');

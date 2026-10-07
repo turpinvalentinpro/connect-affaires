@@ -10,3 +10,47 @@
   object-fit: contain;
   object-position: center;
 }
+
+/* Connect : une mise en page ouverte, sans cartes décoratives. */
+#services .services-video-wrap,
+#methode .method-card,
+#about .portrait-wrap,
+#about .about-copy,
+#about .portrait-note,
+#about .about-personal-note,
+#references .reviews-static-shell,
+#references .review-static-card {
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+#services .services-video-wrap,
+#methode .method-card,
+#about .portrait-wrap,
+#about .about-copy,
+#references .reviews-static-shell,
+#references .review-static-card { padding: 0 !important; }
+#services .services-video {
+  display: block; width: 100%; max-width: 100%; height: auto;
+  border-radius: 20px !important;
+}
+#methode .method-grid { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; gap: 36px !important; }
+#methode .method-card { min-width: 0; }
+#methode .method-step {
+  background: transparent !important; color: #169fe9 !important;
+  border: 0 !important; border-radius: 0 !important;
+  width: auto; height: auto; display: block; font-size: 30px;
+}
+#about .portrait-note { padding: 18px 0 !important; }
+#about .about-personal-note { padding: 0 !important; }
+#references .reviews-static-grid { gap: 36px; }
+#references .homepage-resources { border-top: 0 !important; }
+#faq .faq-item { background: transparent !important; border-radius: 0 !important; border: 0; border-bottom: 1px solid #e3eaf2; }
+#contact .contact-card { background: transparent !important; border: 0 !important; border-radius: 0 !important; box-shadow: none !important; padding: 0 !important; color: #fff; }
+#contact .contact-card .field label, #contact .consent-field, #contact .consent-field a { color: #fff; }
+body:has(#methode) .footer-grid { border-bottom: 0 !important; }
+@media (max-width: 760px) {
+  #methode .method-grid { grid-template-columns: 1fr !important; gap: 30px !important; }
+  #services .services-video { border-radius: 14px !important; }
+}

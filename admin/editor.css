@@ -44,3 +44,11 @@ input:focus,textarea:focus,select:focus,[contenteditable=true]:focus{outline-col
 [class*="SidebarNavLink"]:hover{background:var(--connect-blue-soft)!important;color:#087bb6!important}
 a:focus-visible,button:focus-visible{outline:3px solid var(--connect-blue)!important;outline-offset:3px}
 @media(max-width:799px){#connect-bar{gap:10px;padding:0 10px}#connect-bar .editor-brand{gap:0}#connect-bar .editor-brand strong{display:none}#connect-bar .editor-brand img{width:28px;height:28px}#connect-bar .back-pages{border-left:0;padding-left:0;font-size:11px}#connect-bar #current-page{display:none}#connect-bar .view-site{font-size:11px;margin-left:auto}#connect-bar button{padding:7px 9px;min-height:36px}#connect-bar .back-pages{min-height:40px;display:flex;align-items:center}}
+
+/* Sections de saisie sobres, avec les champs toujours identifiables. */
+[class*="ObjectWidgetTopBar"] {
+  background: transparent !important;
+  border: 0 !important; border-radius: 0 !important;
+  box-shadow: none !important; color: var(--connect-navy) !important;
+}
+#connect-bar .back-pages { border-left: 0; }

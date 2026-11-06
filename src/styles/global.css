@@ -33,7 +33,7 @@ p{margin:0}
 .site-header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.9);border-bottom:1px solid rgba(220,229,238,.8);backdrop-filter:blur(18px)}
 .nav-shell{min-height:82px;display:flex;align-items:center;gap:28px}
 .brand{display:inline-flex;align-items:center;gap:12px;font:800 19px/1 "Manrope",sans-serif;flex:0 0 auto}
-.brand-logo{width:42px;height:42px;object-fit:contain;border-radius:10px;background:#fff;border:1px solid #e3eaf2;padding:6px}
+.brand-logo{width:42px;height:42px;object-fit:contain;border-radius:0;background:transparent;border:0;padding:0}
 .desktop-nav{display:flex;align-items:center;justify-content:center;gap:22px;margin-left:auto}
 .desktop-nav a{font-size:14px;font-weight:700;color:#47546a;position:relative;padding:10px 0}
 .desktop-nav a:after{content:"";position:absolute;left:0;right:100%;bottom:4px;height:1px;background:var(--navy);transition:right .2s ease}.desktop-nav a:hover:after{right:0}
@@ -43,7 +43,7 @@ p{margin:0}
 .mobile-menu{display:none}
 
 /* Hero */
-.hero{position:relative;display:flex;align-items:center;overflow:hidden;background:linear-gradient(180deg,#fff 0%,#f5faff 100%)}
+.hero{position:relative;display:flex;align-items:center;overflow:hidden;background:linear-gradient(180deg,#fff 0%,#f5faff 100%);min-height:calc(100svh - 82px)}
 .hero:before{content:"";position:absolute;width:58vw;height:58vw;max-width:900px;max-height:900px;right:-24vw;top:-26vw;border-radius:50%;background:radial-gradient(circle,rgba(56,182,255,.22) 0%,rgba(56,182,255,.08) 34%,transparent 70%);pointer-events:none}
 .hero-inner{position:relative;padding:68px 0 62px;z-index:1;display:grid;grid-template-columns:minmax(0,1.12fr) minmax(320px,.72fr);grid-template-rows:auto auto auto;column-gap:72px;row-gap:18px;align-items:center;text-align:left}
 .hero-kicker{grid-column:1;grid-row:1;display:block;color:#1789c9;font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin:0 0 6px}
@@ -113,6 +113,7 @@ p{margin:0}
   .review-grid,.faq-layout,.contact-grid{grid-template-columns:1fr;gap:48px}.review-grid{gap:20px}.faq-layout{gap:34px}.footer-main{grid-template-columns:1.2fr 1fr 1fr}.footer-main .footer-col:last-child{grid-column:1/-1}
 }
 @media(max-width:640px){
+  .hero{min-height:auto}
   .shell{width:calc(100% - 30px)}.section{padding:62px 0}.nav-shell{min-height:72px}.brand-logo{width:38px;height:38px}.brand{font-size:18px}.mobile-menu{padding:10px 15px 16px}.hero-inner{padding:44px 0 42px}.hero-kicker{font-size:10px;margin-bottom:4px}.hero-title{font-size:clamp(40px,11vw,52px);line-height:.98}.hero-bottom{margin-top:4px}.hero-copy{font-size:16px}.hero-actions{display:grid;grid-template-columns:1fr;width:100%}.btn{width:100%;min-height:50px}.hero-rail{margin-top:38px;display:flex;gap:8px 18px}.hero-rail a{display:inline-block;padding:6px 0!important;border:0!important}
   .services-head{margin-bottom:34px}.method-track{grid-template-columns:1fr;gap:8px}.method-step{min-height:0;padding:14px 0}.method-no{margin-bottom:10px}.section-title{font-size:clamp(32px,9.5vw,44px)}.section-intro{font-size:16px}.video-stage{border-radius:16px}.service-links{gap:8px 14px}.service-links a{font-size:12px}
   .about-grid{width:calc(100% - 30px)}.about-photo{height:420px}.about-copy{padding:38px 22px}.about-copy h2{font-size:clamp(32px,9.2vw,42px)}.about-copy p{font-size:16px}.about-label{left:14px;bottom:14px}

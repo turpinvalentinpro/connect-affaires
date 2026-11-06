@@ -1,0 +1,279 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const structuredData = {
+  '@context':'https://schema.org',
+  '@graph':[
+    {
+      '@type':'ProfessionalService','@id':'https://www.connect-affaires.fr/#business',
+      name:'Connect',alternateName:'Connect — Conseil commercial & marketing BtoB',
+      url:'https://www.connect-affaires.fr/',logo:'https://www.connect-affaires.fr/logo.png',
+      image:'https://www.connect-affaires.fr/connect-motion-poster.jpg',
+      description:"Cabinet opérationnel de développement commercial et marketing BtoB basé à Aix-en-Provence. Connect accompagne les TPE et PME sur la stratégie commerciale, l'acquisition, le CRM, l'organisation commerciale et les outils de vente.",
+      email:'mailto:valentin@connect-affaires.fr',
+      founder:{'@id':'https://www.connect-affaires.fr/#valentin-turpin'},
+      address:{'@type':'PostalAddress',addressLocality:'Aix-en-Provence',addressRegion:"Provence-Alpes-Côte d'Azur",addressCountry:'FR'},
+      areaServed:[{'@type':'City',name:'Aix-en-Provence'},{'@type':'City',name:'Marseille'},{'@type':'AdministrativeArea',name:'Bouches-du-Rhône'},{'@type':'AdministrativeArea',name:"Provence-Alpes-Côte d'Azur"}],
+      serviceType:['Développement commercial','Conseil commercial','Marketing BtoB','Acquisition BtoB','CRM commercial','Organisation commerciale','Outils de vente'],
+      knowsAbout:['Stratégie commerciale','Développement commercial','Marketing BtoB','Génération de leads BtoB','Acquisition BtoB','CRM commercial','Organisation commerciale','Landing pages','Supports de vente']
+    },
+    {'@type':'Person','@id':'https://www.connect-affaires.fr/#valentin-turpin',name:'Valentin Turpin',jobTitle:'Fondateur de Connect',worksFor:{'@id':'https://www.connect-affaires.fr/#business'}},
+    {'@type':'WebSite','@id':'https://www.connect-affaires.fr/#website',url:'https://www.connect-affaires.fr/',name:'Connect',description:'Développement commercial, conseil commercial et marketing BtoB à Aix-en-Provence.',inLanguage:'fr-FR',publisher:{'@id':'https://www.connect-affaires.fr/#business'}},
+    {'@type':'WebPage','@id':'https://www.connect-affaires.fr/#webpage',url:'https://www.connect-affaires.fr/',name:'Développement commercial à Aix-en-Provence | Connect',description:'Connect accompagne les TPE et PME à Aix-en-Provence en stratégie commerciale, marketing BtoB, acquisition, CRM et organisation commerciale.',isPartOf:{'@id':'https://www.connect-affaires.fr/#website'},about:{'@id':'https://www.connect-affaires.fr/#business'},inLanguage:'fr-FR'},
+    {'@type':'VideoObject','@id':'https://www.connect-affaires.fr/#services-video',name:'Les activités de Connect — développement commercial et marketing BtoB',description:'Présentation en motion design des activités de Connect : stratégie commerciale, marketing BtoB, acquisition, CRM, organisation commerciale et supports de vente.',thumbnailUrl:'https://www.connect-affaires.fr/connect-motion-poster.jpg',contentUrl:'https://www.connect-affaires.fr/connect-motion-16x9.webm',uploadDate:'2026-09-29',duration:'PT15S',inLanguage:'fr-FR'},
+    {'@type':'FAQPage','@id':'https://www.connect-affaires.fr/#faq-schema',mainEntity:[
+      {'@type':'Question',name:'Sur quels sujets Connect peut-il intervenir ?',acceptedAnswer:{'@type':'Answer',text:"Connect intervient sur la stratégie commerciale, le marketing BtoB, l'acquisition, le CRM, l'organisation commerciale, les outils de vente et les supports de conversion."}},
+      {'@type':'Question',name:'Connect peut-il intervenir sur un seul sujet ?',acceptedAnswer:{'@type':'Answer',text:"Oui. Une mission peut porter sur un audit, une landing page, un plan d'acquisition, une organisation CRM ou un support commercial spécifique."}},
+      {'@type':'Question',name:'Connect travaille-t-il avec les outils déjà en place ?',acceptedAnswer:{'@type':'Answer',text:"Oui. L'objectif est d'abord d'améliorer l'existant. De nouveaux outils sont proposés uniquement lorsqu'ils apportent un gain réel de clarté ou de suivi."}},
+      {'@type':'Question',name:'Dans quelle zone Connect intervient-il ?',acceptedAnswer:{'@type':'Answer',text:'Connect est basé à Aix-en-Provence et intervient à Aix, Marseille, dans les Bouches-du-Rhône et plus largement en région PACA.'}}
+    ]}
+  ]
+};
+---
+<BaseLayout structuredData={structuredData}>
+  <Header />
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="shell hero-inner">
+        <div class="hero-kicker" data-reveal>Conseil commercial & marketing BtoB · Aix-en-Provence</div>
+        <h1 class="hero-title" id="hero-title">
+          <span class="line"><span>Structurer.</span></span>
+          <span class="line"><span>Convaincre.</span></span>
+          <span class="line accent"><span>Développer.</span></span>
+        </h1>
+        <div class="hero-bottom">
+          <p class="hero-copy" data-reveal>Connect aide les TPE et PME à clarifier leur stratégie commerciale, améliorer leur acquisition et mettre en place des outils qui servent réellement la vente.</p>
+          <div class="hero-actions" data-reveal>
+            <a class="btn btn-primary" href="#contact">Échanger sur vos enjeux</a>
+            <a class="btn btn-light" href="#services">Voir les services</a>
+          </div>
+        </div>
+        <nav class="hero-rail" aria-label="Expertises principales" data-reveal>
+          <a href="/conseil-commercial-aix-en-provence.html">Stratégie commerciale</a>
+          <a href="/marketing-btob-aix-en-provence.html">Marketing BtoB</a>
+          <a href="/acquisition-btob-aix-en-provence.html">Acquisition BtoB</a>
+          <a href="/crm-organisation-commerciale-aix-en-provence.html">CRM & organisation</a>
+        </nav>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="shell">
+        <div class="services-head">
+          <div>
+            <span class="eyebrow" data-reveal>Services aux entreprises</span>
+            <h2 class="section-title" data-reveal>Du conseil à l’exécution, sur les sujets qui font avancer le commerce.</h2>
+          </div>
+          <p class="section-intro" data-reveal>Stratégie, marketing, acquisition, CRM et outils de vente : une intervention ciblée sur les leviers utiles, pas une liste de prestations à empiler.</p>
+        </div>
+        <div class="video-stage" data-video-stage>
+          <video autoplay muted loop playsinline preload="metadata" poster="/connect-motion-poster.jpg" aria-label="Présentation animée des activités de Connect">
+            <source src="/connect-motion-16x9.webm" type="video/webm" />
+          </video>
+        </div>
+        <div class="service-links" data-reveal>
+          <a href="/conseil-commercial-aix-en-provence.html">Conseil commercial à Aix-en-Provence</a>
+          <a href="/marketing-btob-aix-en-provence.html">Marketing BtoB</a>
+          <a href="/acquisition-btob-aix-en-provence.html">Acquisition BtoB</a>
+          <a href="/crm-organisation-commerciale-aix-en-provence.html">CRM & organisation commerciale</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section method" id="methode">
+      <div class="shell">
+        <div class="method-header">
+          <div><span class="eyebrow" data-reveal>Méthode</span><h2 class="section-title" data-reveal>Comprendre. Prioriser. Mettre en place.</h2></div>
+          <p class="section-intro" data-reveal>Un cadre simple pour éviter de multiplier les chantiers et concentrer l’effort là où il peut réellement produire un résultat.</p>
+        </div>
+        <div class="method-track">
+          <article class="method-step" data-reveal><div class="method-no">01</div><h3>Comprendre</h3><p>Faire le point sur vos offres, vos canaux et votre organisation actuelle.</p></article>
+          <article class="method-step" data-reveal><div class="method-no">02</div><h3>Prioriser</h3><p>Choisir les actions qui auront le plus d’impact, sans multiplier les sujets.</p></article>
+          <article class="method-step" data-reveal><div class="method-no">03</div><h3>Mettre en place</h3><p>Déployer, mesurer les retours et ajuster à partir de décisions concrètes.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-grid">
+        <div class="about-photo" data-about-photo>
+          <img src="/valentin.jpg" alt="Valentin Turpin, fondateur de Connect" width="896" height="1195" loading="lazy" />
+          <div class="about-label"><strong>Valentin Turpin</strong><span>Fondateur · Connect</span></div>
+        </div>
+        <div class="about-copy">
+          <span class="eyebrow" data-reveal>À propos</span>
+          <h2 data-reveal>Un interlocuteur impliqué, du conseil à l’action.</h2>
+          <p data-reveal>Je suis Valentin Turpin, fondateur de Connect. J’ai créé cette structure pour aider les entreprises à y voir plus clair, choisir les bons leviers et transformer les décisions en actions concrètes.</p>
+          <p data-reveal>Basé à Aix-en-Provence, j’accompagne des TPE, PME et dirigeants à Aix, Marseille et plus largement en PACA, avec une approche directe et proche du terrain.</p>
+          <div class="about-note" data-reveal>Pas de couche de conseil inutile : on va à l’essentiel et le même interlocuteur suit réellement le sujet.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section references" id="references">
+      <div class="shell">
+        <div class="references-head">
+          <div><span class="eyebrow" data-reveal>Références</span><h2 class="section-title" data-reveal>Des retours clients, pas des promesses.</h2></div>
+          <a class="google-link" href="https://share.google/8ZrhbUUEqymf9vwSP" target="_blank" rel="noopener noreferrer">Voir la fiche Google ↗</a>
+        </div>
+        <div class="review-grid">
+          <div>
+            <article class="review" data-review data-reveal>
+              <div class="review-meta"><div class="review-avatar">F</div><div><strong>Fer de Lance</strong><span>Avis Google · 5/5</span></div></div>
+              <blockquote class="collapsed">« Avant de créer mon site internet avec InsightToSell et Connect Affaires, je gérais ma communication uniquement via les réseaux sociaux et le système de sponsorisation, qui ne me permettaient pas de cibler correctement une clientèle qui prend rendez-vous. Je prenais des abonnés mais je ne remplissais pas mon agenda à 100 %.<br/><br/>Depuis que nous avons créé le site au mois de juin 2026, j’ai eu une augmentation de mon chiffre d’affaires d’environ 30 % et de nombreuses demandes de devis chaque jour. Je peux carrément dire que mon planning n’a jamais été aussi rempli sur du long terme. Mon travail est désormais mieux vu, et plus ciblé sur une clientèle qui recherche une qualité définitivement supérieure. »</blockquote>
+              <button class="review-toggle" type="button" aria-expanded="false">Voir plus</button>
+            </article>
+            <article class="review" data-review data-reveal>
+              <div class="review-meta"><div class="review-avatar">I</div><div><strong>Insight to Sell</strong><span>Yoan Bouc · Fondateur</span></div></div>
+              <blockquote class="collapsed">« L’approche de Connect est claire, directe et terrain. Valentin comprend vite les enjeux d’un business et active son réseau avec précision — sans tourner autour du pot. »</blockquote>
+              <button class="review-toggle" type="button" aria-expanded="false">Voir plus</button>
+            </article>
+          </div>
+          <aside class="review-side" data-reveal>
+            <span class="eyebrow">À approfondir</span>
+            <h3>Guides, méthodes et cas clients.</h3>
+            <p>Des contenus courts pour comprendre les choix commerciaux et marketing derrière les actions.</p>
+            <div class="resource-links">
+              <a href="/ressources.html">Toutes les ressources →</a>
+              <a href="/cas-client-fer-de-lance.html">Cas client Fer de Lance →</a>
+              <a href="/structurer-developpement-commercial-pme.html">Structurer son développement commercial →</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq" id="faq">
+      <div class="shell faq-layout">
+        <div><span class="eyebrow" data-reveal>FAQ</span><h2 class="section-title" data-reveal>Avant d’échanger.</h2></div>
+        <div class="faq-list" data-reveal>
+          <article class="faq-item open"><button class="faq-question" type="button" aria-expanded="true">Sur quels sujets pouvez-vous intervenir ? <span class="faq-symbol">+</span></button><div class="faq-answer"><div><p>Stratégie commerciale, marketing BtoB, acquisition, CRM, organisation commerciale, outils de vente et supports de conversion.</p></div></div></article>
+          <article class="faq-item"><button class="faq-question" type="button" aria-expanded="false">Pouvez-vous intervenir sur un seul sujet ? <span class="faq-symbol">+</span></button><div class="faq-answer"><div><p>Oui. Un besoin ponctuel peut porter sur un audit, une landing page, un plan d’acquisition, une organisation CRM ou un support commercial spécifique.</p></div></div></article>
+          <article class="faq-item"><button class="faq-question" type="button" aria-expanded="false">Travaillez-vous avec les outils déjà en place ? <span class="faq-symbol">+</span></button><div class="faq-answer"><div><p>Oui. L’objectif est d’abord d’améliorer l’existant. De nouveaux outils ne sont proposés que s’ils apportent un vrai gain de clarté ou de suivi.</p></div></div></article>
+          <article class="faq-item"><button class="faq-question" type="button" aria-expanded="false">Dans quelle zone intervenez-vous ? <span class="faq-symbol">+</span></button><div class="faq-answer"><div><p>Connect est basé à Aix-en-Provence et intervient à Aix, Marseille, dans les Bouches-du-Rhône et plus largement en PACA.</p></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="shell contact-grid">
+        <div class="contact-copy">
+          <span class="eyebrow" style="color:#8ed6ff" data-reveal>Contact</span>
+          <h2 data-reveal>Parlons de vos enjeux.</h2>
+          <p data-reveal>Conseil commercial, marketing BtoB, acquisition ou organisation : décrivez simplement le sujet à traiter.</p>
+          <div class="contact-details" data-reveal><a href="mailto:valentin@connect-affaires.fr">valentin@connect-affaires.fr</a><span>Aix-en-Provence · Marseille · PACA</span></div>
+        </div>
+        <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST" data-reveal>
+          <div class="form-message" id="formMessage" role="status" aria-live="polite"></div>
+          <input name="access_key" type="hidden" value="f5689a96-409f-4687-aed5-1917026c8a68" />
+          <input name="subject" type="hidden" value="Nouvelle demande — Connect" />
+          <input name="from_name" type="hidden" value="Connect — Formulaire de contact" />
+          <input autocomplete="off" name="botcheck" style="position:absolute;left:-9999px;opacity:0" tabindex="-1" type="checkbox" />
+          <div class="form-grid"><div class="field"><label for="name">Nom</label><input id="name" name="name" autocomplete="name" required /></div><div class="field"><label for="company">Entreprise</label><input id="company" name="company" autocomplete="organization" /></div></div>
+          <div class="form-grid"><div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required /></div><div class="field"><label for="phone">Téléphone</label><input id="phone" name="phone" type="tel" autocomplete="tel" /></div></div>
+          <div class="field"><label for="need">Votre besoin</label><select id="need" name="need" required><option value="" disabled selected>Choisir une option</option><option>Conseil commercial</option><option>Marketing & acquisition</option><option>CRM & organisation</option><option>Supports de vente</option><option>Besoin global</option></select></div>
+          <div class="field"><label for="message">Message</label><textarea id="message" name="message" placeholder="Décrivez brièvement votre besoin" required></textarea></div>
+          <label class="consent" for="consent"><input id="consent" name="consent" type="checkbox" value="J’accepte" required /><span>J’accepte que les informations saisies soient utilisées par Connect pour répondre à ma demande. <a href="/politique-confidentialite.html" target="_blank" rel="noopener">Politique de confidentialité</a>.</span></label>
+          <button class="btn btn-primary" type="submit">Envoyer ma demande</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <Footer />
+  <button class="back-to-top" id="backToTop" aria-label="Revenir en haut" type="button">↑</button>
+</BaseLayout>
+
+<script>
+  import gsap from 'gsap';
+  import { ScrollTrigger } from 'gsap/ScrollTrigger';
+  gsap.registerPlugin(ScrollTrigger);
+
+  const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  const toggle = document.querySelector('.menu-toggle');
+  const mobileMenu = document.getElementById('mobileMenu');
+  toggle?.addEventListener('click', () => {
+    const next = toggle.getAttribute('aria-expanded') !== 'true';
+    toggle.setAttribute('aria-expanded', String(next));
+    mobileMenu?.classList.toggle('open', next);
+    document.body.classList.toggle('menu-open', next);
+  });
+  mobileMenu?.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    mobileMenu.classList.remove('open');
+    toggle?.setAttribute('aria-expanded','false');
+    document.body.classList.remove('menu-open');
+  }));
+
+  document.querySelectorAll('.faq-item').forEach(item => {
+    const button = item.querySelector('.faq-question');
+    button?.addEventListener('click', () => {
+      const open = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(other => {
+        other.classList.remove('open');
+        other.querySelector('.faq-question')?.setAttribute('aria-expanded','false');
+      });
+      if (!open) {
+        item.classList.add('open');
+        button.setAttribute('aria-expanded','true');
+      }
+    });
+  });
+
+  document.querySelectorAll('[data-review]').forEach(review => {
+    const button = review.querySelector('.review-toggle');
+    const quote = review.querySelector('blockquote');
+    if (!button || !quote) return;
+    button.addEventListener('click', () => {
+      const expanded = review.classList.toggle('expanded');
+      quote.classList.toggle('collapsed', !expanded);
+      button.textContent = expanded ? 'Voir moins' : 'Voir plus';
+      button.setAttribute('aria-expanded', String(expanded));
+    });
+  });
+
+  const form = document.getElementById('contactForm');
+  const formMessage = document.getElementById('formMessage');
+  form?.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const submit = form.querySelector('button[type="submit"]');
+    if (submit) { submit.disabled = true; submit.textContent = 'Envoi…'; }
+    formMessage.className = 'form-message';
+    try {
+      const response = await fetch(form.action, { method:'POST', body:new FormData(form), headers:{Accept:'application/json'} });
+      const result = await response.json();
+      if (!response.ok || result.success === false) throw new Error('submit');
+      form.reset();
+      formMessage.textContent = 'Merci, votre demande a bien été envoyée.';
+      formMessage.className = 'form-message success';
+    } catch {
+      formMessage.textContent = 'L’envoi a échoué. Vous pouvez aussi écrire à valentin@connect-affaires.fr.';
+      formMessage.className = 'form-message error';
+    } finally {
+      if (submit) { submit.disabled = false; submit.textContent = 'Envoyer ma demande'; }
+    }
+  });
+
+  const backToTop = document.getElementById('backToTop');
+  const updateTop = () => backToTop?.classList.toggle('visible', window.scrollY > 500);
+  window.addEventListener('scroll', updateTop, { passive:true });
+  updateTop();
+  backToTop?.addEventListener('click', () => window.scrollTo({top:0,behavior:'smooth'}));
+
+  if (!prefersReduced) {
+    const intro = gsap.timeline({defaults:{ease:'power3.out'}});
+    intro.to('.hero-title .line > span', {y:0,duration:.9,stagger:.12})
+         .to('.hero [data-reveal]', {opacity:1,y:0,duration:.65,stagger:.1}, '-=.45');
+
+    gsap.utils.toArray('[data-reveal]').forEach((el) => {
+      if (el.closest('.hero')) return;
+      gsap.to(el, {opacity:1,y:0,duration:.75,ease:'power2.out',scrollTrigger:{trigger:el,start:'top 88%',once:true}});
+    });
+
+    gsap.fromTo('[data-video-stage]', {scale:.96}, {scale:1,ease:'none',scrollTrigger:{trigger:'[data-video-stage]',start:'top 90%',end:'bottom 40%',scrub:.5}});
+    gsap.fromTo('[data-about-photo] img', {scale:1.08}, {scale:1,ease:'none',scrollTrigger:{trigger:'[data-about-photo]',start:'top bottom',end:'bottom top',scrub:true}});
+  } else {
+    document.querySelectorAll('[data-reveal]').forEach(el => { el.style.opacity='1'; el.style.transform='none'; });
+  }
+</script>

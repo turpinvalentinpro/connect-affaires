@@ -1,0 +1,52 @@
+---
+import '../styles/global.css';
+const {
+  title = 'Développement commercial à Aix-en-Provence | Connect',
+  description = 'Connect accompagne les TPE et PME à Aix-en-Provence en stratégie commerciale, marketing BtoB, acquisition, CRM et organisation commerciale.',
+  canonical = 'https://www.connect-affaires.fr/',
+  image = 'https://www.connect-affaires.fr/connect-motion-poster.jpg',
+  structuredData
+} = Astro.props;
+---
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <script is:inline>document.documentElement.classList.add('js');</script>
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#07111f" />
+    <meta name="author" content="Valentin Turpin" />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang="fr-FR" href={canonical} />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="Connect" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={image} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={image} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
+    {structuredData && <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />}
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YQL7F6LPR1"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-YQL7F6LPR1');
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Aller au contenu</a>
+    <slot />
+  </body>
+</html>

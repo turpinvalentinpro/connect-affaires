@@ -162,3 +162,222 @@ p{margin:0}
   .trust-logo.bastide{min-width:210px}.trust-logo.bastide img{max-width:210px;max-height:44px}
   .trust-logo.rivage{min-width:176px}.trust-logo.rivage img{max-width:176px;max-height:42px}
 }
+
+/* Responsive hardening — hero + client ticker */
+@media (max-width: 640px){
+  .hero{
+    display:block;
+    width:100%;
+    min-height:auto;
+    padding-bottom:0;
+    overflow:hidden;
+  }
+  .hero-inner{
+    width:calc(100% - 30px);
+    max-width:none;
+    margin:0 auto;
+    padding:38px 0 34px;
+    display:grid;
+    grid-template-columns:minmax(0,1fr);
+    grid-template-rows:auto;
+    row-gap:16px;
+    justify-items:stretch;
+    text-align:left;
+  }
+  .hero-kicker,
+  .hero-title,
+  .hero-bottom{
+    grid-column:1;
+    grid-row:auto;
+    width:100%;
+    min-width:0;
+  }
+  .hero-kicker{
+    text-align:center;
+    line-height:1.45;
+  }
+  .hero-title{
+    max-width:100%;
+    font-size:clamp(38px,10.8vw,46px);
+    line-height:1;
+    text-align:left;
+  }
+  .hero-title .line,
+  .hero-title .line > span{
+    max-width:100%;
+  }
+  .hero-bottom{
+    max-width:none;
+    align-items:stretch;
+    gap:18px;
+    padding-top:4px;
+  }
+  .hero-copy{
+    width:100%;
+    max-width:none;
+    font-size:16px;
+    line-height:1.6;
+    text-align:left;
+  }
+  .hero-actions{
+    width:100%;
+    display:grid;
+    grid-template-columns:1fr;
+    gap:10px;
+  }
+  .hero-actions .btn{
+    width:100%;
+    min-width:0;
+  }
+  .trust-ticker{
+    position:relative;
+    inset:auto;
+    display:block;
+    width:100%;
+    max-width:100%;
+    height:auto;
+    margin:0;
+    overflow:hidden;
+    flex:none;
+  }
+  .trust-ticker-head{
+    width:calc(100% - 30px);
+    max-width:none;
+    margin:0 auto;
+    min-height:64px;
+    height:auto;
+    padding:12px 0;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content:center;
+    gap:5px;
+  }
+  .trust-ticker-head strong,
+  .trust-ticker-head span{
+    display:block;
+    width:100%;
+    max-width:100%;
+    white-space:normal;
+  }
+  .trust-ticker-head span{
+    line-height:1.35;
+  }
+  .trust-rail{
+    width:100%;
+    max-width:100%;
+    height:72px;
+    overflow:hidden;
+  }
+  .trust-track{
+    display:flex;
+    width:max-content;
+    max-width:none;
+    min-width:max-content;
+  }
+  .trust-group{
+    flex:0 0 auto;
+    width:max-content;
+    max-width:none;
+    gap:28px;
+    padding:0 28px 0 0;
+  }
+  .trust-logo{
+    flex:0 0 auto;
+    min-width:124px;
+    max-width:190px;
+    height:42px;
+  }
+  .trust-logo img{
+    width:auto;
+    height:auto;
+    max-width:160px;
+    max-height:38px;
+  }
+  .trust-logo.insight{
+    min-width:160px;
+  }
+  .trust-logo.insight img{
+    max-width:160px;
+    max-height:28px;
+  }
+  .trust-logo.wuse{
+    min-width:112px;
+  }
+  .trust-logo.wuse img{
+    max-width:108px;
+    max-height:38px;
+  }
+  .trust-logo.bastide{
+    min-width:190px;
+  }
+  .trust-logo.bastide img{
+    max-width:190px;
+    max-height:42px;
+  }
+  .trust-logo.rivage{
+    min-width:164px;
+  }
+  .trust-logo.rivage img{
+    max-width:164px;
+    max-height:40px;
+  }
+}
+
+@media (max-width: 420px){
+  .shell,
+  .hero-inner,
+  .trust-ticker-head,
+  .about-grid{
+    width:calc(100% - 24px);
+  }
+  .nav-shell{
+    width:calc(100% - 24px);
+  }
+  .brand{
+    gap:9px;
+    font-size:17px;
+  }
+  .brand-logo{
+    width:34px;
+    height:34px;
+  }
+  .menu-toggle{
+    width:44px;
+    height:44px;
+  }
+  .hero-inner{
+    padding-top:34px;
+  }
+  .hero-title{
+    font-size:clamp(36px,10.5vw,42px);
+  }
+  .section-title,
+  .about-copy h2,
+  .contact h2{
+    font-size:clamp(30px,8.8vw,38px);
+  }
+  .about-photo{
+    height:auto;
+    aspect-ratio:4/5;
+  }
+  .about-photo img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+  }
+  .contact-grid{
+    gap:34px;
+  }
+  .contact-form input,
+  .contact-form select,
+  .contact-form textarea{
+    width:100%;
+    min-width:0;
+  }
+  .inner-hero h1,
+  .resource-hero h1,
+  .article-hero h1{
+    font-size:clamp(31px,8.6vw,39px);
+  }
+}

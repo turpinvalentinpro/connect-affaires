@@ -1,0 +1,23 @@
+---
+import InnerPageShell from '../components/InnerPageShell.astro';
+const { title, description, canonical, eyebrow='Guide', h1, lead, meta=[], structuredData, related=[] } = Astro.props;
+---
+<InnerPageShell {title} {description} {canonical} {structuredData}>
+  <main id="main">
+    <section class="article-hero">
+      <div class="shell">
+        <nav class="breadcrumbs" aria-label="Fil d’Ariane"><a href="/">Accueil</a><span>/</span><a href="/ressources.html">Ressources</a><span>/</span><strong>{eyebrow}</strong></nav>
+        <div class="article-hero-copy">
+          <span class="eyebrow">{eyebrow}</span>
+          <h1>{h1}</h1>
+          <p class="lead">{lead}</p>
+          {meta.length > 0 && <div class="article-meta">{meta.map((item) => <span>{item}</span>)}</div>}
+        </div>
+      </div>
+    </section>
+    <section class="inner-content">
+      <div class="shell"><article class="article-body"><slot /></article></div>
+    </section>
+    {related.length > 0 && <section class="related-section"><div class="shell"><span class="eyebrow">À lire aussi</span><h2>Pour aller plus loin.</h2><div class="related-grid">{related.map((item) => <a class="related-link" href={item.href}><span>{item.label}</span><strong>{item.title}</strong><p>{item.text}</p></a>)}</div></div></section>}
+  </main>
+</InnerPageShell>

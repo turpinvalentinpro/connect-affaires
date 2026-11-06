@@ -1,0 +1,39 @@
+---
+import SeoServiceLayout from '../layouts/SeoServiceLayout.astro';
+const title='Acquisition BtoB à Aix-en-Provence | Génération d’opportunités | Connect';
+const description='Acquisition BtoB à Aix-en-Provence : ciblage, canaux, campagnes, génération de leads et parcours commercial pour TPE et PME.';
+const canonical='https://www.connect-affaires.fr/acquisition-btob-aix-en-provence.html';
+const structuredData={'@context':'https://schema.org','@graph':[
+  {'@type':'Service','@id':canonical+'#service',name:'Acquisition BtoB à Aix-en-Provence',serviceType:'Acquisition BtoB',provider:{'@id':'https://www.connect-affaires.fr/#business'},areaServed:{'@type':'City',name:'Aix-en-Provence'},description},
+  {'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Accueil',item:'https://www.connect-affaires.fr/'},{'@type':'ListItem',position:2,name:'Acquisition BtoB à Aix-en-Provence',item:canonical}]},
+  {'@type':'FAQPage',mainEntity:[
+    {'@type':'Question',name:'Faites-vous de la génération de leads BtoB ?',acceptedAnswer:{'@type':'Answer',text:'Oui, dans le cadre d’une stratégie d’acquisition cohérente avec la cible, l’offre et les capacités de suivi de l’entreprise.'}},
+    {'@type':'Question',name:'L’acquisition passe-t-elle forcément par la publicité ?',acceptedAnswer:{'@type':'Answer',text:'Non. Selon l’activité, elle peut combiner prospection, contenu, référencement, réseau, partenariats ou campagnes payantes.'}},
+    {'@type':'Question',name:'Pouvez-vous organiser le suivi après la génération du lead ?',acceptedAnswer:{'@type':'Answer',text:'Oui. Connect peut structurer le pipeline, les étapes de suivi, les relances et les informations utiles dans le CRM.'}}
+  ]}
+]};
+const related=[
+  {href:'/conseil-commercial-aix-en-provence.html',title:'Conseil commercial',text:'Clarifier votre stratégie et vos priorités.'},
+  {href:'/marketing-btob-aix-en-provence.html',title:'Marketing BtoB',text:'Relier visibilité, acquisition et conversion.'},
+  {href:'/crm-organisation-commerciale-aix-en-provence.html',title:'CRM & organisation',text:'Structurer le suivi commercial.'}
+];
+---
+<SeoServiceLayout {title} {description} {canonical} structuredData={structuredData} eyebrow="Acquisition BtoB · Aix-en-Provence" h1="Acquisition BtoB à Aix-en-Provence : construire un flux d’opportunités plus régulier." lead="Connect aide les entreprises à choisir les bons canaux d’acquisition, mieux cibler leurs prospects et organiser le suivi des opportunités générées." image="/service-conversion.jpg" imageAlt="Équipe travaillant sur une stratégie d’acquisition BtoB" {related}>
+  <span class="eyebrow">Approche</span>
+  <h2>L’acquisition ne se résume pas à générer des leads.</h2>
+  <p>Un lead n’a de valeur que s’il correspond à une cible pertinente, s’il est traité au bon moment et si l’entreprise sait quoi en faire. Une stratégie d’acquisition efficace relie donc le ciblage, le message, le canal et le suivi commercial.</p>
+  <p>Connect intervient sur cette chaîne complète pour éviter les actions isolées : une campagne sans suivi, un formulaire sans réponse rapide ou une prospection sans CRM finissent par perdre une partie de leur potentiel.</p>
+  <div class="value-grid">
+    <article class="value-card"><strong>Ciblage</strong><p>Prioriser les profils d’entreprises et d’interlocuteurs les plus pertinents.</p></article>
+    <article class="value-card"><strong>Canaux</strong><p>Combiner les leviers adaptés : contenu, landing pages, prospection, réseau ou partenariats.</p></article>
+    <article class="value-card"><strong>Suivi</strong><p>Organiser le traitement des leads et la relance pour ne pas perdre les opportunités créées.</p></article>
+  </div>
+  <h3>Quels leviers peuvent être utilisés ?</h3>
+  <ul><li>prospection BtoB ciblée ;</li><li>campagnes d’acquisition ;</li><li>landing pages et formulaires ;</li><li>contenus permettant de rassurer ou qualifier ;</li><li>réseau, partenariats et recommandations ;</li><li>SEO et visibilité locale lorsque pertinents ;</li><li>organisation du CRM et des relances.</li></ul>
+  <h3>Choisir moins de canaux, mais mieux les exploiter</h3><p>Pour une petite ou moyenne structure, se disperser coûte vite du temps et du budget. L’objectif est de sélectionner quelques canaux cohérents avec la cible, puis de les exploiter suffisamment longtemps pour comprendre leur performance.</p>
+  <h3>Relier acquisition et conversion</h3><p>Le travail ne s’arrête pas lorsque le prospect laisse ses coordonnées. Le délai de réponse, le message de relance, les informations collectées et le suivi dans le CRM jouent directement sur la capacité à transformer une demande en opportunité commerciale.</p>
+  <h3>Questions fréquentes</h3>
+  <h3>Faites-vous de la génération de leads BtoB ?</h3><p>Oui, dans le cadre d’une stratégie d’acquisition cohérente avec la cible, l’offre et les capacités de suivi de l’entreprise.</p>
+  <h3>L’acquisition passe-t-elle forcément par la publicité ?</h3><p>Non. Selon l’activité, elle peut combiner prospection, contenu, référencement, réseau, partenariats ou campagnes payantes.</p>
+  <h3>Pouvez-vous organiser le suivi après la génération du lead ?</h3><p>Oui. Connect peut structurer le pipeline, les étapes de suivi, les relances et les informations utiles dans le CRM.</p>
+</SeoServiceLayout>

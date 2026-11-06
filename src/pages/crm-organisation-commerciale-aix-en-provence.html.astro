@@ -1,0 +1,39 @@
+---
+import SeoServiceLayout from '../layouts/SeoServiceLayout.astro';
+const title='CRM & organisation commerciale à Aix-en-Provence | Connect';
+const description='CRM et organisation commerciale à Aix-en-Provence : pipeline, relances, centralisation des prospects, suivi des opportunités et automatisations simples.';
+const canonical='https://www.connect-affaires.fr/crm-organisation-commerciale-aix-en-provence.html';
+const structuredData={'@context':'https://schema.org','@graph':[
+  {'@type':'Service','@id':canonical+'#service',name:'CRM et organisation commerciale à Aix-en-Provence',serviceType:'CRM commercial et organisation commerciale',provider:{'@id':'https://www.connect-affaires.fr/#business'},areaServed:{'@type':'City',name:'Aix-en-Provence'},description},
+  {'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Accueil',item:'https://www.connect-affaires.fr/'},{'@type':'ListItem',position:2,name:'CRM et organisation commerciale',item:canonical}]},
+  {'@type':'FAQPage',mainEntity:[
+    {'@type':'Question',name:'Pouvez-vous travailler avec notre CRM actuel ?',acceptedAnswer:{'@type':'Answer',text:'Oui. L’objectif est d’abord d’améliorer l’existant lorsque l’outil est adapté.'}},
+    {'@type':'Question',name:'Faut-il automatiser toutes les tâches ?',acceptedAnswer:{'@type':'Answer',text:'Non. Les automatisations sont utiles uniquement lorsqu’elles simplifient réellement le suivi sans rendre le process plus opaque.'}},
+    {'@type':'Question',name:'Cette prestation convient-elle à une petite équipe ?',acceptedAnswer:{'@type':'Answer',text:'Oui. L’organisation est adaptée au niveau de maturité et au volume commercial de la structure.'}}
+  ]}
+]};
+const related=[
+  {href:'/conseil-commercial-aix-en-provence.html',title:'Conseil commercial',text:'Clarifier votre stratégie et vos priorités.'},
+  {href:'/marketing-btob-aix-en-provence.html',title:'Marketing BtoB',text:'Relier visibilité, acquisition et conversion.'},
+  {href:'/acquisition-btob-aix-en-provence.html',title:'Acquisition BtoB',text:'Créer et mieux traiter les opportunités.'}
+];
+---
+<SeoServiceLayout {title} {description} {canonical} structuredData={structuredData} eyebrow="CRM & organisation · Aix-en-Provence" h1="CRM & organisation commerciale à Aix-en-Provence : ne plus perdre le fil des opportunités." lead="Connect aide les TPE et PME à structurer un suivi commercial simple : prospects centralisés, étapes claires, relances organisées et informations accessibles." image="/service-crm.jpg" imageAlt="Outil CRM utilisé pour organiser le suivi commercial" {related}>
+  <span class="eyebrow">Approche</span>
+  <h2>Un CRM utile est d’abord un CRM que l’équipe utilise réellement.</h2>
+  <p>Le problème n’est pas toujours l’absence d’outil. Il peut venir d’un CRM trop complexe, d’informations réparties entre plusieurs fichiers, d’étapes mal définies ou de relances gérées uniquement de mémoire.</p>
+  <p>Connect simplifie l’organisation autour du fonctionnement réel de l’entreprise. Le but n’est pas de multiplier les champs et les automatisations, mais de savoir rapidement où en est chaque opportunité et quelle action doit suivre.</p>
+  <div class="value-grid">
+    <article class="value-card"><strong>Centralisation</strong><p>Regrouper les prospects, clients et informations utiles au même endroit.</p></article>
+    <article class="value-card"><strong>Pipeline</strong><p>Définir des étapes commerciales compréhensibles et adaptées au cycle de vente.</p></article>
+    <article class="value-card"><strong>Relances</strong><p>Mettre en place un rythme de suivi pour réduire les opportunités oubliées.</p></article>
+  </div>
+  <h3>Ce qui peut être structuré</h3>
+  <ul><li>organisation des prospects et clients ;</li><li>création ou simplification du pipeline ;</li><li>règles de saisie des informations ;</li><li>suivi des prochaines actions ;</li><li>relances et rappels simples ;</li><li>automatisations légères lorsque pertinentes ;</li><li>tableaux de bord et indicateurs commerciaux.</li></ul>
+  <h3>Commencer par le process, pas par l’outil</h3><p>Avant de choisir ou configurer un CRM, il faut comprendre comment une opportunité progresse réellement : premier contact, qualification, rendez-vous, proposition, relance et décision. L’outil vient ensuite soutenir ce fonctionnement.</p>
+  <h3>Une organisation qui facilite le pilotage</h3><p>Lorsque les données sont suffisamment propres et structurées, il devient plus facile de suivre le nombre d’opportunités en cours, les relances à effectuer et les étapes où les affaires ralentissent.</p>
+  <h3>Questions fréquentes</h3>
+  <h3>Pouvez-vous travailler avec notre CRM actuel ?</h3><p>Oui. L’objectif est d’abord d’améliorer l’existant lorsque l’outil est adapté.</p>
+  <h3>Faut-il automatiser toutes les tâches ?</h3><p>Non. Les automatisations sont utiles uniquement lorsqu’elles simplifient réellement le suivi sans rendre le process plus opaque.</p>
+  <h3>Cette prestation convient-elle à une petite équipe ?</h3><p>Oui. L’organisation est adaptée au niveau de maturité et au volume commercial de la structure.</p>
+</SeoServiceLayout>

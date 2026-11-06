@@ -1,0 +1,41 @@
+---
+import SeoServiceLayout from '../layouts/SeoServiceLayout.astro';
+const title='Marketing BtoB à Aix-en-Provence | Acquisition & conversion | Connect';
+const description='Marketing BtoB à Aix-en-Provence pour TPE et PME : acquisition, contenus, landing pages, parcours prospect et actions orientées conversion.';
+const canonical='https://www.connect-affaires.fr/marketing-btob-aix-en-provence.html';
+const structuredData={'@context':'https://schema.org','@graph':[
+  {'@type':'Service','@id':canonical+'#service',name:'Marketing BtoB à Aix-en-Provence',serviceType:'Marketing BtoB',provider:{'@id':'https://www.connect-affaires.fr/#business'},areaServed:{'@type':'City',name:'Aix-en-Provence'},description},
+  {'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Accueil',item:'https://www.connect-affaires.fr/'},{'@type':'ListItem',position:2,name:'Marketing BtoB à Aix-en-Provence',item:canonical}]},
+  {'@type':'FAQPage',mainEntity:[
+    {'@type':'Question',name:'Connect est-il une agence marketing classique ?',acceptedAnswer:{'@type':'Answer',text:'Connect se positionne à la croisée du conseil commercial et du marketing BtoB. Les actions marketing sont pensées en fonction des objectifs commerciaux.'}},
+    {'@type':'Question',name:'Pouvez-vous améliorer une landing page existante ?',acceptedAnswer:{'@type':'Answer',text:'Oui. Le travail peut porter sur le message, la structure, les appels à l’action, le formulaire et la cohérence avec la campagne d’acquisition.'}},
+    {'@type':'Question',name:'Travaillez-vous le SEO local ?',acceptedAnswer:{'@type':'Answer',text:'Oui lorsque le référencement local est pertinent pour l’activité, notamment autour d’Aix-en-Provence, Marseille et des Bouches-du-Rhône.'}}
+  ]}
+]};
+const related=[
+  {href:'/conseil-commercial-aix-en-provence.html',title:'Conseil commercial',text:'Clarifier votre stratégie et vos priorités.'},
+  {href:'/acquisition-btob-aix-en-provence.html',title:'Acquisition BtoB',text:'Créer et mieux traiter les opportunités.'},
+  {href:'/crm-organisation-commerciale-aix-en-provence.html',title:'CRM & organisation',text:'Structurer le suivi commercial.'}
+];
+---
+<SeoServiceLayout {title} {description} {canonical} structuredData={structuredData} eyebrow="Marketing BtoB · Aix-en-Provence" h1="Marketing BtoB à Aix-en-Provence : attirer les bons prospects, pas simplement plus de trafic." lead="Connect relie marketing et commerce pour construire des actions qui servent un objectif concret : générer des opportunités et faciliter la conversion." image="/service-marketing.jpg" imageAlt="Analyse de données marketing et acquisition BtoB" {related}>
+  <span class="eyebrow">Approche</span>
+  <h2>Un marketing pensé pour soutenir le développement commercial.</h2>
+  <p>Pour une TPE ou une PME, le marketing BtoB ne doit pas être une accumulation de publications, de campagnes et d’outils. Chaque action doit avoir un rôle dans le parcours du prospect : créer de la visibilité, susciter un intérêt, rassurer puis faciliter une prise de contact.</p>
+  <p>Connect travaille donc le marketing à partir du besoin commercial. Le choix des canaux, des contenus et des supports dépend de la cible, de l’offre et de la manière dont vos prospects prennent réellement leurs décisions.</p>
+  <div class="value-grid">
+    <article class="value-card"><strong>Acquisition</strong><p>Choisir les canaux capables de toucher les prospects réellement intéressants.</p></article>
+    <article class="value-card"><strong>Message</strong><p>Créer des messages plus clairs, utiles et orientés vers une action.</p></article>
+    <article class="value-card"><strong>Conversion</strong><p>Améliorer les pages, formulaires et supports qui transforment l’intérêt en prise de contact.</p></article>
+  </div>
+  <h3>Les sujets marketing que Connect peut prendre en charge</h3>
+  <ul><li>stratégie d’acquisition BtoB ;</li><li>analyse du parcours prospect ;</li><li>création ou amélioration de landing pages ;</li><li>messages et contenus orientés conversion ;</li><li>campagnes commerciales et marketing ;</li><li>visibilité locale et SEO lorsque le contexte s’y prête ;</li><li>cohérence entre marketing, CRM et suivi commercial.</li></ul>
+  <h3>Marketing BtoB et cycle de vente</h3>
+  <p>En BtoB, la décision est rarement instantanée. Le prospect peut découvrir l’entreprise, consulter plusieurs pages, comparer des solutions puis revenir quelques jours ou semaines plus tard. Le marketing doit donc faciliter chaque étape sans créer de rupture avec le suivi commercial.</p>
+  <h3>Mesurer ce qui compte</h3>
+  <p>Le suivi porte d’abord sur les indicateurs utiles : demandes entrantes, qualité des leads, taux de transformation, origine des opportunités et progression dans le parcours commercial. Les indicateurs de visibilité restent utiles, mais ils ne remplacent pas les résultats commerciaux.</p>
+  <h3>Questions fréquentes</h3>
+  <h3>Connect est-il une agence marketing classique ?</h3><p>Connect se positionne à la croisée du conseil commercial et du marketing BtoB. Les actions marketing sont pensées en fonction des objectifs commerciaux.</p>
+  <h3>Pouvez-vous améliorer une landing page existante ?</h3><p>Oui. Le travail peut porter sur le message, la structure, les appels à l’action, le formulaire et la cohérence avec la campagne d’acquisition.</p>
+  <h3>Travaillez-vous le SEO local ?</h3><p>Oui lorsque le référencement local est pertinent pour l’activité, notamment autour d’Aix-en-Provence, Marseille et des Bouches-du-Rhône.</p>
+</SeoServiceLayout>

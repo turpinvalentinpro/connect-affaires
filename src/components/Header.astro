@@ -1,20 +1,24 @@
+---
+const onHome = Astro.url.pathname === '/';
+const href = (anchor) => onHome ? `#${anchor}` : `/#${anchor}`;
+---
 <header class="site-header" data-header>
   <div class="shell nav-shell">
-    <a class="brand" href="/" aria-label="Connect — Accueil">
+    <a class="brand" href="/" aria-label="Connect, accueil">
       <img src="/logo.png" alt="Logo Connect" width="44" height="44" class="brand-logo" />
       <span>Connect</span>
     </a>
 
     <nav class="desktop-nav" aria-label="Navigation principale">
-      <a href="#services">Services</a>
-      <a href="#methode">Méthode</a>
-      <a href="#about">À propos</a>
-      <a href="#references">Références</a>
-      <a href="#faq">FAQ</a>
-      <a href="#contact">Contact</a>
+      <a href={href('services')}>Services</a>
+      <a href={href('methode')}>Méthode</a>
+      <a href={href('about')}>À propos</a>
+      <a href={href('references')}>Références</a>
+      <a href={href('faq')}>FAQ</a>
+      <a href={href('contact')}>Contact</a>
     </nav>
 
-    <a class="nav-cta desktop-only" href="#contact">Échanger sur vos enjeux</a>
+    <a class="nav-cta desktop-only" href={href('contact')}>Échanger sur vos enjeux</a>
 
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="Ouvrir le menu">
       <span></span><span></span><span></span>
@@ -22,12 +26,12 @@
   </div>
 
   <nav id="mobileMenu" class="mobile-menu" aria-label="Navigation mobile">
-    <a href="#services">Services</a>
-    <a href="#methode">Méthode</a>
-    <a href="#about">À propos</a>
-    <a href="#references">Références</a>
-    <a href="#faq">FAQ</a>
-    <a href="#contact">Contact</a>
-    <a class="nav-cta mobile-cta" href="#contact">Échanger sur vos enjeux</a>
+    <a href={href('services')}>Services</a>
+    <a href={href('methode')}>Méthode</a>
+    <a href={href('about')}>À propos</a>
+    <a href={href('references')}>Références</a>
+    <a href={href('faq')}>FAQ</a>
+    <a href={href('contact')}>Contact</a>
+    <a class="nav-cta mobile-cta" href={href('contact')}>Échanger sur vos enjeux</a>
   </nav>
 </header>

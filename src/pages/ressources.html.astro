@@ -1,0 +1,37 @@
+---
+import InnerPageShell from '../components/InnerPageShell.astro';
+const title='Ressources développement commercial & marketing BtoB | Connect';
+const description='Guides pratiques, ressources et cas clients Connect sur le développement commercial, le marketing BtoB, l’acquisition, le CRM et l’organisation.';
+const canonical='https://www.connect-affaires.fr/ressources.html';
+const structuredData={'@context':'https://schema.org','@graph':[
+  {'@type':'CollectionPage','@id':canonical+'#page',url:canonical,name:title,description,inLanguage:'fr-FR'},
+  {'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Accueil',item:'https://www.connect-affaires.fr/'},{'@type':'ListItem',position:2,name:'Ressources',item:canonical}]}
+]};
+const items=[
+  {label:'Guide',title:'Comment structurer le développement commercial d’une PME ?',text:'Une méthode simple pour passer des objectifs à un plan d’action commercial exploitable.',href:'/structurer-developpement-commercial-pme.html'},
+  {label:'Guide',title:'Marketing BtoB : par où commencer quand on est une TPE ou PME ?',text:'Prioriser les bons canaux, les bons contenus et les bons indicateurs sans se disperser.',href:'/marketing-btob-tpe-pme.html'},
+  {label:'Cas client',title:'Fer de Lance : visibilité, ciblage et demandes entrantes',text:'Retour sur la collaboration autour du site et de l’acquisition, à partir du témoignage publié par le client.',href:'/cas-client-fer-de-lance.html'},
+  {label:'Service',title:'Conseil commercial à Aix-en-Provence',text:'Clarifier la stratégie, les priorités et l’organisation commerciale.',href:'/conseil-commercial-aix-en-provence.html'},
+  {label:'Service',title:'Marketing BtoB à Aix-en-Provence',text:'Relier acquisition, contenus et conversion aux objectifs commerciaux.',href:'/marketing-btob-aix-en-provence.html'},
+  {label:'Service',title:'CRM & organisation commerciale',text:'Structurer le pipeline, les relances et le suivi des opportunités.',href:'/crm-organisation-commerciale-aix-en-provence.html'}
+];
+---
+<InnerPageShell {title} {description} {canonical} {structuredData}>
+  <main id="main">
+    <section class="resource-hero">
+      <div class="shell">
+        <nav class="breadcrumbs" aria-label="Fil d’Ariane"><a href="/">Accueil</a><span>/</span><strong>Ressources</strong></nav>
+        <div class="resource-hero-copy">
+          <span class="eyebrow">Ressources Connect</span>
+          <h1>Des contenus utiles pour mieux structurer votre développement.</h1>
+          <p class="lead">Guides pratiques, retours d’expérience et cas clients autour du commerce, du marketing BtoB, de l’acquisition et de l’organisation.</p>
+        </div>
+      </div>
+    </section>
+    <section class="inner-content soft">
+      <div class="shell resource-list-new">
+        {items.map((item) => <article class="resource-item"><span class="eyebrow">{item.label}</span><h2>{item.title}</h2><p>{item.text}</p><a class="more" href={item.href}>Lire la suite</a></article>)}
+      </div>
+    </section>
+  </main>
+</InnerPageShell>

@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from './Header.astro';
+import Footer from './Footer.astro';
+const { title, description, canonical, image, structuredData } = Astro.props;
+---
+<BaseLayout {title} {description} {canonical} {image} {structuredData}>
+  <Header />
+  <slot />
+  <Footer />
+  <button class="back-to-top" id="backToTop" aria-label="Revenir en haut" type="button">↑</button>
+</BaseLayout>
+<script>
+  const toggle = document.querySelector('.menu-toggle');
+  const mobileMenu = document.getElementById('mobileMenu');
+  toggle?.addEventListener('click', () => {
+    const next = toggle.getAttribute('aria-expanded') !== 'true';
+    toggle.setAttribute('aria-expanded', String(next));
+    mobileMenu?.classList.toggle('open', next);
+    document.body.classList.toggle('menu-open', next);
+  });
+  mobileMenu?.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    mobileMenu.classList.remove('open');
+    toggle?.setAttribute('aria-expanded','false');
+    document.body.classList.remove('menu-open');
+  }));
+  const backToTop = document.getElementById('backToTop');
+  const updateTop = () => backToTop?.classList.toggle('visible', window.scrollY > 500);
+  window.addEventListener('scroll', updateTop, { passive:true });
+  updateTop();
+  backToTop?.addEventListener('click', () => window.scrollTo({top:0,behavior:'smooth'}));
+</script>

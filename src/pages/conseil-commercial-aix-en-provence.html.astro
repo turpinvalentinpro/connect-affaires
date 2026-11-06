@@ -1,0 +1,43 @@
+---
+import SeoServiceLayout from '../layouts/SeoServiceLayout.astro';
+const title='Conseil commercial à Aix-en-Provence pour TPE & PME | Connect';
+const description='Conseil commercial à Aix-en-Provence : stratégie, offre, ciblage, organisation, plan d’action et pilotage pour TPE, PME et dirigeants.';
+const canonical='https://www.connect-affaires.fr/conseil-commercial-aix-en-provence.html';
+const structuredData={
+  '@context':'https://schema.org','@graph':[
+    {'@type':'Service','@id':canonical+'#service',name:'Conseil commercial à Aix-en-Provence',serviceType:'Conseil commercial',provider:{'@id':'https://www.connect-affaires.fr/#business'},areaServed:[{'@type':'City',name:'Aix-en-Provence'},{'@type':'City',name:'Marseille'}],description},
+    {'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Accueil',item:'https://www.connect-affaires.fr/'},{'@type':'ListItem',position:2,name:'Conseil commercial à Aix-en-Provence',item:canonical}]},
+    {'@type':'FAQPage',mainEntity:[
+      {'@type':'Question',name:'À qui s’adresse le conseil commercial de Connect ?',acceptedAnswer:{'@type':'Answer',text:'Aux TPE, PME, indépendants et dirigeants qui souhaitent clarifier leur développement commercial ou remettre de l’ordre dans leur organisation.'}},
+      {'@type':'Question',name:'Peut-on commencer par un audit ponctuel ?',acceptedAnswer:{'@type':'Answer',text:'Oui. Une mission peut débuter par un diagnostic court pour identifier les priorités avant de décider des actions à mettre en place.'}},
+      {'@type':'Question',name:'Intervenez-vous uniquement à Aix-en-Provence ?',acceptedAnswer:{'@type':'Answer',text:'Connect est basé à Aix-en-Provence et intervient également à Marseille, dans les Bouches-du-Rhône et plus largement en PACA.'}}
+    ]}
+  ]
+};
+const related=[
+  {href:'/marketing-btob-aix-en-provence.html',title:'Marketing BtoB',text:'Relier visibilité, acquisition et conversion.'},
+  {href:'/acquisition-btob-aix-en-provence.html',title:'Acquisition BtoB',text:'Créer et mieux traiter les opportunités.'},
+  {href:'/crm-organisation-commerciale-aix-en-provence.html',title:'CRM & organisation',text:'Structurer le suivi commercial.'}
+];
+---
+<SeoServiceLayout {title} {description} {canonical} structuredData={structuredData} eyebrow="Conseil commercial · Aix-en-Provence" h1="Conseil commercial à Aix-en-Provence : remettre de la clarté dans votre développement." lead="Connect aide les TPE et PME à clarifier leur stratégie commerciale, leurs priorités et leur organisation pour passer plus facilement des idées aux actions." image="/service-strategy.jpg" imageAlt="Travail de réflexion sur une stratégie commerciale" {related}>
+  <span class="eyebrow">Approche</span>
+  <h2>Un regard extérieur pour décider plus vite et mieux structurer l’action commerciale.</h2>
+  <p>Une entreprise peut avoir une bonne offre, des clients satisfaits et pourtant manquer de régularité commerciale. Le problème vient souvent moins du produit que du manque de priorités : trop de canaux testés, des messages qui évoluent en permanence ou un suivi commercial difficile à lire.</p>
+  <p>L’accompagnement de Connect consiste à reprendre ces éléments dans l’ordre : comprendre ce qui existe, identifier ce qui mérite d’être conservé, puis construire un plan commercial utilisable au quotidien.</p>
+  <div class="value-grid">
+    <article class="value-card"><strong>Positionnement</strong><p>Clarifier ce que vous vendez, à qui, et avec quel argument principal.</p></article>
+    <article class="value-card"><strong>Priorités</strong><p>Choisir les actions commerciales réellement prioritaires et organiser leur mise en œuvre.</p></article>
+    <article class="value-card"><strong>Pilotage</strong><p>Mettre en place quelques indicateurs simples pour savoir ce qui fonctionne et ce qui doit évoluer.</p></article>
+  </div>
+  <h3>Sur quoi peut porter une mission de conseil commercial ?</h3>
+  <ul><li>analyse du fonctionnement commercial actuel ;</li><li>clarification des cibles et des segments prioritaires ;</li><li>travail sur l’offre et les arguments commerciaux ;</li><li>organisation des canaux d’acquisition et de prospection ;</li><li>mise en place d’un plan d’action commercial ;</li><li>organisation du suivi des prospects et opportunités ;</li><li>définition d’indicateurs utiles au pilotage.</li></ul>
+  <h3>Une approche adaptée aux TPE et PME</h3>
+  <p>Le conseil doit rester proportionné à la taille de l’entreprise. Pour une TPE ou une PME, l’enjeu n’est pas d’ajouter des tableaux complexes ou des réunions supplémentaires. Il est de rendre les décisions plus simples, les priorités plus visibles et l’action commerciale plus régulière.</p>
+  <h3>Conseil et mise en œuvre</h3>
+  <p>Connect peut rester sur une mission de cadrage ou aller plus loin dans la mise en place : structuration du CRM, création de supports de vente, optimisation d’une landing page, préparation de campagnes ou organisation du suivi commercial.</p>
+  <h3>Questions fréquentes</h3>
+  <h3>À qui s’adresse le conseil commercial de Connect ?</h3><p>Aux TPE, PME, indépendants et dirigeants qui souhaitent clarifier leur développement commercial ou remettre de l’ordre dans leur organisation.</p>
+  <h3>Peut-on commencer par un audit ponctuel ?</h3><p>Oui. Une mission peut débuter par un diagnostic court pour identifier les priorités avant de décider des actions à mettre en place.</p>
+  <h3>Intervenez-vous uniquement à Aix-en-Provence ?</h3><p>Connect est basé à Aix-en-Provence et intervient également à Marseille, dans les Bouches-du-Rhône et plus largement en PACA.</p>
+</SeoServiceLayout>

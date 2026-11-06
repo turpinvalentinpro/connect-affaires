@@ -1,0 +1,51 @@
+---
+import InnerPageShell from '../components/InnerPageShell.astro';
+const {
+  title, description, canonical, eyebrow, h1, lead, image, imageAlt,
+  structuredData, related = []
+} = Astro.props;
+---
+<InnerPageShell {title} {description} {canonical} image={`https://www.connect-affaires.fr${image}`} {structuredData}>
+  <main id="main">
+    <section class="inner-hero">
+      <div class="shell">
+        <nav class="breadcrumbs" aria-label="Fil d’Ariane"><a href="/">Accueil</a><span>/</span><strong>{eyebrow}</strong></nav>
+        <div class="inner-hero-grid">
+          <div class="inner-hero-copy">
+            <span class="eyebrow">{eyebrow}</span>
+            <h1>{h1}</h1>
+            <p class="lead">{lead}</p>
+            <div class="inner-actions">
+              <a class="btn btn-primary" href="/#contact">Échanger sur vos enjeux</a>
+              <a class="btn btn-light" href="/ressources.html">Voir les ressources</a>
+            </div>
+          </div>
+          <figure class="inner-media"><img src={image} alt={imageAlt} width="900" height="675" loading="eager" /></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="inner-content">
+      <div class="shell content-grid">
+        <article class="prose"><slot /></article>
+        <aside class="side-note">
+          <span class="eyebrow">Connect</span>
+          <h3>Un sujet à cadrer ?</h3>
+          <p>Expliquez votre contexte, vos objectifs et ce qui bloque aujourd’hui. L’intervention peut porter sur un sujet précis ou sur l’ensemble du parcours commercial.</p>
+          <a class="btn btn-dark" href="/#contact">Parler de votre projet</a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="related-section">
+      <div class="shell">
+        <span class="eyebrow">À explorer</span>
+        <h2>Services complémentaires.</h2>
+        <p>Commerce, marketing et organisation fonctionnent mieux lorsqu’ils restent reliés.</p>
+        <div class="related-grid">
+          {related.map((item) => <a class="related-link" href={item.href}><span>{item.label || 'Service'}</span><strong>{item.title}</strong><p>{item.text}</p></a>)}
+        </div>
+      </div>
+    </section>
+  </main>
+</InnerPageShell>

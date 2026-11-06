@@ -1,0 +1,31 @@
+---
+import ArticleLayout from '../layouts/ArticleLayout.astro';
+const title='Cas client Fer de Lance : visibilité & acquisition | Connect';
+const description='Cas client Connect x Fer de Lance : création du site, ciblage et acquisition. Résultats présentés à partir du témoignage Google publié par le client.';
+const canonical='https://www.connect-affaires.fr/cas-client-fer-de-lance.html';
+const structuredData={'@context':'https://schema.org','@graph':[
+  {'@type':'Article','@id':canonical+'#article',headline:'Fer de Lance : mieux cibler, mieux être vu et générer davantage de demandes',description,datePublished:'2026-09-30',dateModified:'2026-11-06',author:{'@id':'https://www.connect-affaires.fr/#valentin-turpin'},publisher:{'@id':'https://www.connect-affaires.fr/#business'},mainEntityOfPage:canonical,inLanguage:'fr-FR'},
+  {'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Accueil',item:'https://www.connect-affaires.fr/'},{'@type':'ListItem',position:2,name:'Ressources',item:'https://www.connect-affaires.fr/ressources.html'},{'@type':'ListItem',position:3,name:'Cas client Fer de Lance',item:canonical}]}
+]};
+const related=[
+  {label:'Guide',href:'/marketing-btob-tpe-pme.html',title:'Marketing BtoB pour TPE & PME',text:'Choisir les bons leviers sans se disperser.'},
+  {label:'Service',href:'/marketing-btob-aix-en-provence.html',title:'Marketing BtoB à Aix-en-Provence',text:'Acquisition, contenus et conversion.'},
+  {label:'Service',href:'/acquisition-btob-aix-en-provence.html',title:'Acquisition BtoB',text:'Construire un flux d’opportunités plus régulier.'}
+];
+---
+<ArticleLayout {title} {description} {canonical} {structuredData} eyebrow="Cas client" h1="Fer de Lance : mieux cibler, mieux être vu et générer davantage de demandes." lead="Retour sur une collaboration autour du site internet et de l’acquisition, à partir du témoignage publié par le client sur Google." meta={['Fer de Lance','Avis Google 5/5','2026']} {related}>
+  <h2>Le contexte</h2>
+  <p>Dans son avis Google, Fer de Lance explique qu’avant la création de son site avec InsightToSell et Connect Affaires, sa communication reposait principalement sur les réseaux sociaux et la sponsorisation. Selon son retour, cette approche lui permettait de gagner des abonnés mais ciblait moins efficacement les personnes susceptibles de prendre rendez-vous.</p>
+  <h2>Le travail engagé</h2>
+  <p>La collaboration a porté sur la mise en place d’un site internet et d’un dispositif permettant de mieux présenter l’activité, mieux orienter la visibilité et créer un parcours plus adapté aux demandes commerciales.</p>
+  <p>Le rôle de Connect s’inscrit dans cette logique : relier le besoin commercial, le message, l’acquisition et les outils de conversion plutôt que traiter chaque sujet séparément.</p>
+  <div class="case-result"><strong>Résultats rapportés par le client</strong><p>Dans son avis Google, Fer de Lance indique une augmentation de son chiffre d’affaires d’environ 30 %, de nombreuses demandes de devis quotidiennes et un planning davantage rempli sur le long terme depuis la création du site en juin 2026.</p></div>
+  <p class="case-disclaimer">Ces résultats sont ceux déclarés par le client dans son avis Google. Ils ne constituent pas une promesse de performance et peuvent varier selon l’activité, le marché et le contexte.</p>
+  <h2>Ce que ce cas illustre</h2>
+  <p>Ce retour met surtout en évidence l’intérêt de relier visibilité et conversion. Une entreprise peut gagner en audience sans forcément générer davantage de rendez-vous. La question est donc moins « combien de personnes voient la marque ? » que « est-ce que les bonnes personnes comprennent l’offre et savent comment passer à l’étape suivante ? »</p>
+  <ul><li>clarifier la cible et le positionnement ;</li><li>créer un support capable de présenter l’offre ;</li><li>orienter les actions d’acquisition vers la bonne clientèle ;</li><li>faciliter la prise de contact ;</li><li>suivre les demandes générées.</li></ul>
+  <h2>Un retour client vérifiable</h2>
+  <p>L’avis complet est accessible depuis la fiche Google de Connect.</p>
+  <p><a class="btn btn-light" href="https://share.google/8ZrhbUUEqymf9vwSP" target="_blank" rel="noopener noreferrer">Voir la fiche Google</a></p>
+  <div class="article-callout"><strong>Vous avez un problème similaire ?</strong><br />Connect peut analyser votre parcours commercial et identifier où se perdent aujourd’hui les opportunités. <a href="/#contact" style="color:#0785c7;font-weight:800">Échanger sur vos enjeux</a></div>
+</ArticleLayout>

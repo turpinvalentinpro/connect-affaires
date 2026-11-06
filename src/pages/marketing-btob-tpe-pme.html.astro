@@ -1,0 +1,34 @@
+---
+import ArticleLayout from '../layouts/ArticleLayout.astro';
+const title='Marketing BtoB pour TPE & PME : par où commencer ? | Connect';
+const description='Guide marketing BtoB pour TPE et PME : objectifs, acquisition, contenus, landing pages, conversion et mesure des résultats.';
+const canonical='https://www.connect-affaires.fr/marketing-btob-tpe-pme.html';
+const structuredData={'@context':'https://schema.org','@graph':[
+  {'@type':'Article','@id':canonical+'#article',headline:'Marketing BtoB : par où commencer quand on est une TPE ou PME ?',description,datePublished:'2026-09-30',dateModified:'2026-11-06',author:{'@id':'https://www.connect-affaires.fr/#valentin-turpin'},publisher:{'@id':'https://www.connect-affaires.fr/#business'},mainEntityOfPage:canonical,inLanguage:'fr-FR'},
+  {'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Accueil',item:'https://www.connect-affaires.fr/'},{'@type':'ListItem',position:2,name:'Ressources',item:'https://www.connect-affaires.fr/ressources.html'},{'@type':'ListItem',position:3,name:'Marketing BtoB pour TPE et PME',item:canonical}]}
+]};
+const related=[
+  {label:'Service',href:'/marketing-btob-aix-en-provence.html',title:'Marketing BtoB à Aix-en-Provence',text:'Acquisition, contenus et conversion.'},
+  {label:'Guide',href:'/structurer-developpement-commercial-pme.html',title:'Structurer le développement commercial',text:'Créer une organisation commerciale plus lisible.'},
+  {label:'Cas client',href:'/cas-client-fer-de-lance.html',title:'Fer de Lance',text:'Un retour client réel sur visibilité et acquisition.'}
+];
+---
+<ArticleLayout {title} {description} {canonical} {structuredData} eyebrow="Guide" h1="Marketing BtoB : par où commencer quand on est une TPE ou PME ?" lead="Guide marketing BtoB pour TPE et PME : objectifs, acquisition, contenus, landing pages, conversion et mesure des résultats." meta={['Marketing BtoB','TPE & PME']} {related}>
+  <p>Le marketing BtoB peut vite devenir une suite d’actions déconnectées : quelques publications, une campagne ponctuelle, un nouveau site, puis un outil supplémentaire. Pour une TPE ou une PME, la priorité est plutôt de construire un parcours simple entre visibilité, intérêt et prise de contact.</p>
+  <h2>1. Partir de l’objectif commercial</h2>
+  <p>Le canal marketing vient après l’objectif. Une entreprise qui cherche des rendez-vous avec des dirigeants locaux n’a pas les mêmes besoins qu’une entreprise qui veut développer une offre nationale ou faire connaître une nouvelle expertise.</p>
+  <p>Avant de choisir un canal, il faut définir ce que le marketing doit produire : prises de contact, demandes de devis, inscriptions, rendez-vous ou davantage de visibilité auprès d’une cible précise.</p>
+  <h2>2. Comprendre comment les prospects prennent leur décision</h2>
+  <p>En BtoB, le parcours comporte souvent plusieurs étapes. Un prospect peut découvrir une entreprise via Google, consulter LinkedIn, revenir sur le site, télécharger une information, puis prendre contact après plusieurs jours.</p>
+  <p>Le travail consiste à rendre ce parcours cohérent : message clair, preuve suffisante, appel à l’action visible et suivi efficace lorsque le prospect se manifeste.</p>
+  <h2>3. Choisir les contenus qui servent réellement le commerce</h2>
+  <ul><li>Pages services qui répondent aux questions importantes avant une prise de contact.</li><li>Cas clients pour montrer comment un problème concret a été traité.</li><li>Guides ou articles pour couvrir les questions recherchées par les prospects.</li><li>Messages de campagne adaptés au niveau de maturité de la cible.</li></ul>
+  <h2>4. Optimiser la conversion avant d’augmenter le trafic</h2>
+  <p>Envoyer plus de visiteurs vers une page mal structurée augmente rarement les résultats de manière durable. Il faut d’abord vérifier la proposition de valeur, la lisibilité de l’offre, les preuves, le formulaire et les appels à l’action.</p>
+  <h2>5. Suivre quelques indicateurs utiles</h2>
+  <p>Les impressions et les clics permettent de comprendre la visibilité, mais ils ne suffisent pas. Pour piloter le marketing BtoB, il faut aussi suivre la qualité des leads, leur origine, le taux de transformation et les opportunités réellement créées.</p>
+  <h2>Par où commencer concrètement ?</h2>
+  <ul><li>Définir la cible et l’objectif commercial.</li><li>Choisir un canal principal d’acquisition.</li><li>Créer ou améliorer la page de conversion associée.</li><li>Prévoir le suivi commercial des leads.</li><li>Mesurer les résultats avant d’ajouter un nouveau canal.</li></ul>
+  <p>Cette logique permet d’avancer progressivement et d’éviter de disperser le budget et le temps de l’équipe.</p>
+  <div class="article-callout"><strong>Besoin de relier marketing et commerce ?</strong><br />Connect peut analyser votre parcours actuel et identifier les points à simplifier ou renforcer. <a href="/#contact" style="color:#0785c7;font-weight:800">Échanger sur vos enjeux</a></div>
+</ArticleLayout>

@@ -1,3 +1,7 @@
+---
+const onHome = Astro.url.pathname === '/';
+const href = (anchor) => onHome ? `#${anchor}` : `/#${anchor}`;
+---
 <footer class="site-footer">
   <div class="shell footer-main">
     <div class="footer-brand-block">
@@ -10,7 +14,7 @@
 
     <div class="footer-col desktop-footer-col">
       <strong>Navigation</strong>
-      <a href="#services">Services</a><a href="#methode">Méthode</a><a href="#about">À propos</a><a href="#contact">Contact</a>
+      <a href={href('services')}>Services</a><a href={href('methode')}>Méthode</a><a href={href('about')}>À propos</a><a href={href('contact')}>Contact</a>
     </div>
     <div class="footer-col desktop-footer-col">
       <strong>Local</strong>

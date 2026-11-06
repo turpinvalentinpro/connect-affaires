@@ -126,8 +126,8 @@ const structuredData = {
               <button class="review-toggle" type="button" aria-expanded="false">Voir plus</button>
             </article>
             <article class="review" data-review data-reveal>
-              <div class="review-meta"><div class="review-avatar">I</div><div><strong>Insight to Sell</strong><span>Yoan Bouc · Fondateur</span></div></div>
-              <blockquote class="collapsed">« L’approche de Connect est claire, directe et terrain. Valentin comprend vite les enjeux d’un business et active son réseau avec précision : sans tourner autour du pot. »</blockquote>
+              <div class="review-meta"><div class="review-avatar">I</div><div><strong>Insight to Sell</strong><span>Yoan Bouc · Avis Google · 5/5</span></div></div>
+              <blockquote class="collapsed">« Depuis que Valentin a rejoint notre système d'acquisition, nos résultats ont grandement progressé. Merci à lui de nous permettre d'absorber et de traiter un volume d'activité nettement plus important au quotidien »</blockquote>
               <button class="review-toggle" type="button" aria-expanded="false">Voir plus</button>
             </article>
           </div>
@@ -272,7 +272,6 @@ const structuredData = {
     });
 
     gsap.fromTo('[data-video-stage]', {scale:.96}, {scale:1,ease:'none',scrollTrigger:{trigger:'[data-video-stage]',start:'top 90%',end:'bottom 40%',scrub:.5}});
-    gsap.fromTo('[data-about-photo] img', {scale:1.08}, {scale:1,ease:'none',scrollTrigger:{trigger:'[data-about-photo]',start:'top bottom',end:'bottom top',scrub:true}});
   } else {
     document.querySelectorAll('[data-reveal]').forEach(el => { el.style.opacity='1'; el.style.transform='none'; });
   }

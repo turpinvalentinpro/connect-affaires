@@ -1,6 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 60" role="img" aria-labelledby="title" style="color:#111a2a">
-<title id="title">Heliora INDUSTRIE</title>
-<g transform="translate(4 6)" color="#111a2a"><circle cx="24" cy="24" r="8" fill="none" stroke="currentColor" stroke-width="4"/><path d="M24 5v6M24 37v6M5 24h6M37 24h6M10.5 10.5l4.3 4.3M33.2 33.2l4.3 4.3M37.5 10.5l-4.3 4.3M14.8 33.2l-4.3 4.3" stroke="currentColor" stroke-width="4" stroke-linecap="round"/></g>
-<text x="62" y="29" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#111a2a" letter-spacing="-.5">Heliora</text>
-<text x="63" y="44" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#6b778c" letter-spacing="2">INDUSTRIE</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 84" role="img" aria-labelledby="t d">
+  <title id="t">Heliora Industrie</title><desc id="d">Identité visuelle représentative fictive</desc>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(4 7)">
+      <path d="M35 2 65 19v34L35 70 5 53V19z" fill="#0B1830"/>
+      <path d="M22 20v30M48 20v30M22 35h26" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="58" cy="14" r="7" fill="#39B8FF"/>
+    </g>
+    <g transform="translate(93 18)">
+      <text x="0" y="24" fill="#0B1830" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="800" letter-spacing="1.1">HELIORA</text>
+      <text x="1" y="47" fill="#667287" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="3.3">INDUSTRIE</text>
+    </g>
+  </g>
 </svg>

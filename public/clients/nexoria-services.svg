@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 92" role="img" aria-labelledby="t d">
+  <title id="t">Nexoria Services</title><desc id="d">Identité visuelle représentative fictive</desc>
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#12C4C8"/><stop offset="1" stop-color="#0B5E8E"/></linearGradient></defs>
+  <g transform="translate(8 16)">
+    <path d="M0 52 20 6h20l20 46H40L29 27 18 52Z" fill="#073F66"/>
+    <path d="M32 6h20l20 46H52L41 27Z" fill="url(#g)"/>
+  </g>
+  <text x="98" y="40" fill="#0B2442" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="800">Nexoria</text>
+  <text x="98" y="68" fill="#31445C" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="500">Services</text>
+</svg>

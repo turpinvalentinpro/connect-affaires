@@ -63,9 +63,9 @@ p{margin:0}
 .trust-rail{height:80px;overflow:hidden;display:flex;align-items:center}
 .trust-track{display:flex;width:max-content;animation:connectTicker 52s linear infinite;will-change:transform}
 .trust-group{display:flex;align-items:center;gap:42px;padding-right:42px;white-space:nowrap}
-.trust-logo{height:44px;min-width:150px;display:flex;align-items:center;justify-content:center;opacity:.74;filter:grayscale(1);transition:opacity .2s ease,transform .2s ease}
-.trust-logo.is-real{opacity:.96}
-.trust-logo.is-representative{opacity:.58}
+.trust-logo{height:44px;min-width:150px;display:flex;align-items:center;justify-content:center;opacity:.82;transition:opacity .2s ease,transform .2s ease}
+.trust-logo.is-real{opacity:.96;filter:grayscale(1)}
+.trust-logo.is-representative{opacity:.9;filter:none}
 .trust-logo img{display:block;max-width:180px;max-height:42px;width:auto;height:auto;object-fit:contain}
 .trust-logo.insight img{max-width:190px;max-height:32px}
 .trust-logo.wuse img{max-width:126px;max-height:45px;filter:brightness(0)}

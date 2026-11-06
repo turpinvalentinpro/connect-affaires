@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 150" role="img" aria-labelledby="title desc">
+  <title id="title">La Bastide Provençale</title>
+  <desc id="desc">Identité fictive d'hôtellerie premium en Provence</desc>
+  <g fill="none" stroke="#7A8257" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M57 76 C78 48 103 34 133 31"/>
+    <path d="M84 62 C78 50 78 39 83 29"/>
+    <path d="M99 52 C95 40 97 29 104 20"/>
+    <path d="M116 43 C113 33 118 22 127 14"/>
+    <path d="M75 69 C64 64 53 64 43 68"/>
+    <path d="M90 58 C80 53 68 53 57 57"/>
+    <path d="M108 48 C99 42 88 42 78 46"/>
+  </g>
+  <text x="155" y="72" fill="#233227" font-family="Georgia, 'Times New Roman', serif" font-size="43" font-style="italic">La Bastide Provençale</text>
+  <text x="158" y="111" fill="#A99063" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="6">HÔTELLERIE &amp; SÉMINAIRES</text>
+  <line x1="155" y1="126" x2="560" y2="126" stroke="#D8C6A1" stroke-width="2"/>
+</svg>

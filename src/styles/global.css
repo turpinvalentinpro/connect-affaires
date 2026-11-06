@@ -152,3 +152,13 @@ p{margin:0}
 @media(max-width:640px){
   .inner-hero,.resource-hero,.article-hero{padding:48px 0 44px}.breadcrumbs{margin-bottom:24px}.inner-hero h1{font-size:clamp(34px,9vw,44px)}.inner-hero .lead,.resource-hero .lead,.article-hero .lead{font-size:16px}.inner-actions{display:grid;grid-template-columns:1fr}.inner-media{border-radius:16px}.inner-content{padding:60px 0}.value-grid,.related-grid{grid-template-columns:1fr}.prose p,.article-body p{font-size:16px}.related-section{padding:60px 0}.resource-hero h1{font-size:clamp(34px,9vw,46px)}.resource-list-new{gap:26px}.article-hero h1{font-size:clamp(34px,9vw,46px)}
 }
+
+/* Distinctive representative brand identities */
+.trust-logo.bastide{min-width:260px;opacity:.98}
+.trust-logo.bastide img{max-width:260px;max-height:54px}
+.trust-logo.rivage{min-width:215px;opacity:1}
+.trust-logo.rivage img{max-width:215px;max-height:50px}
+@media(max-width:640px){
+  .trust-logo.bastide{min-width:210px}.trust-logo.bastide img{max-width:210px;max-height:44px}
+  .trust-logo.rivage{min-width:176px}.trust-logo.rivage img{max-width:176px;max-height:42px}
+}

@@ -35,3 +35,17 @@ function step(t){if(!t0)t0=t;var p=Math.min((t-t0)/dur,1);el.textContent=pre+Mat
 w.requestAnimationFrame(step);});},{threshold:.6});
 [].forEach.call(d.querySelectorAll('[data-count]'),function(c){co.observe(c);});
 })();
+/* Consentement cookies et Google Analytics */
+(function(){var w=window,d=document,GA='G-YQL7F6LPR1',KEY='connect-consent',MAX=182*864e5;
+function get(){try{var v=JSON.parse(localStorage.getItem(KEY));if(v&&Date.now()-v.t<MAX)return v.c;}catch(e){}return null;}
+function set(c){try{localStorage.setItem(KEY,JSON.stringify({c:c,t:Date.now()}));}catch(e){}}
+function loadGA(){if(w.__ga)return;w.__ga=1;w.dataLayer=w.dataLayer||[];w.gtag=function(){dataLayer.push(arguments);};gtag('js',new Date());gtag('config',GA);var s=d.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+GA;d.head.appendChild(s);}
+function clearGA(){var h=location.hostname.replace(/^www\./,'');d.cookie.split(';').forEach(function(c){var n=c.split('=')[0].trim();if(/^_ga/.test(n)){['','; domain=.'+h,'; domain='+location.hostname].forEach(function(dm){d.cookie=n+'=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/'+dm;});}});}
+function close(b){b.classList.remove('is-open');setTimeout(function(){b.remove();},250);}
+function banner(){if(d.querySelector('.c-cookie'))return;var b=d.createElement('div');b.className='c-cookie';b.setAttribute('role','dialog');b.setAttribute('aria-label','Gestion des cookies');
+b.innerHTML='<p class="c-cookie-text">J\'utilise Google Analytics pour savoir quelles pages sont lues et améliorer le site. Ces cookies de mesure ne sont déposés qu\'avec votre accord. <a href="/politique-de-confidentialite#cookies">En savoir plus</a></p><div class="c-cookie-actions"><button type="button" class="c-cookie-btn" data-c="0">Refuser</button><button type="button" class="c-cookie-btn" data-c="1">Accepter</button></div>';
+b.addEventListener('click',function(e){var t=e.target.closest('[data-c]');if(!t)return;var ok=t.getAttribute('data-c')==='1';set(ok);if(ok)loadGA();else clearGA();close(b);});
+d.body.appendChild(b);requestAnimationFrame(function(){b.classList.add('is-open');});}
+var c=get();if(c===true)loadGA();else if(c===null)banner();
+d.addEventListener('click',function(e){var t=e.target.closest('.js-cookie-prefs');if(!t)return;e.preventDefault();banner();});
+})();

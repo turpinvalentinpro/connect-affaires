@@ -35,6 +35,10 @@ PAGES=[  # slug, title, description, body, og type
 ("politique-de-confidentialite","Politique de confidentialité | Connect","Comment Connect collecte, utilise et protège les données personnelles transmises via le site connect-affaires.fr.",CONFID,"website"),
 ]
 LASTMOD="2026-11-25"
+import hashlib
+_G=pathlib.Path(__file__).resolve().parent
+VCSS=hashlib.md5("".join(open(str(_G/f)).read() for f in ("base.css","styles-webflow.css","anim.css")).encode()).hexdigest()[:8]
+VJS=hashlib.md5(open(str(_G/"site.js")).read().encode()).hexdigest()[:8]
 def head(slug,title,desc,ogt):
     url=SITE+("/"+slug if slug else "/"); e=html.escape
     img=SITE+("/valentin.jpg" if slug=="a-propos" else "/connect-motion-poster.jpg")
@@ -66,17 +70,17 @@ def head(slug,title,desc,ogt):
 <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="alternate" type="text/plain" title="llms.txt" href="/llms.txt">
-<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/styles.css?v={VCSS}">
 {pre}{ld}
 </head>
 <body>
 '''
 os.makedirs(OUT+"/clients",exist_ok=True)
 for slug,t,d,body,ogt in PAGES:
-    doc=head(slug,t,d,ogt)+HEADER+"\n"+body+"\n"+FOOTER+'\n<script src="/site.js" defer></script>\n</body>\n</html>\n'
+    doc=head(slug,t,d,ogt)+HEADER+"\n"+body+"\n"+FOOTER+'\n<script src="/site.js?v='+VJS+'" defer></script>\n</body>\n</html>\n'
     open(f"{OUT}/{slug or 'index'}.html","w").write(doc)
 # 404
-open(OUT+"/404.html","w").write(head("404","Page introuvable | Connect","Cette page n'existe pas ou a été déplacée.","website").replace('<link rel="canonical" href="'+SITE+'/404">','').replace('index, follow, max-image-preview:large','noindex')+HEADER+'<main class="c-legal"><div class="c-container"><div class="c-legal-inner"><h1 class="c-h1-page">Page introuvable</h1><p class="c-p">Cette page n\'existe pas ou a été déplacée.</p><a href="/" class="c-btn">Retour à l\'accueil</a></div></div></main>'+FOOTER+'<script src="/site.js" defer></script></body></html>')
+open(OUT+"/404.html","w").write(head("404","Page introuvable | Connect","Cette page n'existe pas ou a été déplacée.","website").replace('<link rel="canonical" href="'+SITE+'/404">','').replace('index, follow, max-image-preview:large','noindex')+HEADER+'<main class="c-legal"><div class="c-container"><div class="c-legal-inner"><h1 class="c-h1-page">Page introuvable</h1><p class="c-p">Cette page n\'existe pas ou a été déplacée.</p><a href="/" class="c-btn">Retour à l\'accueil</a></div></div></main>'+FOOTER+'<script src="/site.js?v='+VJS+'" defer></script></body></html>')
 for f in ("base.css","styles-webflow.css","anim.css"): pass
 open(OUT+"/styles.css","w").write("".join(open(str(ROOT/"generateur"/f)).read() for f in ("base.css","styles-webflow.css","anim.css")))
 shutil.copy(str(ROOT/"generateur"/"site.js"),OUT+"/site.js")

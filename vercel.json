@@ -96,6 +96,21 @@
           "value": "text/plain; charset=utf-8"
         }
       ]
+    },
+    {
+      "source": "/google79d1e247caef585a.html",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/google79d1e247caef585a.html",
+      "destination": "/gsc-verification.txt"
     }
   ]
 }

@@ -1,0 +1,32 @@
+/* Animations et finitions (identiques au site Webflow) */
+.c-progress{position:fixed;left:0;top:0;width:100%;height:3px;background:#38B6FF;transform-origin:0 50%;transform:scaleX(0);z-index:100;pointer-events:none}
+.c-header{transition:box-shadow .3s ease}
+.c-header-inner{transition:height .3s ease}
+.c-header.is-scrolled{box-shadow:0 6px 24px rgba(7,17,31,.07)}
+.c-header.is-scrolled .c-header-inner{height:58px}
+.c-mnav-panel{top:100%!important}
+.c-mark{background-image:linear-gradient(#38B6FF,#38B6FF);background-repeat:no-repeat;background-position:0 94%;background-size:100% .14em}
+.js-mark .c-mark{background-size:0 .14em;transition:background-size 1.1s cubic-bezier(.6,.1,.2,1) .4s}
+.js-mark .c-mark.on{background-size:100% .14em}
+.c-mnav summary{list-style:none}
+.c-mnav summary::-webkit-details-marker{display:none}
+@media (prefers-reduced-motion:no-preference){
+.js-rv .rv{opacity:0;transform:translate3d(0,26px,0);transition:opacity .75s cubic-bezier(.2,.7,.2,1),transform .75s cubic-bezier(.2,.7,.2,1);transition-delay:var(--d,0ms);will-change:opacity,transform}
+.js-rv .c-ref.rv{transform:translate3d(-22px,0,0)}
+.js-rv .c-timeline.rv{transform:none;clip-path:inset(0 100% 0 0);transition:clip-path 1.1s cubic-bezier(.6,.1,.2,1),opacity .4s}
+.js-rv .rv.rv-in{opacity:1;transform:none;clip-path:inset(0 0 0 0)}
+.c-video-wrap{will-change:transform}
+.c-ref-logo,.c-ref-logo-inv{transition:transform .35s ease}
+.c-ref:hover .c-ref-logo,.c-ref:hover .c-ref-logo-inv{transform:scale(1.06)}
+.c-svc-row{transition:background-color .25s ease,padding-left .25s ease}
+.c-svc-row:hover{padding-left:12px}
+.c-btn,.c-btn-sm,.c-submit,.c-btn-ghost{transition:background-color .2s ease,color .2s ease,transform .2s ease,border-color .2s ease}
+.c-btn:hover,.c-btn-sm:hover{transform:translateY(-2px)}
+.c-proof{transition:transform .3s ease,box-shadow .3s ease}
+.c-proof:hover{transform:translateY(-4px);box-shadow:0 16px 36px rgba(7,17,31,.08)}
+@view-transition{navigation:auto}
+::view-transition-old(root){animation:cvt-out .3s cubic-bezier(.4,0,1,1) both}
+::view-transition-new(root){animation:cvt-in .55s cubic-bezier(.2,.7,.2,1) both}
+@keyframes cvt-out{to{opacity:0;transform:translateY(-14px)}}
+@keyframes cvt-in{from{opacity:0;transform:translateY(22px)}}
+}

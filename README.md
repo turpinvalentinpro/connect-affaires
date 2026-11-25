@@ -28,3 +28,7 @@ Option simple : éditer directement le fichier HTML concerné dans `public/`.
 
 Option propre (garde le générateur à jour) : modifier le texte dans `generateur/pages_*.py`, puis lancer `python3 generateur/build.py` et pousser.
 Penser à mettre à jour `LASTMOD` dans `build.py` pour le sitemap.
+
+## Ajouter une page
+
+Créer `public/ma-page.html`, puis dans `vercel.json` ajouter une redirection `/ma-page.html` vers `/ma-page` et une réécriture `/ma-page` vers `/ma-page.html`. L'option cleanUrls n'est pas utilisée car elle redirigeait aussi le fichier de validation Google Search Console (`public/google79d1e247caef585a.html`, à ne pas supprimer).
